@@ -1,0 +1,17 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"102";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"2";"103";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"85";"29";"= 427";"+ 400A";"press";"spare";""
+"3";"104";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"86";"29";"= 427";"+ 400A";"press";"spare";""
+"4";"105";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"87";"29";"= 427";"+ 400A";"press";"spare";""
+"5";"106";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"88";"29";"= 427";"+ 400A";"press";"spare";""
+"6";"107";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"88a";"29";"= 427";"+ 400A";"press";"spare";""
+"7";"108";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"88b";"29";"= 427";"+ 400A";"press";"spare";""
+"8";"118";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"95";"4";"= 442";"+ 400A";"trim saw";"right hand side in front
+spare";"442M1"
+"9";"119";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"96";"4";"= 442";"+ 400A";"trim saw";"right hand side at rear
+spare";"442M2"
+"10";"120";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"97";"4";"= 442";"+ 400A";"trim saw";"left hand side in front
+spare";"442M3"
+"11";"121";"_LOCK_2";"default";"approved";"657.64";"712.26";"1192.0";"871.0";"98";"4";"= 442";"+ 400A";"trim saw";"left hand side at rear
+spare";"442M4"

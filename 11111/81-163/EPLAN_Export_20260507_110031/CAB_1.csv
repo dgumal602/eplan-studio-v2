@@ -1,0 +1,13 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"117";"CAB_1";"A";"approved";"521.37";"315.36";"0.0";"0.0";"427KK1 -W???";"+";"";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?"
+"2";"117";"CAB_1";"A";"approved";"521.06";"531.17";"0.0";"0.0";"-W???";"";"";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?"
+"3";"117";"CAB_1";"A";"approved";"521.19";"621.48";"0.0";"0.0";"+427KK1 -W???";"+";"";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?"
+"4";"125";"CAB_1";"A";"approved";"68.2";"553.18";"0.0";"0.0";"-W5H10";"";"NYY-J 4x10 mm²";"4";"21";"= 414";"+ 400H10";"";"power supply";""
+"5";"126";"CAB_1";"A";"approved";"772.44";"428.31";"0.0";"0.0";"-W??PAL";"";"";"98";"21";"= 414";"+ 400H10";"forming machine C";"transport belt to matformer C";"414M01"
+"6";"130";"CAB_1";"A";"approved";"158.85";"598.54";"0.0";"0.0";"1M3-M8";"/100.";"/100.1";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"7";"139";"CAB_1";"A";"approved";"158.74";"587.54";"1192.0";"871.0";"-W1M11-M17";"";"/110.1";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"
+"8";"139";"CAB_1";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+C2
+-W2M17";"";"NYY-J 7x1.5 mm²
+pre-wired";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"
+"9";"146";"CAB_1";"A";"approved";"397.61";"519.91";"0.0";"0.0";"-19F3";"";"";"764";"2";"= 763";"+ ???";"";"band spraying infeed";""
+"10";"146";"CAB_1";"A";"approved";"692.72";"518.43";"0.0";"0.0";"-29F3";"";"";"764";"2";"= 763";"+ ???";"";"band spraying infeed";""

@@ -1,0 +1,97 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"50";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M6";"";"NYY-J 4x1.5 mm²";"42";"3";"= 416";"+ 400A";"";"width adjustment side traverse rolls";"416M6"
+"2";"50";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+TEXPAN BOX
+-W2M6";"";"NYY-J 4x1.5 mm²
+pre-wired";"42";"3";"= 416";"+ 400A";"";"width adjustment side traverse rolls";"416M6"
+"3";"51";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M25";"";"NYY-J 4x2.5 mm²";"43";"3";"= 416";"+ 400A";"";"width adjustment equalizing rolls";"416M25"
+"4";"51";"CAB_2";"A";"approved";"158.74";"632.89";"1192.0";"871.0";"+B4 -W2M25";"";"NYY-J 4x2.5 mm² pre-wired";"43";"3";"= 416";"+ 400A";"";"width adjustment equalizing rolls";"416M25"
+"5";"52";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M0";"";"NYY-J 4x10 mm²";"44";"26";"= 418";"+ 400A";"forming machine D";"left fan";"418M0"
+"6";"52";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D4
+-W2M0";"";"NYY-J 4x10 mm²
+pre-wired";"44";"26";"= 418";"+ 400A";"forming machine D";"left fan";"418M0"
+"7";"53";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M1";"";"NYY-J 4x10 mm²";"45";"26";"= 418";"+ 400A";"forming machine D";"right fan";"418M1"
+"8";"53";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D4
+-W2M1";"";"NYY-J 4x10 mm²
+pre-wired";"45";"26";"= 418";"+ 400A";"forming machine D";"right fan";"418M1"
+"9";"54";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M10";"";"NYY-J 4x1.5 mm²";"46";"26";"= 418";"+ 400A";"forming machine D";"dosing belt cleaning brush";"418M10"
+"10";"54";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D2
+-W2M10";"";"NYY-J 4x1.5 mm²
+pre-wired";"46";"26";"= 418";"+ 400A";"forming machine D";"dosing belt cleaning brush";"418M10"
+"11";"55";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M11";"";"NYY-J 4x2.5 mm²";"47";"26";"= 418";"+ 400A";"forming machine D";"rotary combs";"418M11"
+"12";"55";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D2
+-W2M11";"";"NYY-J 4x2.5 mm²
+pre-wired";"47";"26";"= 418";"+ 400A";"forming machine D";"rotary combs";"418M11"
+"13";"56";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M13";"";"NYY-J 4x2.5 mm²";"48";"26";"= 418";"+ 400A";"forming machine D";"pinned roll";"418M13"
+"14";"56";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D2
+-W2M13";"";"NYY-J 4x2.5 mm²
+pre-wired";"48";"26";"= 418";"+ 400A";"forming machine D";"pinned roll";"418M13"
+"15";"56";"CAB_2";"A";"approved";"351.5";"530.84";"1192.0";"871.0";"-W1T13";"";"LiYCY 2x0.75 mm²";"48";"26";"= 418";"+ 400A";"forming machine D";"pinned roll";"418M13"
+"16";"57";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M14";"";"NYY-J 4x1.5 mm²";"49";"26";"= 418";"+ 400A";"forming machine D";"oscillating flap";"418M14"
+"17";"57";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D4
+-W2M14";"";"NYY-J 4x1.5 mm²
+pre-wired";"49";"26";"= 418";"+ 400A";"forming machine D";"oscillating flap";"418M14"
+"18";"58";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M15";"";"NYY-J 4x1.5 mm²";"50";"26";"= 418";"+ 400A";"forming machine D";"distrbution belt left";"418M15"
+"19";"58";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D2
+-W2M15";"";"NYY-J 4x1.5 mm²
+pre-wired";"50";"26";"= 418";"+ 400A";"forming machine D";"distrbution belt left";"418M15"
+"20";"59";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M16";"";"NYY-J 4x1.5 mm²";"51";"26";"= 418";"+ 400A";"forming machine D";"distrbution belt right";"418M16"
+"21";"59";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D2
+-W2M16";"";"NYY-J 4x1.5 mm²
+pre-wired";"51";"26";"= 418";"+ 400A";"forming machine D";"distrbution belt right";"418M16"
+"22";"60";"CAB_2";"A";"approved";"759.69";"655.57";"1192.0";"871.0";"+D3
+-W2T17D";"";"LiYCY 2x0.75 mm²
+pre-wired";"52";"26";"= 418";"+ 400A";"forming machine D";"transverse belt";"418M17"
+"23";"60";"CAB_2";"A";"approved";"759.69";"576.2";"1192.0";"871.0";"-W1T17";"";"LiYCY 2x0.75 mm²";"52";"26";"= 418";"+ 400A";"forming machine D";"transverse belt";"418M17"
+"24";"62";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M18";"";"NYY-J 4x1.5 mm²";"53";"26";"= 418";"+ 400A";"forming machine D";"2nd & 3rd screen vibrator";"418M18, 418M19"
+"25";"62";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D4
+-W2M18";"";"NYY-J 4x1.5 mm²
+pre-wired";"53";"26";"= 418";"+ 400A";"forming machine D";"2nd & 3rd screen vibrator";"418M18, 418M19"
+"26";"62";"CAB_2";"A";"approved";"374.17";"553.52";"1192.0";"871.0";"-W1M19";"";"NYY-J 4x1.5 mm²";"53";"26";"= 418";"+ 400A";"forming machine D";"2nd & 3rd screen vibrator";"418M18, 418M19"
+"27";"62";"CAB_2";"A";"approved";"374.17";"621.55";"1192.0";"871.0";"+D4
+-W2M19";"";"NYY-J 4x1.5 mm²
+pre-wired";"53";"26";"= 418";"+ 400A";"forming machine D";"2nd & 3rd screen vibrator";"418M18, 418M19"
+"28";"63";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M20";"";"NYY-J 4x2.5 mm²";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
+"29";"63";"CAB_2";"A";"approved";"158.74";"644.23";"1192.0";"871.0";"+D1
+-W2M20";"";"NYY-J 4x2.5 mm²
+pre-wired";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
+"30";"63";"CAB_2";"A";"approved";"351.5";"644.23";"1192.0";"871.0";"+D1
+-W2T20";"";"LiYCY 2x0.75 mm²
+pre-wired";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
+"31";"63";"CAB_2";"A";"approved";"351.5";"530.84";"1192.0";"871.0";"-W1T20";"";"LiYCY 2x0.75 mm²";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
+"32";"64";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M21";"";"NYY-J 4x1.5 mm²";"55";"26";"= 418";"+ 400A";"forming machine D";"slow disk rolls";"418M21"
+"33";"64";"CAB_2";"A";"approved";"158.74";"644.23";"1192.0";"871.0";"+D1
+-W2M21";"";"NYY-J 4x1.5 mm²
+pre-wired";"55";"26";"= 418";"+ 400A";"forming machine D";"slow disk rolls";"418M21"
+"34";"65";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M22";"";"NYY-J 4x2.5 mm²";"56";"26";"= 418";"+ 400A";"forming machine D";"transport belt";"418M22"
+"35";"65";"CAB_2";"A";"approved";"158.74";"644.23";"1192.0";"871.0";"+D1
+-W2M22";"";"NYY-J 4x2.5 mm²
+pre-wired";"56";"26";"= 418";"+ 400A";"forming machine D";"transport belt";"418M22"
+"36";"66";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M23";"";"NYY-J 4x2.5 mm²";"57";"26";"= 418";"+ 400A";"forming machine D";"left longitudinal screw conveyor";"418M23"
+"37";"66";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D4
+-W2M23";"";"NYY-J 4x2.5 mm²
+pre-wired";"57";"26";"= 418";"+ 400A";"forming machine D";"left longitudinal screw conveyor";"418M23"
+"38";"67";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M24";"";"NYY-J 4x2.5 mm²";"58";"26";"= 418";"+ 400A";"forming machine D";"right longitudinal screw conveyor";"418M24"
+"39";"67";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+D4
+-W2M24";"";"NYY-J 4x2.5 mm²
+pre-wired";"58";"26";"= 418";"+ 400A";"forming machine D";"right longitudinal screw conveyor";"418M24"
+"40";"68";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M26";"";"NYY-J 4x1.5 mm²";"59";"26";"= 418";"+ 400A";"forming machine D";"cleaning brush transport belt";"418M26"
+"41";"68";"CAB_2";"A";"approved";"158.74";"644.23";"1192.0";"871.0";"+D1
+-W2M26";"";"NYY-J 4x1.5 mm²
+pre-wired";"59";"26";"= 418";"+ 400A";"forming machine D";"cleaning brush transport belt";"418M26"
+"42";"69";"CAB_2";"A";"approved";"158.74";"179.35";"1192.0";"871.0";"-W1TEXPAN";"";"NYY-J 4x50 mm²";"59a";"26";"= 418";"+ 400A";"";"TEXPAN filter fan";"418M4"
+"43";"71";"CAB_2";"A";"approved";"158.74";"542.18";"1192.0";"871.0";"-W1M5";"";"NYY-J 4x1.5 mm²";"59c";"26";"= 418";"+ 400A";"";"TEXPAN filter rotary valve";"418M2"
+"44";"72";"CAB_2";"A";"approved";"158.74";"542.18";"1192.0";"871.0";"-W1M6";"";"NYY-J 4x1.5 mm²";"59d";"26";"= 418";"+ 400A";"";"TEXPAN filter screw conveyor";"418M3"
+"45";"73";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M30";"";"NYY-J 4x2.5 mm²";"61";"26";"= 418";"+ 400A";"forming machine D";"transversal screw conveyor belt";"418M30"
+"46";"74";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M31";"";"NYY-J 4x2.5 mm²";"62";"26";"= 418";"+ 400A";"forming machine D";"injection screw";"418M31"
+"47";"75";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M32";"";"NYY-J 4x6 mm²";"63";"26";"= 418";"+ 400A";"forming machine D";"recycling conveyor";"418M32"
+"48";"76";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M33";"";"NYY-J 4x6 mm²";"81";"26";"= 418";"+ 400A";"forming machine D";"recycling screw conveyor";"418M33"
+"49";"77";"CAB_2";"A";"pending";"158.74";"655.57";"1192.0";"871.0";"+420LD01";"";"NYY-J 4x1.5 mm²";"64";"5";"= 420";"+ 400A";"forming line";"forming belt
+belt adjustment";"420M1"
+"50";"77";"CAB_2";"A";"pending";"158.74";"519.5";"1192.0";"871.0";"-W1LD01";"";"NYY-J 4x1.5 mm²";"64";"5";"= 420";"+ 400A";"forming line";"forming belt
+belt adjustment";"420M1"
+"51";"78";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+420LD03 -W1M3";"";"NYY-J 4x4 mm²";"65";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M3"
+"52";"78";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD03";"";"NYY-J 4x4 mm²";"65";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M3"
+"53";"79";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+420LD04";"";"NYY-J 4x4 mm²";"66";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M4"
+"54";"79";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD04";"";"NYY-J 4x4 mm²";"66";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M4"
+"55";"80";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+420LD09 -W1M9";"";"NYY-J 4x10 mm²";"67";"5";"= 420";"+ 400A";"forming line";"HP - pump";"420M9"
+"56";"80";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD09";"";"NYY-J 4x10 mm²";"67";"5";"= 420";"+ 400A";"forming line";"HP - pump";"420M9"

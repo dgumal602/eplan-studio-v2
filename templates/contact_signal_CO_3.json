@@ -1,0 +1,115 @@
+{
+  "name": "contact_signal_CO_3",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 29,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": -0.0017,
+        "y0_offset_ratio": 2.999,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": -0.0017,
+        "y0_offset_ratio": 2.999,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "D",
+        "x0_offset_ratio": -0.0017,
+        "y0_offset_ratio": 0.999,
+        "length_ratio": 2.3717,
+        "x1_offset_ratio": 0.7483,
+        "y1_offset_ratio": 3.249,
+        "angle": 71.57
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "H",
+        "x0_offset_ratio": 2.9983,
+        "y0_offset_ratio": 2.999,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 3.9983,
+        "y0_offset_ratio": 2.999,
+        "length_ratio": 1.0
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 6.6227",
+          "y0": "base_element.y0 + base_element.length * 0.0423",
+          "x1": "base_element.x0 - base_element.length * 0.2349",
+          "y1": "base_element.y0 + base_element.length * 3.0416"
+        },
+        {
+          "field": "link",
+          "x0": "base_element.x0 - base_element.length * 6.5769",
+          "y0": "base_element.y0 + base_element.length * 3.2477",
+          "x1": "base_element.x0 - base_element.length * 0.0975",
+          "y1": "base_element.y0 + base_element.length * 4.7359"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 + base_element.length * 2.8789",
+          "y0": "base_element.y0 + base_element.length * 2.4005",
+          "x1": "base_element.x0 + base_element.length * 6.2217",
+          "y1": "base_element.y0 + base_element.length * 4.9648"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 - base_element.length * 0.9904",
+          "y0": "base_element.y0 - base_element.length * 1.0338",
+          "x1": "base_element.x0 + base_element.length * 2.5355",
+          "y1": "base_element.y0 + base_element.length * 1.0497"
+        },
+        {
+          "field": "pin_3",
+          "x0": "base_element.x0 - base_element.length * 0.3035",
+          "y0": "base_element.y0 + base_element.length * 2.3776",
+          "x1": "base_element.x0 + base_element.length * 1.9860",
+          "y1": "base_element.y0 + base_element.length * 4.6214"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

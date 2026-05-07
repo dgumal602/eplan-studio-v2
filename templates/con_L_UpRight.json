@@ -1,0 +1,42 @@
+{
+  "name": "con_L_UpRight",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 41,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "H",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.004756
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -1.0,
+        "length_ratio": 1.0
+      }
+    ]
+  },
+  "variants": [],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

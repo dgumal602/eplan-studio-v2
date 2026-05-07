@@ -1,0 +1,136 @@
+{
+  "name": "contact_power_2",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 30,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "top_line",
+        "type": "D",
+        "x0_offset_ratio": -1.2517,
+        "y0_offset_ratio": -2.2489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": -0.0017,
+        "y1_offset_ratio": 0.0011,
+        "angle": 60.95
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": -0.5017,
+        "y0_offset_ratio": -2.9989,
+        "length_ratio": 1.0,
+        "width_ratio": 0.5,
+        "height_ratio": 1.0,
+        "radius_ratio": 0.25,
+        "path_ratios": [
+          [
+            "m",
+            [
+              -0.00171,
+              -2.99889
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.27784,
+              -2.99889
+            ],
+            [
+              -0.50169,
+              -2.77504
+            ],
+            [
+              -0.50169,
+              -2.49891
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.50169,
+              -2.22276
+            ],
+            [
+              -0.27784,
+              -1.99891
+            ],
+            [
+              -0.00171,
+              -1.99891
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": -4.0016,
+        "y0_offset_ratio": -2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": -3.9999,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "",
+          "y0": "",
+          "x1": "",
+          "y1": ""
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 1.2964",
+          "y0": "base_element.y0 - base_element.length * 4.0709",
+          "x1": "base_element.x0 + base_element.length * 1.8906",
+          "y1": "base_element.y0 - base_element.length * 1.3392"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 - base_element.length * 1.0536",
+          "y0": "base_element.y0 - base_element.length * 0.1099",
+          "x1": "base_element.x0 + base_element.length * 1.9058",
+          "y1": "base_element.y0 + base_element.length * 2.2424"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0-base_element.length",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

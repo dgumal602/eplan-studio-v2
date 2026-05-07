@@ -1,0 +1,11 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"49";"con_T_DOWN";"default";"approved";"975.12";"77.3";"1192.0";"871.0";"41";"3";"= 416";"+ 400A";"equelizing rolls";"height adjustment";"416M3"
+"2";"50";"con_T_DOWN";"default";"approved";"895.75";"77.3";"1192.0";"871.0";"42";"3";"= 416";"+ 400A";"";"width adjustment side traverse rolls";"416M6"
+"3";"51";"con_T_DOWN";"default";"approved";"895.75";"77.3";"1192.0";"871.0";"43";"3";"= 416";"+ 400A";"";"width adjustment equalizing rolls";"416M25"
+"4";"61";"con_T_DOWN";"default";"approved";"861.73";"77.3";"1192.0";"871.0";"52a";"26";"= 418";"+ 400A";"forming machine D";"transverse belt";"418M17"
+"5";"69";"con_T_DOWN";"default";"approved";"510.24";"338.09";"1192.0";"871.0";"59a";"26";"= 418";"+ 400A";"";"TEXPAN filter fan";"418M4"
+"6";"70";"con_T_DOWN";"default";"approved";"408.19";"326.75";"1192.0";"871.0";"59b";"26";"= 418";"+ 400A";"";"TEXPAN filter fan";"418M4"
+"7";"70";"con_T_DOWN";"default";"approved";"521.57";"326.75";"1192.0";"871.0";"59b";"26";"= 418";"+ 400A";"";"TEXPAN filter fan";"418M4"
+"8";"70";"con_T_DOWN";"default";"approved";"634.96";"326.75";"1192.0";"871.0";"59b";"26";"= 418";"+ 400A";"";"TEXPAN filter fan";"418M4"
+"9";"77";"con_T_DOWN";"default";"approved";"873.07";"77.3";"1192.0";"871.0";"64";"5";"= 420";"+ 400A";"forming line";"forming belt
+belt adjustment";"420M1"

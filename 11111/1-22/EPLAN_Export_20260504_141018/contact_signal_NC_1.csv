@@ -1,0 +1,7 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"link";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"5";"contact_signal_NC_1";"A";"approved";"374.18";"394.77";"1192.0";"871.0";"-S01";"21";"22";"==20.9400.201/10a.2";"1b";"8";"= 400";"+ 400A";"";"emergency stop 400A";""
+"2";"20";"contact_signal_NC_1";"A";"approved";"408.2";"564.85";"1192.0";"871.0";"-K17.1M";"22";"21";"/13a.2";"13a";"23";"= 411";"+ 400A";"forming machine A";"transverse belt";"411M17"
+"3";"20";"contact_signal_NC_1";"A";"approved";"294.81";"564.85";"1192.0";"871.0";"-K17.2M";"22";"21";"/13a.3";"13a";"23";"= 411";"+ 400A";"forming machine A";"transverse belt";"411M17"
+"4";"20";"contact_signal_NC_1";"A";"approved";"634.97";"564.85";"1192.0";"871.0";"-K17.3M";"22";"21";"/13a.4";"13a";"23";"= 411";"+ 400A";"forming machine A";"transverse belt";"411M17"
+"5";"20";"contact_signal_NC_1";"A";"approved";"521.58";"564.85";"1192.0";"871.0";"-K17.4M";"22";"21";"/13a.5";"13a";"23";"= 411";"+ 400A";"forming machine A";"transverse belt";"411M17"
+"6";"20";"contact_signal_NC_1";"A";"approved";"748.36";"564.85";"1192.0";"871.0";"-K17.4M";"31";"32";"/13a.5";"13a";"23";"= 411";"+ 400A";"forming machine A";"transverse belt";"411M17"

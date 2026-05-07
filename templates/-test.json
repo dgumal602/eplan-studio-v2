@@ -1,0 +1,145 @@
+{
+  "name": "-test",
+  "version": "1.0",
+  "enabled": false,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.065089
+      },
+      {
+        "role": "top_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.6
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 1.6
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 1.6,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 0.8,
+        "y0_offset_ratio": 0.85,
+        "length_ratio": 0.15
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 0.75,
+        "y0_offset_ratio": 0.75,
+        "length_ratio": 0.1,
+        "width_ratio": 0.1,
+        "height_ratio": 0.1,
+        "radius_ratio": 0.05,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.85,
+              0.8
+            ]
+          ],
+          [
+            "c",
+            [
+              0.85,
+              0.77239
+            ],
+            [
+              0.82761,
+              0.75
+            ],
+            [
+              0.8,
+              0.75
+            ]
+          ],
+          [
+            "c",
+            [
+              0.77239,
+              0.75
+            ],
+            [
+              0.75,
+              0.77239
+            ],
+            [
+              0.75,
+              0.8
+            ]
+          ],
+          [
+            "c",
+            [
+              0.75,
+              0.82761
+            ],
+            [
+              0.77239,
+              0.85
+            ],
+            [
+              0.8,
+              0.85
+            ]
+          ],
+          [
+            "c",
+            [
+              0.82761,
+              0.85
+            ],
+            [
+              0.85,
+              0.82761
+            ],
+            [
+              0.85,
+              0.8
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      }
+    ]
+  },
+  "variants": [],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0 + base_element.length * 0.8000",
+    "y": "base_element.y0 + base_element.length * 1.0000",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

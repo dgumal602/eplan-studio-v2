@@ -1,0 +1,13 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"122";"CAB_3";"A";"approved";"810.71";"712.26";"1192.0";"871.0";"0V 220V~";"";"";"99";"1";"= 447";"+ 400A";"";"roller conveyor
+spare";"447M1"
+"2";"122";"CAB_3";"A";"approved";"924.09";"712.26";"1192.0";"871.0";"";"";"slow";"99";"1";"= 447";"+ 400A";"";"roller conveyor
+spare";"447M1"
+"3";"123";"CAB_3";"A";"approved";"788.03";"712.26";"1192.0";"871.0";".0 0V 220V~";"";"";"100";"1";"= 448";"+ 400A";"";"roller conveyor
+spare";"448M1"
+"4";"123";"CAB_3";"A";"approved";"759.69";"77.3";"1192.0";"871.0";"00/4b.9/L3.18+ 2";"";"";"100";"1";"= 448";"+ 400A";"";"roller conveyor
+spare";"448M1"
+"5";"139";"CAB_3";"A";"approved";"521.57";"587.54";"1192.0";"871.0";"-W1F17";"";"H05VV5-F 5G1.5 mm²";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"
+"6";"139";"CAB_3";"A";"approved";"521.57";"655.57";"1192.0";"871.0";"+C2
+-W2F17";"";"H05VV5-F
+5G1.5 mm²";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"

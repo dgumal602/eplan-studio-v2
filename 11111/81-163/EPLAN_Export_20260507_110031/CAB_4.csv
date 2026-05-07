@@ -1,0 +1,28 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"txt_1";"link";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"82";"CAB_4";"A";"approved";"396.85";"655.57";"1192.0";"871.0";"-W1T1";"LiYCY 2x0.75 mm²";"";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"2";"84";"CAB_4";"A";"approved";"430.87";"315.41";"1192.0";"871.0";"-W21.6";"LiYCY 2x0.75 mm²";"";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"3";"84";"CAB_4";"A";"approved";"430.87";"655.57";"1192.0";"871.0";"+421KK1.1 -W94.4";"LiYCY 2x0.75 mm² pre-wired";"";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"4";"84";"CAB_4";"A";"approved";"430.87";"406.12";"1192.0";"871.0";"+421KK1 -W92.4";"ÖLFLEX FD CLASSIC 810 CY 2x0.75 mm²";"";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"5";"85";"CAB_4";"A";"approved";"430.87";"315.41";"1192.0";"871.0";"-W21.7";"LiYCY 2x0.75 mm²";"";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"6";"85";"CAB_4";"A";"approved";"430.87";"666.91";"1192.0";"871.0";"+421KK1.1 -W94.5";"LiYCY 2x0.75 mm² pre-wired";"";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"7";"85";"CAB_4";"A";"approved";"430.87";"406.12";"1192.0";"871.0";"+421KK1
+-W92.5";"EX FD CLASSIC 810 CY
+2x0.75 mm²";"";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"8";"86";"CAB_4";"A";"approved";"430.87";"315.41";"1192.0";"871.0";"-W21.8";"LiYCY 2x0.75 mm²";"";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"9";"86";"CAB_4";"A";"approved";"430.87";"655.57";"1192.0";"871.0";"+421KK1 -W92.2";"LiYCY 2x0.75 mm² pre-wired";"";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"10";"93";"CAB_4";"A";"approved";"408.19";"655.57";"1192.0";"871.0";"-W1T4";"LiYCY 2x0.75 mm²";"";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4"
+"11";"94";"CAB_4";"A";"approved";"408.19";"655.57";"1192.0";"871.0";"-W1T4";"LiYCY 2x0.75 mm²";"";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5"
+"12";"109";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T301";"LiYCY 2x0.75 mm²";"";"89";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 right";"427M301"
+"13";"110";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T302";"LiYCY 2x0.75 mm²";"";"90";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 left";"427M302"
+"14";"111";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T303";"LiYCY 2x0.75 mm²";"";"91";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 right";"427M303"
+"15";"112";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T304";"LiYCY 2x0.75 mm²";"";"92";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 left";"427M304"
+"16";"113";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T305";"49.02 LiYCY 2x0.75 mm²";"";"93";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 right";"427M305"
+"17";"114";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T306";"LiYCY 2x0.75 mm²";"";"94";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 left";"427M306"
+"18";"115";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T307";"LiYCY 2x0.75 mm²";"";"94a";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 right";"427M307"
+"19";"116";"CAB_4";"A";"approved";"476.22";"632.89";"1192.0";"871.0";"-W1T308";"LiYCY 2x0.75 mm²";"";"94b";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 left";"427M308"
+"20";"126";"CAB_4";"A";"approved";"498.9";"77.3";"1192.0";"871.0";"4.9/L3.11+";"";"";"98";"21";"= 414";"+ 400H10";"forming machine C";"transport belt to matformer C";"414M01"
+"21";"139";"CAB_4";"A";"approved";"759.69";"655.57";"1192.0";"871.0";"-
++C3
+-W2TE17";"LiYCY 2x1 mm²";"";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"
+"22";"139";"CAB_4";"A";"approved";"759.69";"564.86";"1192.0";"871.0";"-W1TE17";"LiYCY 2x1 mm²";"";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"

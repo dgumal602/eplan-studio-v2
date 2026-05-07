@@ -1,0 +1,330 @@
+{
+  "name": "Knopka_ES_NC",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "D",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_ratio_W": 0.003567,
+        "page_ratio_H": 0.014645,
+        "x1_offset_ratio": -0.3162,
+        "y1_offset_ratio": 0.9487,
+        "angle": 108.44
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": -0.3155,
+        "y0_offset_ratio": 0.9482,
+        "length_ratio": 0.4216
+      },
+      {
+        "role": "top_line",
+        "type": "D",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "x1_offset_ratio": -0.3162,
+        "y1_offset_ratio": 0.9487,
+        "angle": 108.44
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": -0.3162,
+        "y0_offset_ratio": 0.1054,
+        "length_ratio": 0.4216
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": -0.3162,
+        "y0_offset_ratio": -0.3162,
+        "length_ratio": 0.4216
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 0.0329,
+        "y0_offset_ratio": 0.2108,
+        "length_ratio": 0.6325,
+        "width_ratio": 0.6325,
+        "height_ratio": 0.6325,
+        "radius_ratio": 0.3162,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.6654,
+              0.52705
+            ]
+          ],
+          [
+            "c",
+            [
+              0.6654,
+              0.3524
+            ],
+            [
+              0.52382,
+              0.21082
+            ],
+            [
+              0.34917,
+              0.21082
+            ]
+          ],
+          [
+            "c",
+            [
+              0.17452,
+              0.21082
+            ],
+            [
+              0.03294,
+              0.3524
+            ],
+            [
+              0.03294,
+              0.52705
+            ]
+          ],
+          [
+            "c",
+            [
+              0.03294,
+              0.70169
+            ],
+            [
+              0.17452,
+              0.84328
+            ],
+            [
+              0.34917,
+              0.84328
+            ]
+          ],
+          [
+            "c",
+            [
+              0.52382,
+              0.84328
+            ],
+            [
+              0.6654,
+              0.70169
+            ],
+            [
+              0.6654,
+              0.52705
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": -0.3162,
+        "y0_offset_ratio": 0.527,
+        "length_ratio": 0.137
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "H",
+        "x0_offset_ratio": -0.7379,
+        "y0_offset_ratio": 0.527,
+        "length_ratio": 0.1581
+      },
+      {
+        "role": "bottom_line_3",
+        "type": "H",
+        "x0_offset_ratio": -1.1068,
+        "y0_offset_ratio": 0.527,
+        "length_ratio": 0.1581
+      },
+      {
+        "role": "bottom_line_4",
+        "type": "H",
+        "x0_offset_ratio": -2.1609,
+        "y0_offset_ratio": 0.527,
+        "length_ratio": 0.8433
+      },
+      {
+        "role": "right_wall_2",
+        "type": "V",
+        "x0_offset_ratio": -1.423,
+        "y0_offset_ratio": 0.1054,
+        "length_ratio": 0.3162
+      },
+      {
+        "role": "right_wall_3",
+        "type": "V",
+        "x0_offset_ratio": -1.423,
+        "y0_offset_ratio": -0.3162,
+        "length_ratio": 0.2108
+      },
+      {
+        "role": "right_wall_4",
+        "type": "V",
+        "x0_offset_ratio": -1.6338,
+        "y0_offset_ratio": -0.527,
+        "length_ratio": 0.2108
+      },
+      {
+        "role": "top_line_1",
+        "type": "H",
+        "x0_offset_ratio": -1.6338,
+        "y0_offset_ratio": -0.3162,
+        "length_ratio": 0.4216
+      },
+      {
+        "role": "right_wall_5",
+        "type": "V",
+        "x0_offset_ratio": -1.2122,
+        "y0_offset_ratio": -0.3162,
+        "length_ratio": 0.2108
+      },
+      {
+        "role": "right_wall_6",
+        "type": "V",
+        "x0_offset_ratio": -1.9501,
+        "y0_offset_ratio": 0.3162,
+        "length_ratio": 0.2108
+      },
+      {
+        "role": "bottom_line_5",
+        "type": "D",
+        "x0_offset_ratio": -1.9501,
+        "y0_offset_ratio": 0.3162,
+        "length_ratio": 0.4714,
+        "x1_offset_ratio": -1.5284,
+        "y1_offset_ratio": 0.527,
+        "angle": 26.56
+      },
+      {
+        "role": "shape_1",
+        "type": "arc",
+        "x0_offset_ratio": -2.3523,
+        "y0_offset_ratio": 0.2108,
+        "length_ratio": 0.6325,
+        "width_ratio": 0.1914,
+        "height_ratio": 0.6325,
+        "radius_ratio": 0.0957,
+        "path_ratios": [
+          [
+            "m",
+            [
+              -2.16089,
+              0.21082
+            ]
+          ],
+          [
+            "c",
+            [
+              -2.33554,
+              0.27977
+            ],
+            [
+              -2.42122,
+              0.47725
+            ],
+            [
+              -2.35226,
+              0.65189
+            ]
+          ],
+          [
+            "c",
+            [
+              -2.31771,
+              0.73943
+            ],
+            [
+              -2.24842,
+              0.80871
+            ],
+            [
+              -2.16089,
+              0.84328
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "right_wall_7",
+        "type": "V",
+        "x0_offset_ratio": -2.1609,
+        "y0_offset_ratio": 0.2108,
+        "length_ratio": 0.6325
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 8.2623",
+          "y0": "base_element.y0 + base_element.length * 0.0097",
+          "x1": "base_element.x0 - base_element.length * 2.5362",
+          "y1": "base_element.y0 + base_element.length * 1.0274"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 0.8351",
+          "y0": "base_element.y0 - base_element.length * 1.1142",
+          "x1": "base_element.x0 + base_element.length * 0.8661",
+          "y1": "base_element.y0 + base_element.length * 0.1616"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 - base_element.length * 0.8502",
+          "y0": "base_element.y0 + base_element.length * 0.9211",
+          "x1": "base_element.x0 + base_element.length * 0.8357",
+          "y1": "base_element.y0 + base_element.length * 1.9235"
+        },
+        {
+          "field": "link",
+          "x0": "base_element.x0 - base_element.length * 8.2775",
+          "y0": "base_element.y0 + base_element.length * 1.0274",
+          "x1": "base_element.x0 - base_element.length * 2.5210",
+          "y1": "base_element.y0 + base_element.length * 1.9387"
+        },
+        {
+          "field": "txt_1",
+          "x0": "",
+          "y0": "",
+          "x1": "",
+          "y1": ""
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

@@ -1,0 +1,116 @@
+{
+  "name": "con_Wire_End",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 21,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.019527
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": -0.1667,
+        "y0_offset_ratio": 0.3333,
+        "length_ratio": 0.3333
+      },
+      {
+        "role": "bottom_line",
+        "type": "D",
+        "x0_offset_ratio": -0.1667,
+        "y0_offset_ratio": 0.6667,
+        "length_ratio": 0.2987,
+        "x1_offset_ratio": -0.3157,
+        "y1_offset_ratio": 0.9255,
+        "angle": 119.94
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": -0.3157,
+        "y0_offset_ratio": 0.9255,
+        "length_ratio": 0.3157,
+        "width_ratio": 0.3157,
+        "height_ratio": 0.2236,
+        "radius_ratio": 0.1579,
+        "path_ratios": [
+          [
+            "m",
+            [
+              -0.31574,
+              0.92546
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.3569,
+              1.0078
+            ],
+            [
+              -0.32353,
+              1.10791
+            ],
+            [
+              -0.2412,
+              1.14907
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.15887,
+              1.19024
+            ],
+            [
+              -0.05876,
+              1.15687
+            ],
+            [
+              -0.01759,
+              1.07454
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.00602,
+              1.05139
+            ],
+            [
+              0.0,
+              1.02588
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "variants": [],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

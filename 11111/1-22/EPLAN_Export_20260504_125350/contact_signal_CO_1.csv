@@ -1,0 +1,4 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"link";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"15";"contact_signal_CO_1";"C";"approved";"725.66";"508.17";"1192.0";"871.0";"-F13";"96";"95";"98";"/9.2";"9";"23";"= 411";"+ 400A";"forming machine A";"pinned roll";"411M13"
+"2";"20";"contact_signal_CO_1";"C";"approved";"181.41";"564.86";"1192.0";"871.0";"-F17.1";"96";"95";"98";"/13.6";"13a";"23";"= 411";"+ 400A";"forming machine A";"transverse belt";"411M17"
+"3";"22";"contact_signal_CO_1";"C";"approved";"725.66";"508.17";"1192.0";"871.0";"-F20";"96";"95";"98";"/15.2";"15";"23";"= 411";"+ 400A";"forming machine A";"pinned roll";"411M20"

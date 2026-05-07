@@ -1,0 +1,104 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Page";"Sheets";"=";"+";"txt_1";"txt_2";"txt_3";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"81";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"68";"5";"= 420";"+ 400A";"forming line";"cleaning brush";"420M15";"68";"5";"= 420";"+ 400A";"forming line";"cleaning brush";"420M15"
+"2";"82";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"3";"83";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"70";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+cooling - fan";"421M2";"70";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+cooling - fan";"421M2"
+"4";"84";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"5";"85";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"6";"86";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"7";"87";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"71c";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1 - 2 - 3 421M";"3, 421M4, 421M5";"71c";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1 - 2 - 3 421M";"3, 421M4, 421M5"
+"8";"88";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13"
+"9";"89";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"72";"29";"= 427";"+ 400A";"press hydraulics";"cooling and filtering pump";"427M1.1";"72";"29";"= 427";"+ 400A";"press hydraulics";"cooling and filtering pump";"427M1.1"
+"10";"90";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"73";"29";"= 427";"+ 400A";"press hydraulics";"fan air cooling";"427M1.2";"73";"29";"= 427";"+ 400A";"press hydraulics";"fan air cooling";"427M1.2"
+"11";"91";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"74";"29";"= 427";"+ 400A";"press hydraulics";"close shut off valve 60";"spare";"74";"29";"= 427";"+ 400A";"press hydraulics";"close shut off valve 60";"spare"
+"12";"92";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"75";"29";"= 427";"+ 400A";"press";"hydraulics HP - pump";"427M3";"75";"29";"= 427";"+ 400A";"press";"hydraulics HP - pump";"427M3"
+"13";"93";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4"
+"14";"94";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5"
+"15";"95";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"77";"29";"= 427";"+ 400A";"press hydraulics";"washing pump";"427M8.1";"77";"29";"= 427";"+ 400A";"press hydraulics";"washing pump";"427M8.1"
+"16";"96";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"78";"29";"= 427";"+ 400A";"press hydraulics";"stop cock 21 close";"427M8.2";"78";"29";"= 427";"+ 400A";"press hydraulics";"stop cock 21 close";"427M8.2"
+"17";"97";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"79";"29";"= 427";"+ 400A";"press";"exhaust oil mist";"427M23";"79";"29";"= 427";"+ 400A";"press";"exhaust oil mist";"427M23"
+"18";"98";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"80";"29";"= 427";"+ 400A";"press";"fan air circulation belt lubrication top";"427M24";"80";"29";"= 427";"+ 400A";"press";"fan air circulation belt lubrication top";"427M24"
+"19";"99";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"81";"29";"= 427";"+ 400A";"press";"fan air circulation belt lubrication top";"427M25";"81";"29";"= 427";"+ 400A";"press";"fan air circulation belt lubrication top";"427M25"
+"20";"100";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"82";"29";"= 427";"+ 400A";"press";"pump roll rod chain belt lubrication";"427M28";"82";"29";"= 427";"+ 400A";"press";"pump roll rod chain belt lubrication";"427M28"
+"21";"101";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"83";"29";"= 427";"+ 400A";"press";"pump align and press lubrication of chain";"427M29";"83";"29";"= 427";"+ 400A";"press";"pump align and press lubrication of chain";"427M29"
+"22";"102";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"23";"103";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"85";"29";"= 427";"+ 400A";"press";"spare";"";"85";"29";"= 427";"+ 400A";"press";"spare";""
+"24";"104";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"86";"29";"= 427";"+ 400A";"press";"spare";"";"86";"29";"= 427";"+ 400A";"press";"spare";""
+"25";"105";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"87";"29";"= 427";"+ 400A";"press";"spare";"";"87";"29";"= 427";"+ 400A";"press";"spare";""
+"26";"106";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"88";"29";"= 427";"+ 400A";"press";"spare";"";"88";"29";"= 427";"+ 400A";"press";"spare";""
+"27";"107";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"88a";"29";"= 427";"+ 400A";"press";"spare";"";"88a";"29";"= 427";"+ 400A";"press";"spare";""
+"28";"108";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"88b";"29";"= 427";"+ 400A";"press";"spare";"";"88b";"29";"= 427";"+ 400A";"press";"spare";""
+"29";"109";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"89";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 right";"427M301";"89";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 right";"427M301"
+"30";"110";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"90";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 left";"427M302";"90";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 left";"427M302"
+"31";"111";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"91";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 right";"427M303";"91";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 right";"427M303"
+"32";"112";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"92";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 left";"427M304";"92";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 left";"427M304"
+"33";"113";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"93";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 right";"427M305";"93";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 right";"427M305"
+"34";"114";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"94";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 left";"427M306";"94";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 left";"427M306"
+"35";"115";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"94a";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 right";"427M307";"94a";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 right";"427M307"
+"36";"116";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"94b";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 left";"427M308";"94b";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 left";"427M308"
+"37";"117";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?"
+"38";"118";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"95";"4";"= 442";"+ 400A";"trim saw";"right hand side in front
+spare";"442M1";"95";"4";"= 442";"+ 400A";"trim saw";"right hand side in front
+spare";"442M1"
+"39";"119";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"96";"4";"= 442";"+ 400A";"trim saw";"right hand side at rear
+spare";"442M2";"96";"4";"= 442";"+ 400A";"trim saw";"right hand side at rear
+spare";"442M2"
+"40";"120";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"97";"4";"= 442";"+ 400A";"trim saw";"left hand side in front
+spare";"442M3";"97";"4";"= 442";"+ 400A";"trim saw";"left hand side in front
+spare";"442M3"
+"41";"121";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"98";"4";"= 442";"+ 400A";"trim saw";"left hand side at rear
+spare";"442M4";"98";"4";"= 442";"+ 400A";"trim saw";"left hand side at rear
+spare";"442M4"
+"42";"122";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"99";"1";"= 447";"+ 400A";"";"roller conveyor
+spare";"447M1";"99";"1";"= 447";"+ 400A";"";"roller conveyor
+spare";"447M1"
+"43";"123";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"100";"1";"= 448";"+ 400A";"";"roller conveyor
+spare";"448M1";"100";"1";"= 448";"+ 400A";"";"roller conveyor
+spare";"448M1"
+"44";"124";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"3";"21";"= 414";"+ 400H10";"forming machine C";"illumination & sockets";"";"3";"21";"= 414";"+ 400H10";"forming machine C";"illumination & sockets";""
+"45";"125";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"4";"21";"= 414";"+ 400H10";"";"power supply";"";"4";"21";"= 414";"+ 400H10";"";"power supply";""
+"46";"126";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"98";"21";"= 414";"+ 400H10";"forming machine C";"transport belt to matformer C";"414M01";"98";"21";"= 414";"+ 400H10";"forming machine C";"transport belt to matformer C";"414M01"
+"47";"127";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"99";"21";"= 414";"+ 400H10";"forming machine C";"transport belt ??";"414M02";"99";"21";"= 414";"+ 400H10";"forming machine C";"transport belt ??";"414M02"
+"48";"128";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"100";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3";"100";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"49";"129";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"101";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3";"101";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"50";"130";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"51";"131";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"104";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6";"104";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"52";"132";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"53";"133";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"107";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8";"107";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"54";"134";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"109";"21";"= 414";"+ 400H10";"forming machine C";"dosing belt cleaning brush";"414M10";"109";"21";"= 414";"+ 400H10";"forming machine C";"dosing belt cleaning brush";"414M10"
+"55";"135";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"110";"21";"= 414";"+ 400H10";"forming machine C";"rotary combs";"414M11";"110";"21";"= 414";"+ 400H10";"forming machine C";"rotary combs";"414M11"
+"56";"136";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13"
+"57";"137";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"112";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt left";"414M15";"112";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt left";"414M15"
+"58";"138";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"113";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt right";"414M16";"113";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt right";"414M16"
+"59";"139";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17";"114";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"
+"60";"140";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"115";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17";"115";"21";"= 414";"+ 400H10";"forming machine C";"transverse belt";"414M17"
+"61";"141";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20"
+"62";"142";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"117";"21";"= 414";"+ 400H10";"forming machine C";"slow disks rolls";"414M21";"117";"21";"= 414";"+ 400H10";"forming machine C";"slow disks rolls";"414M21"
+"63";"143";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"118";"21";"= 414";"+ 400H10";"forming machine C";"transport belt";"422M11";"118";"21";"= 414";"+ 400H10";"forming machine C";"transport belt";"422M11"
+"64";"144";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"119";"21";"= 414";"+ 400H10";"forming machine C";"transport belt cleaning brush";"414M26";"119";"21";"= 414";"+ 400H10";"forming machine C";"transport belt cleaning brush";"414M26"
+"65";"145";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"763";"2";"= 763";"+ ???";"";"band spraying infeed";"";"763";"2";"= 763";"+ ???";"";"band spraying infeed";""
+"66";"146";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"764";"2";"= 763";"+ ???";"";"band spraying infeed";"";"764";"2";"= 763";"+ ???";"";"band spraying infeed";""
+"67";"147";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"1";"18";"= RES";"+ 400A";"";"reserve terminals +400A";"";"1";"18";"= RES";"+ 400A";"";"reserve terminals +400A";""
+"68";"148";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"3";"18";"= RES";"+ 400A";"";"reserve terminals +400A";"";"3";"18";"= RES";"+ 400A";"";"reserve terminals +400A";""
+"69";"149";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"4";"18";"= RES";"+ 400A";"";"reserve terminals +400A";"";"4";"18";"= RES";"+ 400A";"";"reserve terminals +400A";""
+"70";"150";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"5";"18";"= RES";"+ 400H11";"";"reserve terminals +400H11";"";"5";"18";"= RES";"+ 400H11";"";"reserve terminals +400H11";""
+"71";"151";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"7";"18";"= RES";"+ A2";"";"reserve terminals +A2";"";"7";"18";"= RES";"+ A2";"";"reserve terminals +A2";""
+"72";"152";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"8";"18";"= RES";"+ A3";"";"reserve terminals +A3";"";"8";"18";"= RES";"+ A3";"";"reserve terminals +A3";""
+"73";"153";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"11";"18";"= RES";"+ B2";"";"reserve terminals +B2";"";"11";"18";"= RES";"+ B2";"";"reserve terminals +B2";""
+"74";"154";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"13";"18";"= RES";"+ B4";"";"reserve terminals +B4";"";"13";"18";"= RES";"+ B4";"";"reserve terminals +B4";""
+"75";"155";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"15";"18";"= RES";"+ C2";"";"reserve terminals +C2";"";"15";"18";"= RES";"+ C2";"";"reserve terminals +C2";""
+"76";"156";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"16";"18";"= RES";"+ C3";"";"reserve terminals +C3";"";"16";"18";"= RES";"+ C3";"";"reserve terminals +C3";""
+"77";"157";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"17";"18";"= RES";"+ C4";"";"reserve terminals +C4";"";"17";"18";"= RES";"+ C4";"";"reserve terminals +C4";""
+"78";"158";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"18";"18";"= RES";"+ C5";"";"reserve terminals +C5";"";"18";"18";"= RES";"+ C5";"";"reserve terminals +C5";""
+"79";"159";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"19";"18";"= RES";"+ D1";"";"reserve terminals +D1";"";"19";"18";"= RES";"+ D1";"";"reserve terminals +D1";""
+"80";"160";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"20";"18";"= RES";"+ D2";"";"reserve terminals +D2";"";"20";"18";"= RES";"+ D2";"";"reserve terminals +D2";""
+"81";"161";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"21";"18";"= RES";"+ D3";"";"reserve terminals +D3";"";"21";"18";"= RES";"+ D3";"";"reserve terminals +D3";""
+"82";"162";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"22";"18";"= RES";"+ D4";"";"reserve terminals +D4";"";"22";"18";"= RES";"+ D4";"";"reserve terminals +D4";""
+"83";"163";"pg_S1";"variant_0";"approved";"1190.55";"871.0";"1192.0";"871.0";"25";"18";"= RES";"+ TEXPAN BOX";"";"reserve terminals +TEXPAN BOX";"";"25";"18";"= RES";"+ TEXPAN BOX";"";"reserve terminals +TEXPAN BOX";""

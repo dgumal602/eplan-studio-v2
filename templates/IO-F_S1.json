@@ -1,0 +1,133 @@
+{
+  "name": "IO-F_S1",
+  "version": "1.0",
+  "enabled": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.156215
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": 1.0,
+        "y0_offset_ratio": 0.6667,
+        "length_ratio": 1.3333
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 1.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 0.3333
+      },
+      {
+        "role": "top_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "variant_0",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "adr",
+          "x0": "base_element.x0 - base_element.length * 0.0016",
+          "y0": "base_element.y0 + base_element.length * 0.0740",
+          "x1": "base_element.x0 + base_element.length * 0.5101",
+          "y1": "base_element.y0 + base_element.length * 0.1757"
+        },
+        {
+          "field": "go_adr",
+          "x0": "base_element.x0 + base_element.length * 0.4623",
+          "y0": "base_element.y0 + base_element.length * 0.0771",
+          "x1": "base_element.x0 + base_element.length * 1.0018",
+          "y1": "base_element.y0 + base_element.length * 0.1634"
+        },
+        {
+          "field": "plc",
+          "x0": "base_element.x0 - base_element.length * 0.0032",
+          "y0": "base_element.y0 + base_element.length * 0.1619",
+          "x1": "base_element.x0 + base_element.length * 0.5162",
+          "y1": "base_element.y0 + base_element.length * 0.2497"
+        },
+        {
+          "field": "go_plc",
+          "x0": "base_element.x0 + base_element.length * 0.4777",
+          "y0": "base_element.y0 + base_element.length * 0.1649",
+          "x1": "base_element.x0 + base_element.length * 0.9971",
+          "y1": "base_element.y0 + base_element.length * 0.2497"
+        },
+        {
+          "field": "var",
+          "x0": "base_element.x0 - base_element.length * 0.0016",
+          "y0": "base_element.y0 + base_element.length * 0.2466",
+          "x1": "base_element.x0 + base_element.length * 1.0018",
+          "y1": "base_element.y0 + base_element.length * 0.3807"
+        },
+        {
+          "field": "decription",
+          "x0": "base_element.x0",
+          "y0": "base_element.y0 + base_element.length * 0.3684",
+          "x1": "base_element.x0 + base_element.length * 0.9956",
+          "y1": "base_element.y0 + base_element.length * 0.9048",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin_i",
+          "x0": "base_element.x0 + base_element.length * 0.0276",
+          "y0": "base_element.y0 - base_element.length * 0.0709",
+          "x1": "base_element.x0 + base_element.length * 1.0372",
+          "y1": "base_element.y0 + base_element.length * 0.0016"
+        },
+        {
+          "field": "pin_o",
+          "x0": "base_element.x0 + base_element.length * 0.0165",
+          "y0": "base_element.y0 + base_element.length * 0.9938",
+          "x1": "base_element.x0 + base_element.length * 2.4074",
+          "y1": "base_element.y0 + base_element.length * 1.0747"
+        },
+        {
+          "field": "ch_i",
+          "x0": "base_element.x0 - base_element.length * 0.0032",
+          "y0": "base_element.y0 - base_element.length * 0.0069",
+          "x1": "base_element.x0 + base_element.length * 1.0040",
+          "y1": "base_element.y0 + base_element.length * 0.0809"
+        },
+        {
+          "field": "ch_o",
+          "x0": "base_element.x0 + base_element.length * 0.0014",
+          "y0": "base_element.y0 + base_element.length * 0.9001",
+          "x1": "base_element.x0 + base_element.length * 2.3350",
+          "y1": "base_element.y0 + base_element.length * 0.9972"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

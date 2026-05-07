@@ -1,0 +1,12 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"pin_4";"pin_5";"pin_6";"pin_7";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"49";"Motor_3ph_6";"A";"approved";"272.13";"680.37";"1192.0";"871.0";"+A
+-M3";"1W";"1V";"1U";"2W";"2V";"2U";"";"P = 0,6kW/2,2kW
+In = 3,3A/5,4A
+n = 650 1/min / 2750 1/min";"41";"3";"= 416";"+ 400A";"equelizing rolls";"height adjustment";"416M3"
+"2";"60";"Motor_3ph_6";"A";"approved";"272.13";"680.37";"1192.0";"871.0";"+A
+-M17";"1W";"1V";"1U";"2W";"2V";"2U";"PE";"P = 0,06kW/0,25kW
+In = 0,47A/0,87A
+n = 675 1/min / 2730 1/min";"52";"26";"= 418";"+ 400A";"forming machine D";"transverse belt";"418M17"
+"3";"69";"Motor_3ph_6";"A";"approved";"272.13";"635.02";"1192.0";"871.0";"+TEXPAN
+-M4";"W1";"V1";"U1";"W2";"V2";"U2";"";"P = 37kW
+In = 72A";"59a";"26";"= 418";"+ 400A";"";"TEXPAN filter fan";"418M4"

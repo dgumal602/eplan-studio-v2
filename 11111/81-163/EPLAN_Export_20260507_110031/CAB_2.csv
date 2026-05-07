@@ -1,0 +1,140 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"81";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+420LD15";"";"NYY-J 4x1.5 mm²";"68";"5";"= 420";"+ 400A";"forming line";"cleaning brush";"420M15"
+"2";"81";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD15";"";"NYY-J 4x1.5 mm²";"68";"5";"= 420";"+ 400A";"forming line";"cleaning brush";"420M15"
+"3";"82";"CAB_2";"A";"approved";"362.83";"258.72";"1192.0";"871.0";"=400/4a.9/L2.14";"";"";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"4";"82";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+421LD01 -W1M1";"";"NYY-J 3x35/16 mm²";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"5";"82";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD01";"";"NYY-J 3x35/16 mm²";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"6";"83";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+421LD02 -W1M2";"";"NYY-J 4x1.5 mm²";"70";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+cooling - fan";"421M2"
+"7";"83";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD02";"";"NYY-J 4x1.5 mm²";"70";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+cooling - fan";"421M2"
+"8";"84";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"+421KK1.1 -W1LD03";"";"H05VV5-F 4G2.5 mm²";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"9";"84";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+421LD03
+-W94.1";"";"H05VV5-F 4G2.5 mm²
+pre-wired";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"10";"85";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"+421KK1.1";"";"H05VV5-F 4G2.5 mm²";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"11";"85";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+421LD04
+-W94.2";"";"H05VV5-F 4G2.5 mm²
+pre-wired";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"12";"86";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+421LD05
+-W92.1";"";"H05VV5-F 4G2.5 mm²
+pre-wired";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"13";"86";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"+421KK1";"";"H05VV5-F 4G2.5 mm²";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"14";"88";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+421LD13
+-W94.3";"";"H05VV5-F 4G2.5 mm²
+pre-wired";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13"
+"15";"88";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"+421KK1.1";"";"H05VV5-F 4G2.5 mm²";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13"
+"16";"89";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD01.1 -W1M1.1";"";"NYY-J 4x4 mm²";"72";"29";"= 427";"+ 400A";"press hydraulics";"cooling and filtering pump";"427M1.1"
+"17";"89";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD1.1";"";"NYY-J 4x4 mm²";"72";"29";"= 427";"+ 400A";"press hydraulics";"cooling and filtering pump";"427M1.1"
+"18";"90";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD1.2";"";"NYY-J 4x4 mm²";"73";"29";"= 427";"+ 400A";"press hydraulics";"fan air cooling";"427M1.2"
+"19";"90";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD01.2 -W1M1.2";"";"NYY-J 4x4 mm²";"73";"29";"= 427";"+ 400A";"press hydraulics";"fan air cooling";"427M1.2"
+"20";"92";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD03 -W1M3";"";"NYY-J 3x70/35 mm²";"75";"29";"= 427";"+ 400A";"press";"hydraulics HP - pump";"427M3"
+"21";"92";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD03";"";"NYY-J 3x70/35 mm²";"75";"29";"= 427";"+ 400A";"press";"hydraulics HP - pump";"427M3"
+"22";"93";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD04 -W1M4";"";"NYY-J 4x2.5 mm²";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4"
+"23";"93";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD04";"";"NYY-J 4x2.5 mm²";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4"
+"24";"94";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD05 -W1M5";"";"NYY-J 4x2.5 mm²";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5"
+"25";"94";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD05";"";"NYY-J 4x2.5 mm²";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5"
+"26";"95";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD08.1 -W1M8.1";"";"NYY-J 4x2.5 mm²";"77";"29";"= 427";"+ 400A";"press hydraulics";"washing pump";"427M8.1"
+"27";"95";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD08.1";"";"NYY-J 4x2.5 mm²";"77";"29";"= 427";"+ 400A";"press hydraulics";"washing pump";"427M8.1"
+"28";"96";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD08.2 -W1M8.2";"";"NYY-J 4x1.5 mm²";"78";"29";"= 427";"+ 400A";"press hydraulics";"stop cock 21 close";"427M8.2"
+"29";"96";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD08.2";"";"NYY-J 4x1.5 mm²";"78";"29";"= 427";"+ 400A";"press hydraulics";"stop cock 21 close";"427M8.2"
+"30";"97";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD23 -W1M23";"";"NYY-J 4x4 mm²";"79";"29";"= 427";"+ 400A";"press";"exhaust oil mist";"427M23"
+"31";"97";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD23";"";"NYY-J 4x4 mm²";"79";"29";"= 427";"+ 400A";"press";"exhaust oil mist";"427M23"
+"32";"100";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD28 -W1M28";"";"NYY-J 4x1.5 mm²";"82";"29";"= 427";"+ 400A";"press";"pump roll rod chain belt lubrication";"427M28"
+"33";"100";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD28";"";"NYY-J 4x1.5 mm²";"82";"29";"= 427";"+ 400A";"press";"pump roll rod chain belt lubrication";"427M28"
+"34";"101";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD29 -W1M29";"";"NYY-J 4x1.5 mm²";"83";"29";"= 427";"+ 400A";"press";"pump align and press lubrication of chain";"427M29"
+"35";"101";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"-W1LD29";"";"NYY-J 4x1.5 mm²";"83";"29";"= 427";"+ 400A";"press";"pump align and press lubrication of chain";"427M29"
+"36";"102";"CAB_2";"A";"approved";"158.74";"440.13";"1192.0";"871.0";"-W1M30";"";"NYY-J 4x1.5 mm²";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"37";"102";"CAB_2";"A";"approved";"158.74";"655.57";"1192.0";"871.0";"+427LD30 -W1M30";"";"NYY-J 4x1.5 mm²";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"38";"102";"CAB_2";"A";"approved";"158.74";"519.5";"1192.0";"871.0";"+427K35 -W1LD30";"";"NYY-J 4x1.5 mm²";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"39";"117";"CAB_2";"A";"approved";"158.74";"542.18";"1192.0";"871.0";"-W1M?";"";"";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?"
+"40";"126";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M01";"";"NYY-J 4x??? mm²";"98";"21";"= 414";"+ 400H10";"forming machine C";"transport belt to matformer C";"414M01"
+"41";"127";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M02";"";"NYY-J 4x??? mm²";"99";"21";"= 414";"+ 400H10";"forming machine C";"transport belt ??";"414M02"
+"42";"128";"CAB_2";"A";"approved";"158.74";"530.84";"1192.0";"871.0";"-W1M3-M8";"";"19x2.5 mm²";"100";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"43";"128";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C4
+-W2M3";"";"NYY-J 4x1.5 mm²
+pre-wired";"100";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"44";"128";"CAB_2";"A";"approved";"544.25";"610.21";"1192.0";"871.0";"+C5
+-W2TE3";"";"LiYCY 2x1 mm²
+pre-wired";"100";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"45";"128";"CAB_2";"A";"approved";"544.25";"519.5";"1192.0";"871.0";"-W1TE3";"";"LiYCY 2x1 mm²";"100";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"46";"130";"CAB_2";"A";"approved";"158.74";"666.91";"1192.0";"871.0";"+C4
+-W2M5";"";"NYY-J 4x1.5 mm²
+pre-wired";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"47";"130";"CAB_2";"A";"approved";"589.61";"666.91";"1192.0";"871.0";"+C5
+-W2TE5";"";"LiYCY 2x1 mm²
+pre-wired";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"48";"130";"CAB_2";"A";"approved";"589.61";"576.2";"1192.0";"871.0";"-W1TE5";"";"LiYCY 2x1 mm²";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"49";"130";"CAB_2";"A";"approved";"362.83";"666.91";"1192.0";"871.0";"+C4
+-W2M6";"";"NYY-J 4x1.5 mm²
+pre-wired";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"50";"130";"CAB_2";"A";"approved";"793.7";"666.91";"1192.0";"871.0";"+C5
+-W2TE6";"";"LiYCY 2x1 mm²
+pre-wired";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"51";"130";"CAB_2";"A";"approved";"793.7";"576.2";"1192.0";"871.0";"-W1TE6";"";"LiYCY 2x1 mm²";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"52";"132";"CAB_2";"A";"approved";"555.59";"99.98";"1192.0";"871.0";"L2.12
+4.9/";"";"";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"53";"132";"CAB_2";"A";"approved";"158.74";"666.91";"1192.0";"871.0";"+C4
+-W2M7";"";"NYY-J 4x1.5 mm²
+pre-wired";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"54";"132";"CAB_2";"A";"approved";"589.61";"666.91";"1192.0";"871.0";"+C5
+-W2TE7";"";"LiYCY 2x1 mm²
+pre-wired";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"55";"132";"CAB_2";"A";"approved";"589.61";"576.2";"1192.0";"871.0";"-W1TE7";"";"LiYCY 2x1 mm²";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"56";"132";"CAB_2";"A";"approved";"362.83";"666.91";"1192.0";"871.0";"+C4
+-W2M8";"";"NYY-J 4x1.5 mm²
+pre-wired";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"57";"132";"CAB_2";"A";"approved";"793.7";"666.91";"1192.0";"871.0";"+C5
+-W2TE8";"";"LiYCY 2x1 mm²
+pre-wired";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"58";"132";"CAB_2";"A";"approved";"793.7";"576.2";"1192.0";"871.0";"-W1TE8";"";"LiYCY 2x1 mm²";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"59";"134";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M10";"";"NYY-J 4x2.5 mm²";"109";"21";"= 414";"+ 400H10";"forming machine C";"dosing belt cleaning brush";"414M10"
+"60";"134";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C2
+-W2M10";"";"NYY-J 4x1.5 mm²
+pre-wired";"109";"21";"= 414";"+ 400H10";"forming machine C";"dosing belt cleaning brush";"414M10"
+"61";"135";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M11-M17";"";"NYY-J 19x2.5 mm²";"110";"21";"= 414";"+ 400H10";"forming machine C";"rotary combs";"414M11"
+"62";"135";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C2
+-W2M11";"";"NYY-J 4x1.5 mm²
+pre-wired";"110";"21";"= 414";"+ 400H10";"forming machine C";"rotary combs";"414M11"
+"63";"136";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C3
+-W2M13";"";"NYY-J 4x1.5 mm²
+pre-wired";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13"
+"64";"136";"CAB_2";"A";"approved";"351.5";"621.55";"1192.0";"871.0";"+C3
+-W2ET13";"";"LiYCY 2x1 mm²
+pre-wired";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13"
+"65";"136";"CAB_2";"A";"approved";"351.5";"530.84";"1192.0";"871.0";"-W1TE13";"";"LiYCY 2x1 mm²";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13"
+"66";"137";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C2
+-W2M15";"";"NYY-J 4x1.5 mm²
+pre-wired";"112";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt left";"414M15"
+"67";"138";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C2
+-W2M16";"";"NYY-J 4x1.5 mm²
+pre-wired";"113";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt right";"414M16"
+"68";"141";"CAB_2";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M20-M26";"";"19x2.5 mm²";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20"
+"69";"141";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C1
+-W2M20";"";"NYY-J 4x1.5 mm²
+pre-wired";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20"
+"70";"141";"CAB_2";"A";"approved";"351.5";"621.55";"1192.0";"871.0";"+C1
+-W2TE20";"";"LiYCY 2x1 mm²
+pre-wired";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20"
+"71";"141";"CAB_2";"A";"approved";"351.5";"530.84";"1192.0";"871.0";"-W1TE20";"";"LiYCY 2x1 mm²";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20"
+"72";"142";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C1
+-W2M21";"";"NYY-J 4x1.5 mm²
+pre-wired";"117";"21";"= 414";"+ 400H10";"forming machine C";"slow disks rolls";"414M21"
+"73";"143";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C1
+-W2M22";"";"NYY-J 4x1.5 mm²
+pre-wired";"118";"21";"= 414";"+ 400H10";"forming machine C";"transport belt";"422M11"
+"74";"144";"CAB_2";"A";"approved";"158.74";"621.55";"1192.0";"871.0";"+C1
+-W2M26";"";"NYY-J 4x1.5 mm²
+pre-wired";"119";"21";"= 414";"+ 400H10";"forming machine C";"transport belt cleaning brush";"414M26"
+"75";"146";"CAB_2";"A";"approved";"691.24";"406.52";"0.0";"0.0";"-29F1";"";"";"764";"2";"= 763";"+ ???";"";"band spraying infeed";""
+"76";"146";"CAB_2";"A";"approved";"396.12";"404.54";"0.0";"0.0";"-19F2";"";"";"764";"2";"= 763";"+ ???";"";"band spraying infeed";""
+"77";"146";"CAB_2";"A";"approved";"420.29";"282.83";"0.0";"0.0";"-19F1";"";"";"764";"2";"= 763";"+ ???";"";"band spraying infeed";""
+"78";"146";"CAB_2";"A";"approved";"713.42";"285.21";"0.0";"0.0";"-29F1";"";"";"764";"2";"= 763";"+ ???";"";"band spraying infeed";""

@@ -1,0 +1,163 @@
+{
+  "name": "PB_NO",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 1,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "bottom_line",
+        "type": "D",
+        "x0_offset_ratio": -1.2483,
+        "y0_offset_ratio": 0.7489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 0.0017,
+        "y1_offset_ratio": 2.9989,
+        "angle": 60.95
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.0017,
+        "y0_offset_ratio": 2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": -1.0,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 0.44
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "H",
+        "x0_offset_ratio": -2.0,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 0.5
+      },
+      {
+        "role": "bottom_line_3",
+        "type": "D",
+        "x0_offset_ratio": -2.0,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 0.4507,
+        "x1_offset_ratio": -2.25,
+        "y1_offset_ratio": 2.375,
+        "angle": 123.69
+      },
+      {
+        "role": "bottom_line_4",
+        "type": "D",
+        "x0_offset_ratio": -2.5,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 0.4507,
+        "x1_offset_ratio": -2.25,
+        "y1_offset_ratio": 2.375,
+        "angle": 56.31
+      },
+      {
+        "role": "bottom_line_5",
+        "type": "H",
+        "x0_offset_ratio": -3.0,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 0.5
+      },
+      {
+        "role": "bottom_line_6",
+        "type": "H",
+        "x0_offset_ratio": -4.0,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 0.5
+      },
+      {
+        "role": "bottom_line_7",
+        "type": "H",
+        "x0_offset_ratio": -4.0,
+        "y0_offset_ratio": 1.5,
+        "length_ratio": 0.5
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": -4.0,
+        "y0_offset_ratio": 1.5,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_8",
+        "type": "H",
+        "x0_offset_ratio": -4.0,
+        "y0_offset_ratio": 2.5,
+        "length_ratio": 0.5
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "variant_0",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 10.0960",
+          "y0": "base_element.y0 - base_element.length * 0.7846",
+          "x1": "base_element.x0 - base_element.length * 4.2290",
+          "y1": "base_element.y0 + base_element.length * 4.1093"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 1.0236",
+          "y0": "base_element.y0 - base_element.length * 2.3587",
+          "x1": "base_element.x0 + base_element.length * 1.6952",
+          "y1": "base_element.y0 + base_element.length * 1.1901"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 - base_element.length * 0.7947",
+          "y0": "base_element.y0 + base_element.length * 2.5639",
+          "x1": "base_element.x0 + base_element.length * 1.8097",
+          "y1": "base_element.y0 + base_element.length * 4.9107"
+        },
+        {
+          "field": "link",
+          "x0": "base_element.x0 - base_element.length * 7.1482",
+          "y0": "base_element.y0 + base_element.length * 4.4241",
+          "x1": "base_element.x0 - base_element.length * 4.3721",
+          "y1": "base_element.y0 + base_element.length * 5.9696"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 3.6852",
+          "y0": "base_element.y0 + base_element.length * 4.7103",
+          "x1": "base_element.x0 - base_element.length * 1.3384",
+          "y1": "base_element.y0 + base_element.length * 6.4275"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0+base_element.length*1.5",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

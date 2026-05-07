@@ -1,0 +1,138 @@
+{
+  "name": "BusBar_Con_UP",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 40,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": -0.5,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 1.0,
+        "width_ratio": 1.0,
+        "height_ratio": 1.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.5,
+              1.50002
+            ]
+          ],
+          [
+            "c",
+            [
+              0.5,
+              1.22386
+            ],
+            [
+              0.27614,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.27616,
+              1.0
+            ],
+            [
+              -0.50002,
+              1.22386
+            ],
+            [
+              -0.50002,
+              1.50002
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.50002,
+              1.77616
+            ],
+            [
+              -0.27616,
+              2.00002
+            ],
+            [
+              0.0,
+              2.00002
+            ]
+          ],
+          [
+            "c",
+            [
+              0.27614,
+              2.00002
+            ],
+            [
+              0.5,
+              1.77616
+            ],
+            [
+              0.5,
+              1.50002
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": -0.75,
+        "y0_offset_ratio": 1.5,
+        "length_ratio": 1.5
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "UP",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 1.7824",
+          "y0": "base_element.y0 - base_element.length * 1.9704",
+          "x1": "base_element.x0 + base_element.length * 2.2753",
+          "y1": "base_element.y0 + base_element.length * 3.8137"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0 + base_element.length * 1.5000",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

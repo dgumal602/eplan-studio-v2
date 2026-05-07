@@ -1,0 +1,6 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"pin_1";"pin_2";"pin_3";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"129";"contact_signal_CO_3";"A";"approved";"448.25";"371.13";"0.0";"0.0";"-A3.1 -K1";"/101.8";"12";"11";"4";"101";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"2";"130";"contact_signal_CO_3";"A";"approved";"1066.37";"419.84";"0.0";"0.0";"-F5";"/103.4";"96";"95";"98";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"3";"131";"contact_signal_CO_3";"A";"approved";"445.62";"371.67";"0.0";"0.0";"-A3.1 -K1";"/101.8";"12";"11";"14";"104";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"4";"132";"contact_signal_CO_3";"A";"approved";"1065.84";"417.46";"1192.0";"871.0";"-F7";"/106.4";"96";"95";"98";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"5";"133";"contact_signal_CO_3";"A";"approved";"442.88";"371.57";"0.0";"0.0";"-A3.1 -K1";"/101.8";"12";"11";"14";"107";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"

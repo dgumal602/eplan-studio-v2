@@ -1,0 +1,17 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"118";"Fuse";"A";"approved";"415.28";"148.17";"1192.0";"871.0";"";"3";"4";"";"";"95";"4";"= 442";"+ 400A";"trim saw";"right hand side in front
+spare";"442M1"
+"2";"118";"Fuse";"A";"approved";"369.92";"148.17";"1192.0";"871.0";"-F1";"1";"2";"";"E33 35A Ultrarapid SILIZED";"95";"4";"= 442";"+ 400A";"trim saw";"right hand side in front
+spare";"442M1"
+"3";"119";"Fuse";"A";"approved";"415.28";"148.17";"1192.0";"871.0";"";"3";"4";"";"";"96";"4";"= 442";"+ 400A";"trim saw";"right hand side at rear
+spare";"442M2"
+"4";"119";"Fuse";"A";"approved";"369.92";"148.17";"1192.0";"871.0";"-F2";"1";"2";"";"E33 35A Ultrarapid SILIZED";"96";"4";"= 442";"+ 400A";"trim saw";"right hand side at rear
+spare";"442M2"
+"5";"120";"Fuse";"A";"approved";"415.28";"148.17";"1192.0";"871.0";"";"3";"4";"";"";"97";"4";"= 442";"+ 400A";"trim saw";"left hand side in front
+spare";"442M3"
+"6";"120";"Fuse";"A";"approved";"369.92";"148.17";"1192.0";"871.0";"-F3";"1";"2";"";"E33 35A Ultrarapid SILIZED";"97";"4";"= 442";"+ 400A";"trim saw";"left hand side in front
+spare";"442M3"
+"7";"121";"Fuse";"A";"approved";"415.28";"148.17";"1192.0";"871.0";"";"3";"4";"";"";"98";"4";"= 442";"+ 400A";"trim saw";"left hand side at rear
+spare";"442M4"
+"8";"121";"Fuse";"A";"approved";"369.92";"148.17";"1192.0";"871.0";"-F4";"1";"2";"";"E33 35A id SILIZED";"98";"4";"= 442";"+ 400A";"trim saw";"left hand side at rear
+spare";"442M4"

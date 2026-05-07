@@ -1,0 +1,4 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"5";"BreakPoint_V_5.1_UD";"A";"approved";"374.17";"281.04";"1192.0";"871.0";"XV400A_351";"==20.9400.201/10a.2";"";"1b";"8";"= 400";"+ 400A";"";"emergency stop 400A";""
+"2";"5";"BreakPoint_V_5.1_UD";"A";"approved";"464.88";"281.04";"1192.0";"871.0";"XV400A_354";"==20.9400.201/10a.3";"";"1b";"8";"= 400";"+ 400A";"";"emergency stop 400A";""
+"3";"5";"BreakPoint_V_5.1_UD";"A";"approved";"555.59";"519.15";"1192.0";"871.0";"";"";"V400A_";"1b";"8";"= 400";"+ 400A";"";"emergency stop 400A";""

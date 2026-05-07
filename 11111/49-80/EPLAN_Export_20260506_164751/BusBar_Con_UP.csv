@@ -1,0 +1,6 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"63";"BusBar_Con_UP";"UP";"approved";"238.11";"610.21";"1192.0";"871.0";"0D PE";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
+"2";"63";"BusBar_Con_UP";"UP";"approved";"430.87";"610.21";"1192.0";"871.0";"D PE";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
+"3";"64";"BusBar_Con_UP";"UP";"approved";"238.11";"610.21";"1192.0";"871.0";"1D PE";"55";"26";"= 418";"+ 400A";"forming machine D";"slow disk rolls";"418M21"
+"4";"65";"BusBar_Con_UP";"UP";"approved";"238.11";"610.21";"1192.0";"871.0";"2D PE";"56";"26";"= 418";"+ 400A";"forming machine D";"transport belt";"418M22"
+"5";"68";"BusBar_Con_UP";"UP";"approved";"238.11";"610.21";"1192.0";"871.0";"6D PE";"59";"26";"= 418";"+ 400A";"forming machine D";"cleaning brush transport belt";"418M26"

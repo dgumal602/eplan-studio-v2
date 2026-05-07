@@ -1,0 +1,61 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"81";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"68";"5";"= 420";"+ 400A";"forming line";"cleaning brush";"420M15"
+"2";"83";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"70";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+cooling - fan";"421M2"
+"3";"84";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"4";"85";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"5";"86";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"6";"88";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13"
+"7";"89";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"72";"29";"= 427";"+ 400A";"press hydraulics";"cooling and filtering pump";"427M1.1"
+"8";"90";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"73";"29";"= 427";"+ 400A";"press hydraulics";"fan air cooling";"427M1.2"
+"9";"91";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"74";"29";"= 427";"+ 400A";"press hydraulics";"close shut off valve 60";"spare"
+"10";"93";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4"
+"11";"94";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5"
+"12";"95";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"77";"29";"= 427";"+ 400A";"press hydraulics";"washing pump";"427M8.1"
+"13";"96";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"78";"29";"= 427";"+ 400A";"press hydraulics";"stop cock 21 close";"427M8.2"
+"14";"97";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"79";"29";"= 427";"+ 400A";"press";"exhaust oil mist";"427M23"
+"15";"98";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"80";"29";"= 427";"+ 400A";"press";"fan air circulation belt lubrication top";"427M24"
+"16";"99";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"81";"29";"= 427";"+ 400A";"press";"fan air circulation belt lubrication top";"427M25"
+"17";"100";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"82";"29";"= 427";"+ 400A";"press";"pump roll rod chain belt lubrication";"427M28"
+"18";"101";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"83";"29";"= 427";"+ 400A";"press";"pump align and press lubrication of chain";"427M29"
+"19";"102";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"20";"103";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"85";"29";"= 427";"+ 400A";"press";"spare";""
+"21";"104";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"86";"29";"= 427";"+ 400A";"press";"spare";""
+"22";"105";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"87";"29";"= 427";"+ 400A";"press";"spare";""
+"23";"106";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"88";"29";"= 427";"+ 400A";"press";"spare";""
+"24";"107";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"88a";"29";"= 427";"+ 400A";"press";"spare";""
+"25";"108";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"88b";"29";"= 427";"+ 400A";"press";"spare";""
+"26";"109";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"89";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 right";"427M301"
+"27";"109";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"89";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 right";"427M301"
+"28";"110";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"90";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 left";"427M302"
+"29";"110";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"90";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 1 - 8 left";"427M302"
+"30";"111";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"91";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 right";"427M303"
+"31";"111";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"91";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 right";"427M303"
+"32";"112";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"92";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 left";"427M304"
+"33";"112";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"92";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 9 - 16 left";"427M304"
+"34";"113";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"93";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 right";"427M305"
+"35";"113";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"93";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 right";"427M305"
+"36";"114";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"94";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 left";"427M306"
+"37";"114";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"94";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 17 - 24 left";"427M306"
+"38";"115";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"94a";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 right";"427M307"
+"39";"115";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"94a";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 right";"427M307"
+"40";"116";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"122.65";"1192.0";"871.0";"94b";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 left";"427M308"
+"41";"116";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"372.1";"1192.0";"871.0";"94b";"29";"= 427";"+ 400A";"press";"stop bar adjustment frame 25 - 33 left";"427M308"
+"42";"118";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"95";"4";"= 442";"+ 400A";"trim saw";"right hand side in front
+spare";"442M1"
+"43";"119";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"96";"4";"= 442";"+ 400A";"trim saw";"right hand side at rear
+spare";"442M2"
+"44";"120";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"97";"4";"= 442";"+ 400A";"trim saw";"left hand side in front
+spare";"442M3"
+"45";"121";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"98";"4";"= 442";"+ 400A";"trim saw";"left hand side at rear
+spare";"442M4"
+"46";"122";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"99";"1";"= 447";"+ 400A";"";"roller conveyor
+spare";"447M1"
+"47";"122";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"440.13";"1192.0";"871.0";"99";"1";"= 447";"+ 400A";"";"roller conveyor
+spare";"447M1"
+"48";"123";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"156.67";"1192.0";"871.0";"100";"1";"= 448";"+ 400A";"";"roller conveyor
+spare";"448M1"
+"49";"123";"AZD_LOCK_NC_NO";"default";"approved";"232.44";"440.13";"1192.0";"871.0";"100";"1";"= 448";"+ 400A";"";"roller conveyor
+spare";"448M1"

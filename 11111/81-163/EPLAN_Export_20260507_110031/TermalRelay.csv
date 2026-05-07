@@ -1,0 +1,6 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"117";"TermalRelay";"A";"approved";"158.86";"367.56";"0.0";"0.0";"+R -TCHRB";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?"
+"2";"130";"TermalRelay";"A";"approved";"158.74";"468.48";"1192.0";"871.0";"-F5.1";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"3";"130";"TermalRelay";"A";"approved";"362.83";"468.48";"1192.0";"871.0";"-F6.1";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"4";"132";"TermalRelay";"A";"approved";"158.74";"468.48";"1192.0";"871.0";"-F7.1";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"5";"132";"TermalRelay";"A";"approved";"362.83";"468.48";"1192.0";"871.0";"-F8.1";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"

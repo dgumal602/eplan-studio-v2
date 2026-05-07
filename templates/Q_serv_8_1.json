@@ -1,0 +1,420 @@
+{
+  "name": "Q_serv_8_1",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 1,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "bottom_line",
+        "type": "D",
+        "x0_offset_ratio": -1.2483,
+        "y0_offset_ratio": 0.7489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 0.0017,
+        "y1_offset_ratio": 2.9989,
+        "angle": 60.95
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "D",
+        "x0_offset_ratio": -0.75,
+        "y0_offset_ratio": 0.45,
+        "length_ratio": 0.5811,
+        "x1_offset_ratio": -1.2483,
+        "y1_offset_ratio": 0.7489,
+        "angle": 149.04
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "D",
+        "x0_offset_ratio": 2.7517,
+        "y0_offset_ratio": 0.7489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 4.0017,
+        "y1_offset_ratio": 2.9989,
+        "angle": 60.95
+      },
+      {
+        "role": "bottom_line_3",
+        "type": "D",
+        "x0_offset_ratio": 3.25,
+        "y0_offset_ratio": 0.45,
+        "length_ratio": 0.5811,
+        "x1_offset_ratio": 2.7517,
+        "y1_offset_ratio": 0.7489,
+        "angle": 149.04
+      },
+      {
+        "role": "top_line",
+        "type": "H",
+        "x0_offset_ratio": -10.0,
+        "y0_offset_ratio": -1.0,
+        "length_ratio": 55.9999
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": -10.0,
+        "y0_offset_ratio": -1.0,
+        "length_ratio": 6.0
+      },
+      {
+        "role": "bottom_line_4",
+        "type": "H",
+        "x0_offset_ratio": -10.0,
+        "y0_offset_ratio": 5.0,
+        "length_ratio": 55.9999
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 0.0017,
+        "y0_offset_ratio": 2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_2",
+        "type": "V",
+        "x0_offset_ratio": 4.0017,
+        "y0_offset_ratio": 2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_3",
+        "type": "V",
+        "x0_offset_ratio": 8.0017,
+        "y0_offset_ratio": 2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_4",
+        "type": "V",
+        "x0_offset_ratio": 4.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_5",
+        "type": "V",
+        "x0_offset_ratio": 8.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_5",
+        "type": "D",
+        "x0_offset_ratio": 7.25,
+        "y0_offset_ratio": 0.45,
+        "length_ratio": 0.5811,
+        "x1_offset_ratio": 6.7517,
+        "y1_offset_ratio": 0.7489,
+        "angle": 149.04
+      },
+      {
+        "role": "bottom_line_6",
+        "type": "D",
+        "x0_offset_ratio": 6.7517,
+        "y0_offset_ratio": 0.7489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 8.0017,
+        "y1_offset_ratio": 2.9989,
+        "angle": 60.95
+      },
+      {
+        "role": "bottom_line_7",
+        "type": "D",
+        "x0_offset_ratio": 23.25,
+        "y0_offset_ratio": 0.45,
+        "length_ratio": 0.5811,
+        "x1_offset_ratio": 22.7517,
+        "y1_offset_ratio": 0.7489,
+        "angle": 149.04
+      },
+      {
+        "role": "bottom_line_8",
+        "type": "D",
+        "x0_offset_ratio": 22.7517,
+        "y0_offset_ratio": 0.7489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 24.0017,
+        "y1_offset_ratio": 2.9989,
+        "angle": 60.95
+      },
+      {
+        "role": "right_wall_6",
+        "type": "V",
+        "x0_offset_ratio": 24.0017,
+        "y0_offset_ratio": 2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_7",
+        "type": "V",
+        "x0_offset_ratio": 24.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_8",
+        "type": "V",
+        "x0_offset_ratio": 31.9999,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_9",
+        "type": "V",
+        "x0_offset_ratio": 27.9999,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_9",
+        "type": "D",
+        "x0_offset_ratio": 26.7517,
+        "y0_offset_ratio": 0.7489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 28.0017,
+        "y1_offset_ratio": 2.9989,
+        "angle": 60.95
+      },
+      {
+        "role": "bottom_line_10",
+        "type": "D",
+        "x0_offset_ratio": 27.2499,
+        "y0_offset_ratio": 0.45,
+        "length_ratio": 0.5811,
+        "x1_offset_ratio": 26.7517,
+        "y1_offset_ratio": 0.7489,
+        "angle": 149.04
+      },
+      {
+        "role": "right_wall_10",
+        "type": "V",
+        "x0_offset_ratio": 28.0017,
+        "y0_offset_ratio": 2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_11",
+        "type": "V",
+        "x0_offset_ratio": 32.0016,
+        "y0_offset_ratio": 2.9989,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_11",
+        "type": "D",
+        "x0_offset_ratio": 30.7516,
+        "y0_offset_ratio": 0.7489,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 32.0016,
+        "y1_offset_ratio": 2.9989,
+        "angle": 60.95
+      },
+      {
+        "role": "bottom_line_12",
+        "type": "D",
+        "x0_offset_ratio": 31.2499,
+        "y0_offset_ratio": 0.45,
+        "length_ratio": 0.5811,
+        "x1_offset_ratio": 30.7516,
+        "y1_offset_ratio": 0.7489,
+        "angle": 149.04
+      },
+      {
+        "role": "bottom_line_13",
+        "type": "D",
+        "x0_offset_ratio": 38.1249,
+        "y0_offset_ratio": 0.7495,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 39.3749,
+        "y1_offset_ratio": 2.9995,
+        "angle": 60.95
+      },
+      {
+        "role": "right_wall_12",
+        "type": "V",
+        "x0_offset_ratio": 39.3732,
+        "y0_offset_ratio": 0.0005,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_13",
+        "type": "V",
+        "x0_offset_ratio": 39.3749,
+        "y0_offset_ratio": 2.9995,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_14",
+        "type": "D",
+        "x0_offset_ratio": 43.0182,
+        "y0_offset_ratio": 0.7505,
+        "length_ratio": 2.3717,
+        "x1_offset_ratio": 42.2682,
+        "y1_offset_ratio": 3.0005,
+        "angle": 108.44
+      },
+      {
+        "role": "bottom_line_15",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 41.9999
+      },
+      {
+        "role": "right_wall_14",
+        "type": "V",
+        "x0_offset_ratio": 42.2682,
+        "y0_offset_ratio": 0.0005,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_15",
+        "type": "V",
+        "x0_offset_ratio": 42.2699,
+        "y0_offset_ratio": 2.9995,
+        "length_ratio": 1.0
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 21.2630",
+          "y0": "base_element.y0 - base_element.length * 7.5968",
+          "x1": "base_element.x0 - base_element.length * 5.0373",
+          "y1": "base_element.y0 + base_element.length * 0.4085"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 3.3157",
+          "y0": "base_element.y0 - base_element.length * 3.2498",
+          "x1": "base_element.x0 + base_element.length * 1.2464",
+          "y1": "base_element.y0 + base_element.length * 0.9250"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 - base_element.length * 1.9815",
+          "y0": "base_element.y0 + base_element.length * 3.3782",
+          "x1": "base_element.x0 + base_element.length * 1.4186",
+          "y1": "base_element.y0 + base_element.length * 5.7023"
+        },
+        {
+          "field": "pin_3",
+          "x0": "base_element.x0 + base_element.length * 2.0211",
+          "y0": "base_element.y0 - base_element.length * 2.7764",
+          "x1": "base_element.x0 + base_element.length * 5.3351",
+          "y1": "base_element.y0 + base_element.length * 0.6668"
+        },
+        {
+          "field": "pin_4",
+          "x0": "base_element.x0 + base_element.length * 2.6237",
+          "y0": "base_element.y0 + base_element.length * 2.7326",
+          "x1": "base_element.x0 + base_element.length * 5.5073",
+          "y1": "base_element.y0 + base_element.length * 5.7454"
+        },
+        {
+          "field": "pin_5",
+          "x0": "base_element.x0 + base_element.length * 6.1959",
+          "y0": "base_element.y0 - base_element.length * 2.8625",
+          "x1": "base_element.x0 + base_element.length * 10.0694",
+          "y1": "base_element.y0 + base_element.length * 0.7528"
+        },
+        {
+          "field": "pin_6",
+          "x0": "base_element.x0 + base_element.length * 6.5402",
+          "y0": "base_element.y0 + base_element.length * 2.7757",
+          "x1": "base_element.x0 + base_element.length * 9.6391",
+          "y1": "base_element.y0 + base_element.length * 5.8314"
+        },
+        {
+          "field": "pin_7",
+          "x0": "base_element.x0 + base_element.length * 22.2495",
+          "y0": "base_element.y0 - base_element.length * 2.3460",
+          "x1": "base_element.x0 + base_element.length * 25.7787",
+          "y1": "base_element.y0 + base_element.length * 0.8389"
+        },
+        {
+          "field": "pin_8",
+          "x0": "base_element.x0 + base_element.length * 22.5078",
+          "y0": "base_element.y0 + base_element.length * 2.1301",
+          "x1": "base_element.x0 + base_element.length * 25.5205",
+          "y1": "base_element.y0 + base_element.length * 5.5732"
+        },
+        {
+          "field": "pin_9",
+          "x0": "base_element.x0 + base_element.length * 26.1230",
+          "y0": "base_element.y0 - base_element.length * 2.9916",
+          "x1": "base_element.x0 + base_element.length * 30.1687",
+          "y1": "base_element.y0 + base_element.length * 0.5376"
+        },
+        {
+          "field": "pin_10",
+          "x0": "base_element.x0 + base_element.length * 26.9408",
+          "y0": "base_element.y0 + base_element.length * 2.3022",
+          "x1": "base_element.x0 + base_element.length * 29.9535",
+          "y1": "base_element.y0 + base_element.length * 5.6163"
+        },
+        {
+          "field": "pin_11",
+          "x0": "base_element.x0 + base_element.length * 30.7713",
+          "y0": "base_element.y0 - base_element.length * 2.4321",
+          "x1": "base_element.x0 + base_element.length * 34.0422",
+          "y1": "base_element.y0 + base_element.length * 1.0541"
+        },
+        {
+          "field": "pin_12",
+          "x0": "base_element.x0 + base_element.length * 30.6852",
+          "y0": "base_element.y0 + base_element.length * 2.4744",
+          "x1": "base_element.x0 + base_element.length * 33.9562",
+          "y1": "base_element.y0 + base_element.length * 5.5302"
+        },
+        {
+          "field": "link",
+          "x0": "base_element.x0 + base_element.length * 36.7967",
+          "y0": "base_element.y0 + base_element.length * 5.0137",
+          "x1": "base_element.x0 + base_element.length * 41.4880",
+          "y1": "base_element.y0 + base_element.length * 18.9153"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 20.1870",
+          "y0": "base_element.y0 + base_element.length * 5.5302",
+          "x1": "base_element.x0 - base_element.length * 5.1234",
+          "y1": "base_element.y0 + base_element.length * 10.6088"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0+base_element.length*2",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

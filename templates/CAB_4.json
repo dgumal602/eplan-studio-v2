@@ -1,0 +1,69 @@
+{
+  "name": "CAB_4",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "H",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.08561
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 0.7476",
+          "y0": "base_element.y0 - base_element.length * 0.2672",
+          "x1": "base_element.x0 + base_element.length * 0.0145",
+          "y1": "base_element.y0 + base_element.length * 0.0168",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 0.7835",
+          "y0": "base_element.y0 + base_element.length * 0.0048",
+          "x1": "base_element.x0 + base_element.length * 0.0384",
+          "y1": "base_element.y0 + base_element.length * 0.1662",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "link",
+          "x0": "",
+          "y0": "",
+          "x1": "",
+          "y1": "",
+          "multiline": true,
+          "join": "\n"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

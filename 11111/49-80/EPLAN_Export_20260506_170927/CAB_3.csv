@@ -1,0 +1,8 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"56";"CAB_3";"A";"approved";"351.5";"621.55";"1192.0";"871.0";"+D3
+-W2T13D";"";"LiYCY 2x0.75 mm²
+pre-wired";"48";"26";"= 418";"+ 400A";"forming machine D";"pinned roll";"418M13"
+"2";"60";"CAB_3";"A";"approved";"487.56";"587.54";"1192.0";"871.0";"-W1Y17B";"";"H05VV5-F 5G1.5 mm²";"52";"26";"= 418";"+ 400A";"forming machine D";"transverse belt";"418M17"
+"3";"60";"CAB_3";"A";"approved";"487.56";"655.57";"1192.0";"871.0";"+D2 -W2Y17B";"";"H05VV5-F 5G1.5 mm² pre-wired";"52";"26";"= 418";"+ 400A";"forming machine D";"transverse belt";"418M17"
+"4";"78";"CAB_3";"A";"approved";"408.19";"655.57";"1192.0";"871.0";"-W1Y3B";"";"H05VV5-F 5G1.5 mm²";"65";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M3"
+"5";"79";"CAB_3";"A";"approved";"408.19";"655.57";"1192.0";"871.0";"-W1Y4B";"";"05VV5-F 5G1.5 mm²";"66";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M4"

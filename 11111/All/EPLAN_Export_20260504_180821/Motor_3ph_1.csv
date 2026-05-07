@@ -1,0 +1,393 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"pin_4";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"11";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M0";"U1";"V1";"W1";"PE";"P = 9,0kW
+In = 18,5A
+n = 2910 1/min";"5";"23";"= 411";"+ 400A";"forming machine A";"left fan";"411M0"
+"2";"12";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M1";"U1";"V1";"W1";"PE";"P = 9,0kW
+In = 18,5A
+n = 2910 1/min";"6";"23";"= 411";"+ 400A";"forming machine A";"right fan";"411M1"
+"3";"13";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M10";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"7";"23";"= 411";"+ 400A";"forming machine A";"dosing belt cleaning brush";"411M10"
+"4";"14";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M11";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1430 1/min";"8";"23";"= 411";"+ 400A";"forming machine A";"rotary combs";"411M11"
+"5";"15";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M13";"U";"V";"W";"";"P = 1,1kW
+In = 2,85A";"9";"23";"= 411";"+ 400A";"forming machine A";"pinned roll";"411M13"
+"6";"16";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M14";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"10";"23";"= 411";"+ 400A";"forming machine A";"oscillating flap";"411M14"
+"7";"17";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M15";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"11";"23";"= 411";"+ 400A";"forming machine A";"distrbution belt left";"411M15"
+"8";"18";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M16";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"12";"23";"= 411";"+ 400A";"forming machine A";"distrbution belt right";"411M16"
+"9";"21";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M18";"U1";"V1";"W1";"PE";"P = 0,125kW
+In = 0,28A
+n = 3000 1/min";"14";"23";"= 411";"+ 400A";"forming machine A";"2nd & 3rd screen vibrator";"411M18, 411M19"
+"10";"21";"Motor_3ph_1";"A";"approved";"385.51";"700.92";"1192.0";"871.0";"+A
+-M19";"U1";"V1";"W1";"PE";"P = 0,125kW
+In = 0,28A
+n = 3000 1/min";"14";"23";"= 411";"+ 400A";"forming machine A";"2nd & 3rd screen vibrator";"411M18, 411M19"
+"11";"22";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M20";"U";"V";"W";"";"P = 3,0kW
+In = 6,9A";"15";"23";"= 411";"+ 400A";"forming machine A";"pinned roll";"411M20"
+"12";"23";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M21";"U1";"V1";"W1";"PE";"P = 0,37kW
+In = 1,3A
+n = 1380 1/min";"16";"23";"= 411";"+ 400A";"forming machine A";"slow disk rolls";"411M21"
+"13";"24";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M22";"U1";"V1";"W1";"PE";"P = 1,1kW
+In = 2,85A
+n = 1380 1/min";"17";"23";"= 411";"+ 400A";"forming machine A";"disk screen transport belt";"411M22"
+"14";"25";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M23";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1430 1/min";"18";"23";"= 411";"+ 400A";"forming machine A";"left longitudinal screw conveyor";"411M23"
+"15";"26";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M24";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1400 1/min";"19";"23";"= 411";"+ 400A";"forming machine A";"right longitudinal screw conveyor";"411M24"
+"16";"27";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M26";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"20";"23";"= 411";"+ 400A";"forming machine A";"cleaning brush transport belt";"411M26"
+"17";"28";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M30";"U1";"V1";"W1";"PE";"P = 3,0kW
+In = 6,9,A
+n = 1400 1/min";"22";"23";"= 411";"+ 400A";"forming machine A";"transversal screw conveyor";"411M30"
+"18";"29";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M30";"U1";"V1";"W1";"PE";"P = 3,0kW
+In = 6,9,A
+n = 1400 1/min";"23";"23";"= 411";"+ 400A";"forming machine A";"injection screw";"411M31"
+"19";"30";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M32";"U1";"V1";"W1";"PE";"P = 7,5kW
+In = 15,5A
+n = 1450 1/min";"24";"23";"= 411";"+ 400A";"forming machine A";"recycling conveyor";"411M32"
+"20";"31";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M33";"U1";"V1";"W1";"PE";"P = ?,?kW
+In = 3A
+n = ??? 1/min";"24a";"23";"= 411";"+ 400A";"forming machine A";"screw ???";"411M33"
+"21";"32";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M34";"U1";"V1";"W1";"PE";"P = ?,?kW
+In = ?A
+n = ??? 1/min";"24b";"23";"= 411";"+ 400A";"forming machine A";"vibrator outside";"411M34"
+"22";"33";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M10";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"25";"17";"= 413";"+ 400A";"forming machine B";"dosing belt cleaning brush";"413M10"
+"23";"34";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M11";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1430 1/min";"26";"17";"= 413";"+ 400A";"forming machine B";"rotary combs";"413M11"
+"24";"35";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M13";"U";"V";"W";"PE";"P = 1,1kW
+In = 2,85A";"27";"17";"= 413";"+ 400A";"forming machine B";"pinned roll";"413M13"
+"25";"36";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M15";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"28";"17";"= 413";"+ 400A";"forming machine B";"distrbution belt left";"413M15"
+"26";"37";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M16";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"29";"17";"= 413";"+ 400A";"forming machine B";"distrbution belt right";"413M16"
+"27";"40";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M20";"U";"V";"W";"";"P = 3,0kW
+In = 6,9A";"31";"17";"= 413";"+ 400A";"forming machine B";"fast disk rolls";"413M20"
+"28";"41";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M21";"U1";"V1";"W1";"PE";"P = 0,37kW
+In = 1,3A
+n = 1380 1/min";"32";"17";"= 413";"+ 400A";"forming machine B";"slow disk rolls";"413M21"
+"29";"42";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M22";"U1";"V1";"W1";"PE";"P = 1,1kW
+In = 2,9A
+n = 1380 1/min";"33";"17";"= 413";"+ 400A";"forming machine B";"transport belt";"413M22"
+"30";"43";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M23";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1430 1/min";"34";"17";"= 413";"+ 400A";"forming machine B";"left longitudinal screw conveyor";"413M23"
+"31";"44";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M24";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1400 1/min";"35";"17";"= 413";"+ 400A";"forming machine B";"right longitudinal screw conveyor";"413M24"
+"32";"45";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M26";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"36";"17";"= 413";"+ 400A";"forming machine B";"cleaning brush transport belt";"413M26"
+"33";"46";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M30";"U1";"V1";"W1";"PE";"P = 3,0kW
+In = 6,9,A
+n = 1400 1/min";"38";"17";"= 413";"+ 400A";"forming machine B";"transversal screw conveyor belt";"413M30"
+"34";"47";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M30";"U1";"V1";"W1";"PE";"P = 3,0kW
+In = 6,9,A
+n = 1400 1/min";"39";"17";"= 413";"+ 400A";"forming machine B";"injection screw";"413M31"
+"35";"48";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M32";"U1";"V1";"W1";"PE";"P = 9,2kW
+In = 19,0A
+n = 1440 1/min";"40";"17";"= 413";"+ 400A";"forming machine B";"recycling conveyor";"413M32"
+"36";"50";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M6";"U1";"V1";"W1";"PE";"P = 0,15kW
+In = 0,65A
+n = 1380 1/min";"42";"3";"= 416";"+ 400A";"";"width adjustment side traverse rolls";"416M6"
+"37";"51";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M25";"U1";"V1";"W1";"PE";"P = 1,1kW
+In = 2,9A
+n = 1400 1/min";"43";"3";"= 416";"+ 400A";"";"width adjustment equalizing rolls";"416M25"
+"38";"52";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M0";"U1";"V1";"W1";"PE";"P = 9,0kW
+In = 18,5A
+n = 2910 1/min";"44";"26";"= 418";"+ 400A";"forming machine D";"left fan";"418M0"
+"39";"53";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M1";"U1";"V1";"W1";"PE";"P = 9,0kW
+In = 18,5A
+n = 2910 1/min";"45";"26";"= 418";"+ 400A";"forming machine D";"right fan";"418M1"
+"40";"54";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M10";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"46";"26";"= 418";"+ 400A";"forming machine D";"dosing belt cleaning brush";"418M10"
+"41";"55";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M11";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1430 1/min";"47";"26";"= 418";"+ 400A";"forming machine D";"rotary combs";"418M11"
+"42";"56";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M13";"U";"V";"W";"PE";"P = 1,1kW
+In = 2,85A";"48";"26";"= 418";"+ 400A";"forming machine D";"pinned roll";"418M13"
+"43";"57";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M14";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"49";"26";"= 418";"+ 400A";"forming machine D";"oscillating flap";"418M14"
+"44";"58";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M15";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"50";"26";"= 418";"+ 400A";"forming machine D";"distrbution belt left";"418M15"
+"45";"59";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M16";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"51";"26";"= 418";"+ 400A";"forming machine D";"distrbution belt right";"418M16"
+"46";"62";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M18";"U1";"V1";"W1";"PE";"P = 0,125kW
+In = 0,28A
+n = 3000 1/min";"53";"26";"= 418";"+ 400A";"forming machine D";"2nd & 3rd screen vibrator";"418M18, 418M19"
+"47";"62";"Motor_3ph_1";"A";"pending";"385.51";"700.92";"1192.0";"871.0";"+A
+-M19";"U1";"V1";"W1";"PE";"P = 0,125kW
+In = 0,28A
+n = 3000 1/min";"53";"26";"= 418";"+ 400A";"forming machine D";"2nd & 3rd screen vibrator";"418M18, 418M19"
+"48";"63";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M20";"U";"V";"W";"";"P = 3,0kW
+In = 6,9A";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
+"49";"64";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M21";"U1";"V1";"W1";"PE";"P = 0,37kW
+In = 1,3A
+n = 1380 1/min";"55";"26";"= 418";"+ 400A";"forming machine D";"slow disk rolls";"418M21"
+"50";"65";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M22";"U1";"V1";"W1";"PE";"P = 1,1kW
+In = 2,9A
+n = 1380 1/min";"56";"26";"= 418";"+ 400A";"forming machine D";"transport belt";"418M22"
+"51";"66";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M23";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1400 1/min";"57";"26";"= 418";"+ 400A";"forming machine D";"left longitudinal screw conveyor";"418M23"
+"52";"67";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M24";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1400 1/min";"58";"26";"= 418";"+ 400A";"forming machine D";"right longitudinal screw conveyor";"418M24"
+"53";"68";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M26";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"59";"26";"= 418";"+ 400A";"forming machine D";"cleaning brush transport belt";"418M26"
+"54";"71";"Motor_3ph_1";"A";"pending";"170.08";"655.57";"1192.0";"871.0";"+A
+-M2";"U1";"V1";"W1";"PE";"P = 1,1kW
+In = ?,?A
+n = ???? 1/min";"59c";"26";"= 418";"+ 400A";"";"TEXPAN filter rotary valve";"418M2"
+"55";"72";"Motor_3ph_1";"A";"pending";"170.08";"655.57";"1192.0";"871.0";"+A
+-M3";"U1";"V1";"W1";"PE";"P = 1,2kW
+In = ?,?A
+n = ???? 1/min";"59d";"26";"= 418";"+ 400A";"";"TEXPAN filter screw conveyor";"418M3"
+"56";"73";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M30";"U1";"V1";"W1";"PE";"P = 3,0kW
+In = 6,9,A
+n = 1400 1/min";"61";"26";"= 418";"+ 400A";"forming machine D";"transversal screw conveyor belt";"418M30"
+"57";"74";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M30";"U1";"V1";"W1";"PE";"P = 3,0kW
+In = 6,9,A
+n = 1400 1/min";"62";"26";"= 418";"+ 400A";"forming machine D";"injection screw";"418M31"
+"58";"75";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M32";"U1";"V1";"W1";"PE";"P = 7,5kW
+In = 15,5A
+n = 1450 1/min";"63";"26";"= 418";"+ 400A";"forming machine D";"recycling conveyor";"418M32"
+"59";"76";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M33";"U1";"V1";"W1";"PE";"P = 3,0kW
+In = 6,0A
+n = 1400 1/min";"81";"26";"= 418";"+ 400A";"forming machine D";"recycling screw conveyor";"418M33"
+"60";"77";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M1";"U1";"V1";"W1";"PE";"P = 0,12 kW
+In = 0,71 A
+n = 1430 1/min";"64";"5";"= 420";"+ 400A";"forming line";"forming belt
+belt adjustment";"420M1"
+"61";"78";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M3";"U1";"V1";"W1";"PE";"P = 5,5 kW
+In = 11, 6A
+n = 1430 1/min";"65";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M3"
+"62";"79";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M3";"U1";"V1";"W1";"PE";"P = 5,5 kW
+In = 11, 6A
+n = 1430 1/min";"66";"5";"= 420";"+ 400A";"forming line";"hogger drive";"420M4"
+"63";"80";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M9";"U1";"V1";"W1";"PE";"P = 11 kW
+In = 21 A
+n = 2925 1/min";"67";"5";"= 420";"+ 400A";"forming line";"HP - pump";"420M9"
+"64";"81";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M15";"U1";"V1";"W1";"PE";"P = 0,75 kW
+In = 2,2 A
+n = 1380 1/min";"68";"5";"= 420";"+ 400A";"forming line";"cleaning brush";"420M15"
+"65";"82";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M1";"U1";"V1";"W1";"PE";"P = 30 kW
+In = 61 A
+n = 1480 1/min";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"66";"83";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M2";"U1";"V1";"W1";"PE";"P = 0,55 kW
+In = 1,85 A
+n = 1480 1/min";"70";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+cooling - fan";"421M2"
+"67";"84";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M3";"U1";"V1";"W1";"PE";"P = 0,15 kW
+In = 0,65 A
+n = 1400 1/min";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"68";"85";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M4";"U1";"V1";"W1";"PE";"P = 0,15 kW
+In = 0,65 A
+n = 1400 1/min";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"69";"86";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M5";"U1";"V1";"W1";"PE";"P = 0,15 kW
+In = 0,65 A
+n = 1400 1/min";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"70";"88";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M13";"U1";"V1";"W1";"PE";"P = 0,2 kW
+In = 0,8 A
+n = ?? 1/min";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13"
+"71";"89";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M1.1";"U1";"V1";"W1";"PE";"P = 4,0 kW
+In = 8,1 A
+n = 2900 1/min";"72";"29";"= 427";"+ 400A";"press hydraulics";"cooling and filtering pump";"427M1.1"
+"72";"90";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M1";"U1";"V1";"W1";"PE";"P = 4,0 kW
+In = 8,8 A
+n = 1000 1/min";"73";"29";"= 427";"+ 400A";"press hydraulics";"fan air cooling";"427M1.2"
+"73";"92";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M3";"U1";"V1";"W1";"PE";"P = 55 kW
+In = 108 A
+n = 1450 1/min";"75";"29";"= 427";"+ 400A";"press";"hydraulics HP - pump";"427M3"
+"74";"93";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M4";"U1";"V1";"W1";"PE";"P = 1,5 kW
+In = 3,3 A
+n = 1400 1/min";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4"
+"75";"94";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M5";"U1";"V1";"W1";"PE";"P = 1,5 kW
+In = 3,3 A
+n = 1400 1/min";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5"
+"76";"95";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M8.1";"U1";"V1";"W1";"PE";"P = 2,2 kW
+In = 4,7 A";"77";"29";"= 427";"+ 400A";"press hydraulics";"washing pump";"427M8.1"
+"77";"96";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M8.2";"U1";"V1";"W1";"PE";"P = 0,03 kW
+In = 0,5 A
+n = 2800 1/min";"78";"29";"= 427";"+ 400A";"press hydraulics";"stop cock 21 close";"427M8.2"
+"78";"97";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M23";"U1";"V1";"W1";"PE";"P = 5,5 kW
+In = 11,8 A
+n = 14300 1/min";"79";"29";"= 427";"+ 400A";"press";"exhaust oil mist";"427M23"
+"79";"100";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M28";"U1";"V1";"W1";"PE";"P = 0,18 kW
+In = 0,7 A
+n = 1340 1/min";"82";"29";"= 427";"+ 400A";"press";"pump roll rod chain belt lubrication";"427M28"
+"80";"101";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M29";"U1";"V1";"W1";"PE";"P = 0,18 kW
+In = 0,7 A
+n = 1340 1/min";"83";"29";"= 427";"+ 400A";"press";"pump align and press lubrication of chain";"427M29"
+"81";"102";"Motor_3ph_1";"A";"pending";"170.08";"712.26";"1192.0";"871.0";"+A
+-M30";"U1";"V1";"W1";"PE";"P = 0,2 kW
+In = 0,3 A
+n = 1/min";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"82";"117";"Motor_3ph_1";"A";"pending";"170.08";"655.57";"1192.0";"871.0";"+A
+-M?";"U1";"V1";"W1";"PE";"P = ??kW
+In = ?,?A
+n = ???? 1/min";"100";"29";"= 427";"+ 400A";"press";"central hydraulic band control";"427M?"
+"83";"126";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M01";"U";"V";"W";"PE";"P = ?,?kW
+In = ?,?A
+n = ???? 1/min";"98";"21";"= 414";"+ 400H10";"forming machine C";"transport belt to matformer C";"414M01"
+"84";"127";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M02";"U";"V";"W";"PE";"P = ?,?kW
+In = ?,?A
+n = ???? 1/min";"99";"21";"= 414";"+ 400H10";"forming machine C";"transport belt ??";"414M02"
+"85";"128";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M3";"U";"V";"W";"PE";"P = 1,5kW
+In = 3,7A
+= 568 - 2272 1/min";"100";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M3"
+"86";"130";"Motor_3ph_1";"A";"pending";"170.08";"723.6";"1192.0";"871.0";"+A
+-M5";"U";"V";"W";"PE";"P = 0,37kW
+In = 1,3A
+= 552 - 2208 1/min
+1. cage type roller";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"87";"130";"Motor_3ph_1";"A";"pending";"374.17";"723.6";"1192.0";"871.0";"+A
+-M6";"U";"V";"W";"PE";"P = 0,37kW
+In = 1,3A
+= 552 - 2208 1/min
+4. cage type roller";"103";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M5, 414M6"
+"88";"132";"Motor_3ph_1";"A";"pending";"170.08";"723.6";"1192.0";"871.0";"+A
+-M7";"U";"V";"W";"PE";"P = 0,37kW
+In = 1,3A
+= 552 - 2208 1/min
+1. cage type roller";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"89";"132";"Motor_3ph_1";"A";"pending";"374.17";"723.6";"1192.0";"871.0";"+A
+-M8";"U";"V";"W";"PE";"P = 0,37kW
+In = 1,3A
+= 552 - 2208 1/min
+4. cage type roller";"106";"21";"= 414";"+ 400H10";"forming machine C";"cage type roller conveyor";"414M7, 414M8"
+"90";"134";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M10";"U";"V";"W";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"109";"21";"= 414";"+ 400H10";"forming machine C";"dosing belt cleaning brush";"414M10"
+"91";"135";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M11";"U";"V";"W";"PE";"P = 2,2kW
+In = 5,2A
+n = 1430 1/min";"110";"21";"= 414";"+ 400H10";"forming machine C";"rotary combs";"414M11"
+"92";"136";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M13";"U";"V";"W";"PE";"P = 1,1kW
+In = 2,85A";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13"
+"93";"137";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M15";"U";"V";"W";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"112";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt left";"414M15"
+"94";"138";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M16";"U";"V";"W";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"113";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt right";"414M16"
+"95";"141";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M20";"U";"V";"W";"PE";"P = 3,0kW
+In = 6,9A";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20"
+"96";"142";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M21";"U";"V";"W";"PE";"P = 0,37kW
+In = 1,3A
+n = 1380 1/min";"117";"21";"= 414";"+ 400H10";"forming machine C";"slow disks rolls";"414M21"
+"97";"143";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M22";"U";"V";"W";"PE";"P = 1,1kW
+In = 2,9A
+n = 1400 1/min";"118";"21";"= 414";"+ 400H10";"forming machine C";"transport belt";"422M11"
+"98";"144";"Motor_3ph_1";"A";"pending";"170.08";"700.92";"1192.0";"871.0";"+A
+-M26";"U";"V";"W";"P";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"119";"21";"= 414";"+ 400H10";"forming machine C";"transport belt cleaning brush";"414M26"

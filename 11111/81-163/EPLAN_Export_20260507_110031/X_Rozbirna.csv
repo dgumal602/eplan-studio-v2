@@ -1,0 +1,14 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"81";"X_Rozbirna";"A";"approved";"873.07";"236.04";"1192.0";"871.0";"=400
+-XV";"2";"68";"5";"= 420";"+ 400A";"forming line";"cleaning brush";"420M15"
+"2";"82";"X_Rozbirna";"A";"approved";"873.07";"236.04";"1192.0";"871.0";"=400
+-XV";"2";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"3";"83";"X_Rozbirna";"A";"approved";"873.07";"236.04";"1192.0";"871.0";"=400 -XV";"2";"70";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+cooling - fan";"421M2"
+"4";"87";"X_Rozbirna";"A";"approved";"1009.13";"236.04";"1192.0";"871.0";"=400
+-XV";"2";"71c";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1 - 2 - 3 421M";"3, 421M4, 421M5"
+"5";"88";"X_Rozbirna";"A";"approved";"873.07";"236.04";"1192.0";"871.0";"=400 -XV";"2";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13"
+"6";"92";"X_Rozbirna";"A";"approved";"873.07";"236.04";"1192.0";"871.0";"=400
+-XV";"2";"75";"29";"= 427";"+ 400A";"press";"hydraulics HP - pump";"427M3"

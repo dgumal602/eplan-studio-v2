@@ -1,0 +1,246 @@
+{
+  "name": "Motor_3ph_1_PTC",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 1,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.016809
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -2.0978,
+        "length_ratio": 0.3872
+      },
+      {
+        "role": "top_line",
+        "type": "D",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -1.7106,
+        "length_ratio": 0.7747,
+        "x1_offset_ratio": 0.6102,
+        "y1_offset_ratio": -1.2332,
+        "angle": 38.04
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 0.3872,
+        "y0_offset_ratio": -1.7106,
+        "length_ratio": 2.3233,
+        "width_ratio": 2.3233,
+        "height_ratio": 2.3233,
+        "radius_ratio": 1.1617,
+        "path_ratios": [
+          [
+            "m",
+            [
+              2.71056,
+              -0.54889
+            ]
+          ],
+          [
+            "c",
+            [
+              2.71056,
+              -1.19046
+            ],
+            [
+              2.19046,
+              -1.71056
+            ],
+            [
+              1.54889,
+              -1.71056
+            ]
+          ],
+          [
+            "c",
+            [
+              0.90731,
+              -1.71056
+            ],
+            [
+              0.38722,
+              -1.19046
+            ],
+            [
+              0.38722,
+              -0.54889
+            ]
+          ],
+          [
+            "c",
+            [
+              0.38722,
+              0.09268
+            ],
+            [
+              0.90731,
+              0.61278
+            ],
+            [
+              1.54889,
+              0.61278
+            ]
+          ],
+          [
+            "c",
+            [
+              2.19046,
+              0.61278
+            ],
+            [
+              2.71056,
+              0.09268
+            ],
+            [
+              2.71056,
+              -0.54889
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 1.5489,
+        "y0_offset_ratio": -2.0978,
+        "length_ratio": 0.3872
+      },
+      {
+        "role": "top_line_1",
+        "type": "D",
+        "x0_offset_ratio": 3.0978,
+        "y0_offset_ratio": -1.7106,
+        "length_ratio": 0.7744,
+        "x1_offset_ratio": 2.4782,
+        "y1_offset_ratio": -1.2459,
+        "angle": 143.13
+      },
+      {
+        "role": "right_wall_2",
+        "type": "V",
+        "x0_offset_ratio": 3.0978,
+        "y0_offset_ratio": -2.0978,
+        "length_ratio": 0.3872
+      },
+      {
+        "role": "top_line_2",
+        "type": "H",
+        "x0_offset_ratio": 2.9042,
+        "y0_offset_ratio": -0.5489,
+        "length_ratio": 1.7425
+      },
+      {
+        "role": "right_wall_3",
+        "type": "V",
+        "x0_offset_ratio": 4.6467,
+        "y0_offset_ratio": -2.0978,
+        "length_ratio": 1.5489
+      },
+      {
+        "role": "right_wall_4",
+        "type": "V",
+        "x0_offset_ratio": 2.9042,
+        "y0_offset_ratio": -0.8393,
+        "length_ratio": 0.5808
+      },
+      {
+        "role": "top_line_3",
+        "type": "H",
+        "x0_offset_ratio": 1.9347,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.163
+      },
+      {
+        "role": "right_wall_5",
+        "type": "V",
+        "x0_offset_ratio": 3.0978,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 3.4200",
+          "y0": "base_element.y0 - base_element.length * 1.8367",
+          "x1": "base_element.x0 - base_element.length * 0.0405",
+          "y1": "base_element.y0 + base_element.length * 0.8906",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 0.5868",
+          "y0": "base_element.y0 - base_element.length * 2.7983",
+          "x1": "base_element.x0 + base_element.length * 1.0343",
+          "y1": "base_element.y0 - base_element.length * 1.6114"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 + base_element.length * 0.9266",
+          "y0": "base_element.y0 - base_element.length * 2.8076",
+          "x1": "base_element.x0 + base_element.length * 2.5015",
+          "y1": "base_element.y0 - base_element.length * 1.6403"
+        },
+        {
+          "field": "pin_3",
+          "x0": "base_element.x0 + base_element.length * 2.5015",
+          "y0": "base_element.y0 - base_element.length * 2.8446",
+          "x1": "base_element.x0 + base_element.length * 4.1320",
+          "y1": "base_element.y0 - base_element.length * 1.6218"
+        },
+        {
+          "field": "pin_4",
+          "x0": "base_element.x0 + base_element.length * 4.1690",
+          "y0": "base_element.y0 - base_element.length * 2.8817",
+          "x1": "base_element.x0 + base_element.length * 5.5771",
+          "y1": "base_element.y0 - base_element.length * 1.5477"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 2.3759",
+          "y0": "base_element.y0 + base_element.length * 2.3200",
+          "x1": "base_element.x0 + base_element.length * 5.7995",
+          "y1": "base_element.y0 + base_element.length * 7.6468",
+          "multiline": true,
+          "join": "\n"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0-base_element.length*0.5",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

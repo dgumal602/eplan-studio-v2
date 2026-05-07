@@ -1,0 +1,44 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"pin_4";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"82";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M1";"U1";"V1";"W1";"PE";"P = 30 kW
+In = 61 A
+n = 1480 1/min";"69";"7";"= 421";"+ 400A";"pre - press";"hydraulics
+HP - pump";"421M1"
+"2";"84";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M3";"U1";"V1";"W1";"PE";"P = 0,15 kW
+In = 0,65 A
+n = 1400 1/min
+pre - press
+bottom";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"3";"85";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M4";"U1";"V1";"W1";"PE";"P = 0,15 kW
+In = 0,65 A
+n = 1400 1/min
+pre - press
+bottom";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"4";"86";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M5";"U1";"V1";"W1";"PE";"P = 0,15 kW
+In = 0,65 A
+n = 1400 1/min
+pre - press
+top";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"5";"93";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M4";"U1";"V1";"W1";"PE";"P = 1,5 kW
+In = 3,3 A
+n = 1400 1/min
+upper
+cleaning brush 1";"76";"29";"= 427";"+ 400A";"press";"upper cleaning brush 1";"427M4"
+"6";"94";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M5";"U1";"V1";"W1";"PE";"P = 1,5 kW
+In = 3,3 A
+n = 1400 1/min
+upper
+cleaning brush 2";"76a";"29";"= 427";"+ 400A";"press";"upper cleaning brush 2";"427M5"
+"7";"136";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M13";"U";"V";"W";"PE";"P = 1,1kW
+In = 2,85A
+n = 1400 1/min";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13"
+"8";"141";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M20";"U";"V";"W";"PE";"P = 3,0kW
+In = 6,9A
+n = 1400 1/min";"116";"21";"= 414";"+ 400H10";"forming machine C";"fast disks rolls";"414M20"

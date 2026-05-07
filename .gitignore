@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# SQLite бази (локальні дані користувача)
+*.db
+*.sqlite
+
+# PDF файли (великі, не треба в репо)
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Локальні налаштування
+*.epss

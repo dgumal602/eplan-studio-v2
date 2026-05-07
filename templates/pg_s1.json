@@ -1,0 +1,125 @@
+{
+  "name": "pg_S1",
+  "version": "1.0",
+  "enabled": true,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.026036
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.5,
+        "length_ratio": 3.375
+      },
+      {
+        "role": "top_line",
+        "type": "H",
+        "x0_offset_ratio": -5.125,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 8.5
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": -1.375,
+        "y0_offset_ratio": -1.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": -5.125,
+        "y0_offset_ratio": -1.0,
+        "length_ratio": 1.0
+      }
+    ],
+    "constraints": {}
+  },
+  "variants": [
+    {
+      "name": "variant_0",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Page",
+          "x0": "base_element.x0 + base_element.length * 0.9584",
+          "y0": "base_element.y0 - base_element.length * 0.0089",
+          "x1": "base_element.x0 + base_element.length * 3.3851",
+          "y1": "base_element.y0 + base_element.length * 0.5001"
+        },
+        {
+          "field": "Sheets",
+          "x0": "base_element.x0 + base_element.length * 1.1715",
+          "y0": "base_element.y0 + base_element.length * 0.4883",
+          "x1": "base_element.x0 + base_element.length * 3.3673",
+          "y1": "base_element.y0 + base_element.length * 1.0091"
+        },
+        {
+          "field": "=",
+          "x0": "base_element.x0 - base_element.length * 5.1259",
+          "y0": "base_element.y0 - base_element.length * 1.0091",
+          "x1": "base_element.x0 - base_element.length * 1.3735",
+          "y1": "base_element.y0 + base_element.length * 0.0089"
+        },
+        {
+          "field": "+",
+          "x0": "base_element.x0 - base_element.length * 1.3794",
+          "y0": "base_element.y0 - base_element.length * 1.0209",
+          "x1": "base_element.x0 + base_element.length * 3.3614",
+          "y1": "base_element.y0 + base_element.length * 0.0030"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 22.8842",
+          "y0": "base_element.y0 - base_element.length * 1.0299",
+          "x1": "base_element.x0 - base_element.length * 13.1855",
+          "y1": "base_element.y0 - base_element.length * 0.4750"
+        },
+        {
+          "field": "txt_2",
+          "x0": "base_element.x0 - base_element.length * 22.8726",
+          "y0": "base_element.y0 - base_element.length * 0.4866",
+          "x1": "base_element.x0 - base_element.length * 13.1739",
+          "y1": "base_element.y0 + base_element.length * 0.6116",
+          "multiline": true,
+          "join": "\n",
+          "separator": "\\n"
+        },
+        {
+          "field": "txt_3",
+          "x0": "base_element.x0 - base_element.length * 13.1971",
+          "y0": "base_element.y0 - base_element.length * 1.0299",
+          "x1": "base_element.x0 - base_element.length * 9.5904",
+          "y1": "base_element.y0 + base_element.length * 0.6000",
+          "multiline": true,
+          "join": "\n"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0 + base_element.length * 3.3750",
+    "y": "base_element.y0 + base_element.length * 1.0000",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {},
+  "Page_Data": true,
+  "priority": 0
+}

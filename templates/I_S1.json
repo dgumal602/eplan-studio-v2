@@ -1,0 +1,154 @@
+{
+  "name": "I_S1",
+  "version": "1.0",
+  "enabled": true,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.104143
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "top_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.5625,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.375,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_3",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.25,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_4",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.125,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 0.75,
+        "y0_offset_ratio": -0.0313,
+        "length_ratio": 0.0313
+      }
+    ],
+    "constraints": {}
+  },
+  "variants": [
+    {
+      "name": "variant_0",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "adr",
+          "x0": "base_element.x0 - base_element.length * 0.0061",
+          "y0": "base_element.y0 + base_element.length * 0.1067",
+          "x1": "base_element.x0 + base_element.length * 0.55",
+          "y1": "base_element.y0 + base_element.length * 0.2546"
+        },
+        {
+          "field": "go_adr",
+          "x0": "base_element.x0 + base_element.length * 0.55",
+          "y0": "base_element.y0 + base_element.length * 0.1067",
+          "x1": "base_element.x0 + base_element.length * 1.7",
+          "y1": "base_element.y0 + base_element.length * 0.2499"
+        },
+        {
+          "field": "plc",
+          "x0": "base_element.x0 - base_element.length * 0.0050",
+          "y0": "base_element.y0 + base_element.length * 0.2369",
+          "x1": "base_element.x0 + base_element.length * 0.55",
+          "y1": "base_element.y0 + base_element.length * 0.3766"
+        },
+        {
+          "field": "go_plc",
+          "x0": "base_element.x0 + base_element.length * 0.55",
+          "y0": "base_element.y0 + base_element.length * 0.2393",
+          "x1": "base_element.x0 + base_element.length * 1.7",
+          "y1": "base_element.y0 + base_element.length * 0.3766"
+        },
+        {
+          "field": "var",
+          "x0": "base_element.x0 - base_element.length * 0.0073",
+          "y0": "base_element.y0 + base_element.length * 0.3683",
+          "x1": "base_element.x0 + base_element.length * 1.5090",
+          "y1": "base_element.y0 + base_element.length * 0.5648"
+        },
+        {
+          "field": "decription",
+          "x0": "base_element.x0 - base_element.length * 0.0085",
+          "y0": "base_element.y0 + base_element.length * 0.5553",
+          "x1": "base_element.x0 + base_element.length * 1.4996",
+          "y1": "base_element.y0 + base_element.length * 0.9980",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin",
+          "x0": "base_element.x0 + base_element.length * 0.0365",
+          "y0": "base_element.y0 - base_element.length * 0.1502",
+          "x1": "base_element.x0 + base_element.length * 1.5694",
+          "y1": "base_element.y0 + base_element.length * 0.0144",
+          "multiline": true,
+          "join": "\n",
+          "separator": "/",
+          "collect": "join"
+        },
+        {
+          "field": "ch",
+          "x0": "base_element.x0 - base_element.length * 0.0085",
+          "y0": "base_element.y0 - base_element.length * 0.0141",
+          "x1": "base_element.x0 + base_element.length * 1.5007",
+          "y1": "base_element.y0 + base_element.length * 0.1280",
+          "collect": "join",
+          "separator": "/"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0 + base_element.length * 0.75",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

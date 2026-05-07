@@ -1,0 +1,43 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"pin_4";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"11";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M0";"U1";"V1";"W1";"PE";"P = 9,0kW
+In = 18,5A
+n = 2910 1/min";"5";"23";"= 411";"+ 400A";"forming machine A";"left fan";"411M0"
+"2";"12";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M1";"U1";"V1";"W1";"PE";"P = 9,0kW
+In = 18,5A
+n = 2910 1/min";"6";"23";"= 411";"+ 400A";"forming machine A";"right fan";"411M1"
+"3";"13";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M10";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"7";"23";"= 411";"+ 400A";"forming machine A";"dosing belt cleaning brush";"411M10"
+"4";"14";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M11";"U1";"V1";"W1";"PE";"P = 2,2kW
+In = 5,2A
+n = 1430 1/min";"8";"23";"= 411";"+ 400A";"forming machine A";"rotary combs";"411M11"
+"5";"15";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M13";"U";"V";"W";"";"P = 1,1kW
+In = 2,85A";"9";"23";"= 411";"+ 400A";"forming machine A";"pinned roll";"411M13"
+"6";"16";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M14";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,2A
+n = 1380 1/min";"10";"23";"= 411";"+ 400A";"forming machine A";"oscillating flap";"411M14"
+"7";"17";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M15";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"11";"23";"= 411";"+ 400A";"forming machine A";"distrbution belt left";"411M15"
+"8";"18";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M16";"U1";"V1";"W1";"PE";"P = 0,75kW
+In = 2,1A
+n = 2700 1/min";"12";"23";"= 411";"+ 400A";"forming machine A";"distrbution belt right";"411M16"
+"9";"21";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M18";"U1";"V1";"W1";"PE";"P = 0,125kW
+In = 0,28A
+n = 3000 1/min";"14";"23";"= 411";"+ 400A";"forming machine A";"2nd & 3rd screen vibrator";"411M18, 411M19"
+"10";"21";"Motor_3ph_1";"A";"approved";"385.51";"700.92";"1192.0";"871.0";"+A
+-M19";"U1";"V1";"W1";"PE";"P = 0,125kW
+In = 0,28A
+n = 3000 1/min";"14";"23";"= 411";"+ 400A";"forming machine A";"2nd & 3rd screen vibrator";"411M18, 411M19"
+"11";"22";"Motor_3ph_1";"A";"approved";"170.08";"700.92";"1192.0";"871.0";"+A
+-M20";"U";"V";"W";"";"P = 3,0kW
+In = 6,9A";"15";"23";"= 411";"+ 400A";"forming machine A";"pinned roll";"411M20"

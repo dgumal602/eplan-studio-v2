@@ -1,0 +1,226 @@
+{
+  "name": "Motor_3ph_1",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 2,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 4.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 8.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_2",
+        "type": "V",
+        "x0_offset_ratio": 12.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 4.0
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 7.5,
+        "y0_offset_ratio": 4.0,
+        "length_ratio": 4.5
+      },
+      {
+        "role": "right_wall_3",
+        "type": "V",
+        "x0_offset_ratio": 7.5,
+        "y0_offset_ratio": 3.25,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "D",
+        "x0_offset_ratio": 8.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 2.0,
+        "x1_offset_ratio": 6.4,
+        "y1_offset_ratio": 2.2,
+        "angle": 143.13
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 1.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 6.0,
+        "width_ratio": 6.0,
+        "height_ratio": 6.0,
+        "radius_ratio": 3.0,
+        "path_ratios": [
+          [
+            "m",
+            [
+              6.99998,
+              3.99998
+            ]
+          ],
+          [
+            "c",
+            [
+              6.99998,
+              2.34313
+            ],
+            [
+              5.65684,
+              1.0
+            ],
+            [
+              3.99998,
+              1.0
+            ]
+          ],
+          [
+            "c",
+            [
+              2.34313,
+              1.0
+            ],
+            [
+              0.99998,
+              2.34313
+            ],
+            [
+              0.99998,
+              3.99998
+            ]
+          ],
+          [
+            "c",
+            [
+              0.99998,
+              5.65684
+            ],
+            [
+              2.34313,
+              6.99998
+            ],
+            [
+              3.99998,
+              6.99998
+            ]
+          ],
+          [
+            "c",
+            [
+              5.65684,
+              6.99998
+            ],
+            [
+              6.99998,
+              5.65684
+            ],
+            [
+              6.99998,
+              3.99998
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "D",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 2.0007,
+        "x1_offset_ratio": 1.5758,
+        "y1_offset_ratio": 2.2327,
+        "angle": 38.04
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 8.3188",
+          "y0": "base_element.y0 - base_element.length * 0.4609",
+          "x1": "base_element.x0 - base_element.length * 0.2460",
+          "y1": "base_element.y0 + base_element.length * 7.2428",
+          "collect": "join",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 0.8457",
+          "y0": "base_element.y0 - base_element.length * 1.9371",
+          "x1": "base_element.x0 + base_element.length * 2.7986",
+          "y1": "base_element.y0 + base_element.length * 0.5540"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 + base_element.length * 2.7524",
+          "y0": "base_element.y0 - base_element.length * 1.8448",
+          "x1": "base_element.x0 + base_element.length * 6.7658",
+          "y1": "base_element.y0 + base_element.length * 0.6001"
+        },
+        {
+          "field": "pin_3",
+          "x0": "base_element.x0 + base_element.length * 6.6274",
+          "y0": "base_element.y0 - base_element.length * 1.7987",
+          "x1": "base_element.x0 + base_element.length * 10.5484",
+          "y1": "base_element.y0 + base_element.length * 1.0153"
+        },
+        {
+          "field": "pin_4",
+          "x0": "base_element.x0 + base_element.length * 10.4562",
+          "y0": "base_element.y0 - base_element.length * 1.6142",
+          "x1": "base_element.x0 + base_element.length * 14.2388",
+          "y1": "base_element.y0 + base_element.length * 1.1075"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 4.6284",
+          "y0": "base_element.y0 + base_element.length * 7.3668",
+          "x1": "base_element.x0 + base_element.length * 17.6438",
+          "y1": "base_element.y0 + base_element.length * 19.0435",
+          "multiline": true,
+          "join": "\n"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0+base_element.length*4",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

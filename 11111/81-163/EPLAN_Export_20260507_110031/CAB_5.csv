@@ -1,0 +1,16 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"84";"CAB_5";"A";"approved";"158.74";"315.41";"1192.0";"871.0";"-W21.1";"";"NYY-J 19x2.5 mm²";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"2";"84";"CAB_5";"A";"approved";"158.74";"406.12";"1192.0";"871.0";"+421KK1 -W92.3";"";"ÖLFLEX FD CLASSIC 810 12G2.5 mm²";"71";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 1";"421M3"
+"3";"85";"CAB_5";"A";"approved";"158.74";"315.41";"1192.0";"871.0";"-W21.1";"";"/71.1";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"4";"85";"CAB_5";"A";"approved";"158.74";"406.12";"1192.0";"871.0";"+421KK1 -W92.3";"";"/71.1";"71a";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 2";"421M4"
+"5";"86";"CAB_5";"A";"approved";"158.74";"315.41";"1192.0";"871.0";"-W21.1";"";"/71.1";"71b";"7";"= 421";"+ 400A";"pre - press";"cleaning brush 3";"421M5"
+"6";"88";"CAB_5";"A";"approved";"657.64";"712.26";"1192.0";"871.0";"=400/4a.9/L2.0 0";"";"";"71d";"7";"= 421";"+ 400A";"pre - press";"belt adjustment
+air evacuation belt";"421M13"
+"7";"102";"CAB_5";"A";"approved";"657.64";"485.49";"1192.0";"871.0";"=400/4a.9/L2.15 2";"";"";"84";"29";"= 427";"+ 400A";"press";"belt adjustment
+middle belt";"427M30"
+"8";"136";"CAB_5";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M11-M17";"";"/110.1";"111";"21";"= 414";"+ 400H10";"forming machine C";"pinned roll";"414M13"
+"9";"137";"CAB_5";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M11-M17";"";"/110.1";"112";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt left";"414M15"
+"10";"138";"CAB_5";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M11-M17";"";"/110.1";"113";"21";"= 414";"+ 400H10";"forming machine C";"distribution belt right";"414M16"
+"11";"142";"CAB_5";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M20-M26";"";"/116.1";"117";"21";"= 414";"+ 400H10";"forming machine C";"slow disks rolls";"414M21"
+"12";"143";"CAB_5";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M20-M26";"";"/116.1";"118";"21";"= 414";"+ 400H10";"forming machine C";"transport belt";"422M11"
+"13";"144";"CAB_5";"A";"approved";"158.74";"553.52";"1192.0";"871.0";"-W1M20-M26";"";"/116.1";"119";"21";"= 414";"+ 400H10";"forming machine C";"transport belt cleaning brush";"414M26"

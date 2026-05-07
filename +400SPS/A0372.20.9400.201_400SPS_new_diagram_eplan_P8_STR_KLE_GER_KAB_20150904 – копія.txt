@@ -1,0 +1,2914 @@
+A0372_20_9400 
+Sheets 51
+general 
+
+
+= 400 + 400SPS
+power supply 380V 
+drawing number: 
+page 1 A0372_20_9400 
+Sheets 104Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+
+control voltage 
+
+
+
+= 400 
++ 400SPS
+
+power supply / potential distribution 400P1 spare 
+drawing number: 
+page 7r A0372_20_9400 
+Sheets 104Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+
+general 
+
+
+
+= 400 
++ 400SPS
+
+control voltage switch on 
+drawing number: 
+page 11 A0372_20_9400 
+Sheets 104Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
+A0372_20_9400 
+Sheets 104
+
++ 400SPS
+
+
+matformer A general signals 
+drawing number: 
+page 31 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A general signals 
+drawing number: 
+page 32 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A general signals 
+drawing number: 
+page 33 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M0 right fan 
+drawing number: 
+page 34 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M1 left fan 
+drawing number: 
+page 35 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M9 dosing belt 
+drawing number: 
+page 36 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M9 dosing belt 
+drawing number: 
+page 37 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M10 cleaning brush 
+drawing number: 
+page 38 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M11 rotary combs 
+drawing number: 
+page 39 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M13 pinned roll 
+drawing number: 
+page 40 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M14 oscillating flap 
+drawing number: 
+page 41 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M15 distribution belt left 
+drawing number: 
+page 42 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M16 distribution belt right 
+drawing number: 
+page 43 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M17 transverse belt 
+drawing number: 
+page 44 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M17 transverse belt 
+drawing number: 
+page 44a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M17 transverse belt 
+drawing number: 
+page 44b A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M17 transverse belt 
+drawing number: 
+page 45 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M18/M19 screen vibrator 2+3 
+drawing number: 
+page 46 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M20 fast disks rolls 
+drawing number: 
+page 47 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M21 slow disks rolls 
+drawing number: 
+page 48 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M22 disk screen transport belt 
+drawing number: 
+page 49 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M22 disk screen transport belt 
+drawing number: 
+page 50 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M22 disk screen transport belt 
+drawing number: 
+page 50a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M23 left longitudinal screw conveyor 
+drawing number: 
+page 51 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M24 right longitudinal screw conveyor 
+drawing number: 
+page 52 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M26 cleaning brush 
+drawing number: 
+page 53 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A spare 
+drawing number: 
+page 54 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M30 transversal screw conveyor 
+drawing number: 
+page 55 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M30 transversal screw conveyor 
+drawing number: 
+page 55a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M31 injection screw 
+drawing number: 
+page 56 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M32 recycling conveyor 
+drawing number: 
+page 57 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M32 recycling conveyor 
+drawing number: 
+page 57a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A level 
+drawing number: 
+page 58 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A level 
+drawing number: 
+page 58a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A level / lamp windchamber 
+drawing number: 
+page 59 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer A 411M33 drive 411M33 
+drawing number: 
+page 60 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B general signals 
+drawing number: 
+page 62 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B general signals 
+drawing number: 
+page 63 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B general signals 
+drawing number: 
+page 64 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M3 
+drawing number: 
+page 65 A0372_20_9400 
+
+
+1. group pinned roll 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M5/M6 pinned rolls 
+drawing number: 
+page 66 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M7/M8 pinned rolls 
+drawing number: 
+page 67 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M9 dosing belt 
+drawing number: 
+page 68 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M9 dosing belt 
+drawing number: 
+page 69 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M10 cleaning brush 
+drawing number: 
+page 70 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M11 rotary combs 
+drawing number: 
+page 71 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M13 pinned roll 
+drawing number: 
+page 72 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M15 distribution belt left 
+drawing number: 
+page 73 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M16 distribution belt right 
+drawing number: 
+page 74 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M17 transverse belt 
+drawing number: 
+page 75 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M17 transverse belt 
+drawing number: 
+page 75a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M17 transverse belt 
+drawing number: 
+page 75b A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M17 transverse belt 
+drawing number: 
+page 76 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M20 fast disks rolls 
+drawing number: 
+page 77 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M21 slow disks rolls 
+drawing number: 
+page 78 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M22 disk screen transport belt 
+drawing number: 
+page 79 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M22 disk screen transport belt 
+drawing number: 
+page 80 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M22 disk screen transport belt 
+drawing number: 
+page 80a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M23 left longitudinal screw conveyor 
+drawing number: 
+page 81 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M24 right longitudinal screw conveyor 
+drawing number: 
+page 82 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M26 cleaning brush 
+drawing number: 
+page 83 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B spare 
+drawing number: 
+page 84 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M30 transversal screw conveyor 
+drawing number: 
+page 85 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M30 transversal screw conveyor 
+drawing number: 
+page 85a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M31 injection screw 
+drawing number: 
+page 86 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M32 recycling conveyor 
+drawing number: 
+page 87 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B 413M32 recycling conveyor 
+drawing number: 
+page 87a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B level 
+drawing number: 
+page 88 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B level 
+drawing number: 
+page 88a A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B level / lamp windchamber 
+drawing number: 
+page 89 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B spare 
+drawing number: 
+page 90 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer B spare 
+drawing number: 
+page 91 A0372_20_9400 
+Sheets 36Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 15
+
+A0372_20_9400 
+Sheets 15
+
++ 400SPS
+
+
+equalizing rolls safety for 416M2, 416M4, 416M5 excessive mat variation 
+drawing number: 
+page 94 A0372_20_9400 
+Sheets 15Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 15
+
+A0372_20_9400 
+Sheets 15
+
+A0372_20_9400 
+Sheets 15
+
++ 400SPS
+
+
+equalizing rolls widht adjustment 416M6 side traverse rolls 
+drawing number: 
+page 97 A0372_20_9400 
+Sheets 15Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+equalizing rolls widht adjustment 416M6 side traverse rolls 
+drawing number: 
+page 98 A0372_20_9400 
+Sheets 15Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 15
+
++ 400SPS
+
+
+equalizing rolls 416M25 (at forming machine A) 
+drawing number: 
+page 100 A0372_20_9400 
+Sheets 15Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+equalizing rolls 416M25 (at forming machine D) 
+drawing number: 
+page 101 A0372_20_9400 
+Sheets 15Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 15
+
+A0372_20_9400 
+Sheets 15
+
+A0372_20_9400 
+Sheets 15
+
+A0372_20_9400 
+Sheets 15
+
++ 400SPS
+
+
+matformer D general signals 
+drawing number: 
+page 104 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D general signals 
+drawing number: 
+page 105 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D general signals 
+drawing number: 
+page 106 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M0 left fan 
+drawing number: 
+page 107 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M1 right fan 
+drawing number: 
+page 108 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M9 dosing belt 
+drawing number: 
+page 109 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M9 dosing belt 
+drawing number: 
+page 110 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M10 cleaning brush 
+drawing number: 
+page 111 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M11 rotary combs 
+drawing number: 
+page 112 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M13 pinned roll 
+drawing number: 
+page 113 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M14 oscillating flap 
+drawing number: 
+page 114 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M15 distribution belt left 
+drawing number: 
+page 115 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M16 distribution belt right 
+drawing number: 
+page 116 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M17 transverse belt 
+drawing number: 
+page 117 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M17 transverse belt 
+drawing number: 
+page 117a A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M17 transverse belt 
+drawing number: 
+page 117b A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M17 transverse belt 
+drawing number: 
+page 118 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M18/M19 screen vibrator 2+3 
+drawing number: 
+page 119 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M20 fast disks rolls 
+drawing number: 
+page 120 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M21 slow disks rolls 
+drawing number: 
+page 121 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M22 disk screen transport belt 
+drawing number: 
+page 122 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M22 disk screen transport belt 
+drawing number: 
+page 123 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M22 disk screen transport belt 
+drawing number: 
+page 123a A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M23 left longitudinal screw conveyor 
+drawing number: 
+page 124 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M24 right longitudinal screw conveyor 
+drawing number: 
+page 125 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M26 cleaning brush 
+drawing number: 
+page 126 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D spare 
+drawing number: 
+page 127 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M30 transversal screw conveyor 
+drawing number: 
+page 128 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M30 transversal screw conveyor 
+drawing number: 
+page 128a A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M31 injection screw 
+drawing number: 
+page 129 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M32 recycling conveyor 
+drawing number: 
+page 130 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M32 recycling conveyor 
+drawing number: 
+page 130a A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M33 recycling conveyor 
+drawing number: 
+page 130b A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M33 recycling conveyor 
+drawing number: 
+page 130c A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D recycling conveyor 
+drawing number: 
+page 130d A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D level 
+drawing number: 
+page 131 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D level 
+drawing number: 
+page 131a A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D level / lamp windchamber 
+drawing number: 
+page 132 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D general signals 
+drawing number: 
+page 133 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M2 TEXPAN filter rotary valve 
+drawing number: 
+page 133a A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M3 TEXPAN filter screw conveyor 
+drawing number: 
+page 133b A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D 418M4 TEXPAN filter fan 
+drawing number: 
+page 133c A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer D spare 
+drawing number: 
+page 134 A0372_20_9400 
+Sheets 43Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+43 
+44 
+43 
+44 
+
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 39
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+
+pre-press 
+
+
+
+= 421 
++ 400SPS
+evacuation belt, 421M15 height adjustment 
+drawing number: 
+page 180 A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
+pre-press 
+
+
+
+
+= 421 
++ 400SPS
+evacuation belt, 421M15 height adjustment 
+drawing number: 
+page 180a A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
+pre-press 
+
+
+
+
+= 421 
++ 400SPS
+
+bottom belt gear oil cooling 
+drawing number: 
+page 181 A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+pre-press 
+
+
+
+= 421 
++ 400SPS
+
+top belt gear oil cooling 
+drawing number: 
+page 181a A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
+A0372_20_9400 
+Sheets 38
+
++ 400SPS
+
+
+signals from microprocessor 
+drawing number: 
+page 192 A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor 
+drawing number: 
+page 193 A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor 
+drawing number: 
+page 194 A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor 
+drawing number: 
+page 195 A0372_20_9400 
+Sheets 38Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+
+pre-press 
+
+
+
+= 427 
++ 400SPS
+
+bottom belt left gear oil cooling 
+drawing number: 
+page 199a A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+pre-press 
+
+
+
+= 427 
++ 400SPS
+
+top belt left gear oil cooling 
+drawing number: 
+page 199b A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+
+press 
+
+
+
+= 427 
++ 400SPS
+
+cleaning brush infeed top - outfeed bottom 
+drawing number: 
+page 218a A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 427 
++ 400SPS
+
+belt edge sensor infeed 
+drawing number: 
+page 218b A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+
+press 
+
+
+
+= 427 
++ 400SPS
+upper cleaning brush 1 427 M4 + M5 lower cleaning brush 2 
+drawing number: 
+page 227 A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+ContiRoll press 
+
+
+
+
+= 427 
++ 400SPS
+
+hydraulic 427M3 HP-pump 
+drawing number: 
+page 259a A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+
+ContiRoll press 
+
+
+
+= 427 
++ 400SPS
+
+hydraulic analog sensors 
+drawing number: 
+page 287 A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+ContiRoll press 
+
+
+
+= 427 
++ 400SPS
+
+hydraulic LP-inlet 
+drawing number: 
+page 288 A0372_20_9400 
+Sheets 154Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 154
+
+A0372_20_9400 
+Sheets 154
+
+
+press 
+
+
+
+= 441 
++ 400SPS
+
+group 441 - 450 spare 
+drawing number: 
+page 291 A0372_20_9400 
+Sheets 3Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 441 
++ 400SPS
+
+group 441 - 450 spare 
+drawing number: 
+page 292 A0372_20_9400 
+Sheets 3Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 441 
++ 400SPS
+
+roller conveyor gr. 441 spare 
+drawing number: 
+page 293 A0372_20_9400 
+Sheets 3Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 442 
++ 400SPS
+trim saw right hand side in front 442M1 spare 
+drawing number: 
+page 294 A0372_20_9400 
+Sheets 4Proprietary notice pursuant to ISO 16016 to be observed 
+
+press 
+
+
+
+
+= 442 
++ 400SPS
+trim saw right hand side at rear 442M2 spare 
+drawing number: 
+page 295 A0372_20_9400 
+Sheets 4Proprietary notice pursuant to ISO 16016 to be observed 
+
+press 
+
+
+
+
+= 442 
++ 400SPS
+
+trim saw left hand side in front 442M3 spare 
+drawing number: 
+page 296 A0372_20_9400 
+Sheets 4Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 4
+
+
+press 
+
+
+
+= 443 
++ 400SPS
+
+signals between plc-gr.400A <-> ferro control saw spare 
+drawing number: 
+page 298 A0372_20_9400 
+Sheets 2Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 443 
++ 400SPS
+
+signals between plc-gr.400A <-> ferro control saw spare 
+drawing number: 
+page 299 A0372_20_9400 
+Sheets 2Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 447 
++ 400SPS
+roller conveyor 447M1 spare 
+drawing number: 
+page 300 A0372_20_9400 
+Sheets 1Proprietary notice pursuant to ISO 16016 to be observed 
+
+press 
+
+
+
+
+= 448 
++ 400SPS
+
+roller conveyor 448M1 spare 
+drawing number: 
+page 301 A0372_20_9400 
+Sheets 2Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 2
+
+A0372_20_9400 
+Sheets 3
+
+
+press 
+
+
+
+= 449 
++ 400SPS
+
+board reject station spare 
+drawing number: 
+page 304 A0372_20_9400 
+Sheets 3Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 3
+
++ 400SPS
+
+
+Delaere weighing system spare 
+drawing number: 
+page 306 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+Delaere weighing system spare 
+drawing number: 
+page 307 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 450 
++ 400SPS
+
+Delaere weighing system 427M1.3 spare 
+drawing number: 
+page 308 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 34
+
+
+press 
+
+
+
+= 450 
++ 400SPS
+
+signals between plc-gr. 400A <-> plc-gr. 400D spare 
+drawing number: 
+page 310 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
+
+press 
+
+
+
+= 450 
++ 400SPS
+
+signals between plc-gr. 400A <-> plc-gr. 400D spare 
+drawing number: 
+page 311 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 312 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 313 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 314 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 315 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 316 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 317 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 318 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 319 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 320 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 321 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 322 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 323 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 324 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 325 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 326 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 327 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 328 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 329 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 330 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 331 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 332 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 333 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 334 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 335 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals to microprocessor spare 
+drawing number: 
+page 336 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 337 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 338 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+signals from microprocessor spare 
+drawing number: 
+page 339 A0372_20_9400 
+Sheets 34Proprietary notice pursuant to ISO 16016 to be observed 
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
+A0372_20_9400 
+Sheets 19
+
++ 400SPS
+
+
+matformer C general signals 
+drawing number: 
+page 360 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C general signals 
+drawing number: 
+page 361 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C general signals 
+drawing number: 
+page 361a A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M3 
+drawing number: 
+page 362 A0372_20_9400 
+
+
+1. group pinned roll 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+matformer C 414M3 
+drawing number: 
+page 362a A0372_20_9400 
+
+
+1. group pinned roll 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M5/M6 pinned rolls 
+drawing number: 
+page 363 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M7/M8 pinned rolls 
+drawing number: 
+page 364 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M9 dosing belt 
+drawing number: 
+page 365 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M10 cleaning brush 
+drawing number: 
+page 366 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M9 dosing belt 
+drawing number: 
+page 367 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M11 rotary combs 
+drawing number: 
+page 368 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M13 pinned roll 
+drawing number: 
+page 369 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M15 distribution belt left 
+drawing number: 
+page 370 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M16 distribution belt right 
+drawing number: 
+page 371 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M17 transverse belt 
+drawing number: 
+page 372 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M17 transverse belt 
+drawing number: 
+page 372a A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M17 transverse belt 
+drawing number: 
+page 372b A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M17 transverse belt 
+drawing number: 
+page 373 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M20 fast disks rolls 
+drawing number: 
+page 374 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M21 slow disks rolls 
+drawing number: 
+page 375 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M22 disk screen transport belt 
+drawing number: 
+page 376 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M22 disk screen transport belt 
+drawing number: 
+page 377 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M22 disk screen transport belt 
+drawing number: 
+page 377a A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M26 cleaning brush 
+drawing number: 
+page 378 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C level 
+drawing number: 
+page 379 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C level 
+drawing number: 
+page 379a A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C level / lamp windchamber 
+drawing number: 
+page 380 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M01 transport belt to matformer C 
+drawing number: 
+page 381 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ 400SPS
+
+
+matformer C 414M02 transport belt ?? 
+drawing number: 
+page 382 A0372_20_9400 
+Sheets 29Proprietary notice pursuant to ISO 16016 to be observed 
+
++ ???
+
+
+band spraying 
+drawing number: 
+page 763 
+A0372_20_9400 
+Sheets 2
+
++ ???
+
+
+band spraying 
+drawing number: 
+page 763a 
+A0372_20_9400 
+Sheets 2
+
+

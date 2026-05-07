@@ -1,0 +1,86 @@
+{
+  "name": "yyy",
+  "version": "1.0",
+  "enabled": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "H",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.002972
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 1.0,
+        "y0_offset_ratio": -0.8,
+        "length_ratio": 2.2001,
+        "width_ratio": 2.2001,
+        "height_ratio": 1.6,
+        "radius_ratio": 1.1,
+        "path_ratios": [
+          [
+            "m",
+            [
+              1.0,
+              -0.80001
+            ]
+          ],
+          [
+            "l",
+            [
+              3.20007,
+              0.0
+            ]
+          ],
+          [
+            "l",
+            [
+              1.0,
+              0.80001
+            ]
+          ],
+          [
+            "l",
+            [
+              1.0,
+              -0.80001
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "top_line",
+        "type": "D",
+        "x0_offset_ratio": 3.2001,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 2.341,
+        "x1_offset_ratio": 1.0,
+        "y1_offset_ratio": 0.8,
+        "angle": 160.02
+      }
+    ]
+  },
+  "variants": [],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0 + base_element.length * 1.6000",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

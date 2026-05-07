@@ -1,0 +1,5 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"pin_4";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"63";"Motor_3ph_1_PTC";"A";"approved";"170.08";"701.64";"1192.0";"871.0";"+A
+-M20";"U";"V";"W";"";"P = 3,0kW
+In = 6,9A
+n = 1400 1/min";"54";"26";"= 418";"+ 400A";"forming machine D";"fast disk rolls";"418M20"
