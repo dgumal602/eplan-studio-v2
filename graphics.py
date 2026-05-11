@@ -761,7 +761,28 @@ class ValidationBox(QGraphicsRectItem, InteractiveMixin):
                     zw = (zone['rx1'] - zone['rx0']) * rect.width()
                     zh = (zone['ry1'] - zone['ry0']) * rect.height()
                     painter.drawRect(QRectF(zx, zy, zw, zh).normalized())
-
+        # ── Service Zones (сервісні поля для conditions) ─────────────────────
+        if is_zones_visible and 'service_ghost_zones' in self.found_obj.custom_zones:
+            service_pen = QPen(QColor(26, 188, 156), 1.5, Qt.PenStyle.DashLine)  # teal
+            service_brush = QBrush(QColor(26, 188, 156, 60))
+            painter.setPen(service_pen)
+            painter.setBrush(service_brush)
+            from PyQt6.QtGui import QFont
+            for sz in self.found_obj.custom_zones['service_ghost_zones']:
+                zx = rect.x() + sz['rx0'] * rect.width()
+                zy = rect.y() + sz['ry0'] * rect.height()
+                zw = (sz['rx1'] - sz['rx0']) * rect.width()
+                zh = (sz['ry1'] - sz['ry0']) * rect.height()
+                painter.drawRect(QRectF(zx, zy, zw, zh).normalized())
+                # Підпис назви поля
+                fnt = QFont(); fnt.setPointSize(7); fnt.setBold(True)
+                painter.setFont(fnt)
+                painter.setPen(QPen(QColor(22, 160, 133)))
+                label = sz.get('field', '')
+                if sz.get('required'): label += " *"
+                painter.drawText(QRectF(zx, zy - 14, zw, 12), 
+                                Qt.AlignmentFlag.AlignLeft, label)
+                painter.setPen(service_pen)
         # ── Хрестик точки захоплення — малюємо ОСТАННІМ, Z поверх усього ──
         if is_anchor_visible:
             anchor_pos = self.found_obj.custom_zones.get('anchor_pos')

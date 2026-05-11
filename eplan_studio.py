@@ -1267,6 +1267,9 @@ class TemplateStudioMainWindow(QMainWindow):
         self.btn_add_var = QPushButton("+ Variable")
         self.btn_add_variant = QPushButton("+ Variant")
         self.btn_add_tz = QPushButton("+ Text Zone")
+        self.btn_add_sz = QPushButton("+ Service Zone")
+        self.btn_add_sz.setStyleSheet("background-color: #16a085; color: white;")
+
         btn_add_layout.addWidget(self.btn_add_var)
         btn_add_layout.addWidget(self.btn_add_variant)
         
@@ -1274,6 +1277,7 @@ class TemplateStudioMainWindow(QMainWindow):
         self.tree_widget.setHeaderLabels(["Ім'я / Роль", "Значення"])
         config_tree_layout.addLayout(btn_add_layout)
         config_tree_layout.addWidget(self.btn_add_tz)
+        config_tree_layout.addWidget(self.btn_add_sz)
         config_tree_layout.addWidget(self.tree_widget)
         self.left_layout.addWidget(self.container_config_tree)
 
@@ -1576,6 +1580,30 @@ class TemplateStudioMainWindow(QMainWindow):
         self.form_tz.addRow("", self.chk_tz_multi); self.form_tz.addRow("Join char (\\n):", self.edit_tz_join)
         self.prop_stack.addWidget(self.w_tz)
         
+        # === Service Zone Properties ===
+        self.w_sz = QWidget(); self.form_sz = QFormLayout(self.w_sz)
+        sz_draw_layout = QHBoxLayout()
+        self.combo_sz_ref = QComboBox()
+        self.btn_draw_sz = QPushButton("🖍 Виділити мишкою")
+        self.btn_draw_sz.setStyleSheet("background-color: #16a085; color: white; font-weight: bold; border-radius: 4px; padding: 5px;")
+        self.btn_draw_sz.clicked.connect(self.view.start_drawing)
+        sz_draw_layout.addWidget(QLabel("Прив'язка:")); sz_draw_layout.addWidget(self.combo_sz_ref)
+        sz_draw_layout.addWidget(self.btn_draw_sz)
+        self.form_sz.addRow(sz_draw_layout)
+        
+        self.edit_sz_field = QLineEdit()
+        self.edit_sz_x0 = QLineEdit(); self.edit_sz_y0 = QLineEdit()
+        self.edit_sz_x1 = QLineEdit(); self.edit_sz_y1 = QLineEdit()
+        self.chk_sz_required = QCheckBox("Required (відкидати об'єкт якщо порожнє)")
+        self.chk_sz_export = QCheckBox("Export (включити в CSV)")
+        
+        self.form_sz.addRow("Field Name:", self.edit_sz_field)
+        self.form_sz.addRow("x0 (expr):", self.edit_sz_x0); self.form_sz.addRow("y0 (expr):", self.edit_sz_y0)
+        self.form_sz.addRow("x1 (expr):", self.edit_sz_x1); self.form_sz.addRow("y1 (expr):", self.edit_sz_y1)
+        self.form_sz.addRow("", self.chk_sz_required)
+        self.form_sz.addRow("", self.chk_sz_export)
+        self.prop_stack.addWidget(self.w_sz)
+
         self.w_pins = QWidget(); self.form_pins = QFormLayout(self.w_pins)
         self.edit_pin_search = QLineEdit(); self.edit_pin_len = QLineEdit(); self.edit_pin_sides = QLineEdit()
         self.edit_pin_x0_min = QLineEdit(); self.edit_pin_x0_max = QLineEdit()
@@ -1657,6 +1685,7 @@ class TemplateStudioMainWindow(QMainWindow):
         self.btn_add_var.clicked.connect(self.action_add_variable)
         self.btn_add_variant.clicked.connect(self.action_add_variant)
         self.btn_add_tz.clicked.connect(self.action_add_text_zone)
+        self.btn_add_sz.clicked.connect(self.action_add_service_zone)
         self.tree_widget.itemClicked.connect(self.on_tree_item_clicked)
         
         widgets_to_connect = [
@@ -1671,7 +1700,24 @@ class TemplateStudioMainWindow(QMainWindow):
             self.edit_pin_search, self.edit_pin_len, self.edit_pin_sides, self.edit_pin_x0_min, self.edit_pin_x0_max,
             self.edit_ar_min, self.edit_ar_max, self.edit_ihl_min, self.edit_ihl_max
         ]
-        for w in widgets_to_connect: w.textEdited.connect(self.update_properties_to_state)
+        #for w in widgets_to_connect: w.textEdited.connect(self.update_properties_to_state)
+        for w in widgets_to_connect: 
+            widgets_to_connect = [
+                self.edit_role, self.edit_x0_off, self.edit_y0_off, self.edit_len_rat, 
+                self.edit_pl_rat, self.edit_pl_rat_w, self.edit_pl_rat_h, 
+                self.edit_wid_rat, self.edit_rad_rat, self.edit_cnt_min, self.edit_cnt_max,
+                self.edit_xy_tol, self.edit_lw_tol, self.edit_anch_x, self.edit_anch_y, self.edit_anch_w, self.edit_anch_h,
+                self.edit_var_name, self.edit_var_expr, self.edit_variant_name, self.edit_variant_cond,
+                self.edit_tz_field, self.edit_tz_x0, self.edit_tz_y0, self.edit_tz_x1, self.edit_tz_y1, 
+                self.edit_tz_join, self.edit_tz_repeat, self.edit_tz_sep,
+                self.edit_sz_field, self.edit_sz_x0, self.edit_sz_y0, self.edit_sz_x1, self.edit_sz_y1,
+                self.edit_pin_search, self.edit_pin_len, self.edit_pin_sides, self.edit_pin_x0_min, self.edit_pin_x0_max,
+                self.edit_ar_min, self.edit_ar_max, self.edit_ihl_min, self.edit_ihl_max
+            ]#w.textEdited.connect(self.update_properties_to_state)
+
+        self.chk_sz_required.toggled.connect(self.update_properties_to_state)
+        self.chk_sz_export.toggled.connect(self.update_properties_to_state)
+
         for w in widgets_to_connect: w.textEdited.connect(self._refresh_ghost_preview)
 
         self.edit_out_fields.textChanged.connect(self.update_properties_to_state)
@@ -2802,30 +2848,44 @@ class TemplateStudioMainWindow(QMainWindow):
 
 
     def on_tz_rect_drawn(self, rx0, ry0, rx1, ry1):
-        if not self.current_selected_node or self.current_selected_node[0] != "text_zones": return
-            
-        base_role = self.combo_tz_ref.currentData() or "base_element"
+        """Обробляє виділення для text_zones та service_zones."""
+        if not self.current_selected_node: return
+        category = self.current_selected_node[0]
+        if category not in ("text_zones", "service_zones"): return
+        
+        # Вибір комбобоксу залежно від типу
+        if category == "text_zones":
+            base_role = self.combo_tz_ref.currentData() or "base_element"
+        else:
+            base_role = self.combo_sz_ref.currentData() or "base_element"
+        
         ref_raw = self.config_raw_elements.get(base_role)
         if not ref_raw:
             ref_raw = self.current_base_raw
             if not ref_raw: return
             base_role = next((l.get("role") for l in self.state.template_data.get("geometry", {}).get("lines", []) if l.get("is_base")), "base_element")
-
+        
         bx = ref_raw.get('x0', 0)
         by = ref_raw.get('top', ref_raw.get('y0', 0))
         blen = self.current_base_raw.get('length', 1) if self.current_base_raw else 1
-
+        
         def make_formula(val, base_val, base_var):
             rel = (val - base_val) / blen
             if abs(rel) < 0.0001: return f"{base_role}.{base_var}"
             sign = "+" if rel > 0 else "-"
             return f"{base_role}.{base_var} {sign} base_element.length * {abs(rel):.4f}"
-
-        self.edit_tz_x0.setText(make_formula(rx0, bx, "x0"))
-        self.edit_tz_y0.setText(make_formula(ry0, by, "y0"))
-        self.edit_tz_x1.setText(make_formula(rx1, bx, "x0"))
-        self.edit_tz_y1.setText(make_formula(ry1, by, "y0"))
-
+        
+        if category == "text_zones":
+            self.edit_tz_x0.setText(make_formula(rx0, bx, "x0"))
+            self.edit_tz_y0.setText(make_formula(ry0, by, "y0"))
+            self.edit_tz_x1.setText(make_formula(rx1, bx, "x0"))
+            self.edit_tz_y1.setText(make_formula(ry1, by, "y0"))
+        else:
+            self.edit_sz_x0.setText(make_formula(rx0, bx, "x0"))
+            self.edit_sz_y0.setText(make_formula(ry0, by, "y0"))
+            self.edit_sz_x1.setText(make_formula(rx1, bx, "x0"))
+            self.edit_sz_y1.setText(make_formula(ry1, by, "y0"))
+        
         self.update_properties_to_state()
 
     def run_validation(self):
@@ -4218,7 +4278,13 @@ class TemplateStudioMainWindow(QMainWindow):
             item.setData(0, Qt.ItemDataRole.UserRole, ("variables", key, -1)); vars_root.addChild(item)
 
         pins_root = QTreeWidgetItem(["PINS", ""]); pins_root.setData(0, Qt.ItemDataRole.UserRole, ("pins", 0, -1))
-            
+
+        sz_root = QTreeWidgetItem(["SERVICE_ZONES", ""])
+        for i, sz in enumerate(self.state.template_data.get("service_zones", [])):
+            sz_item = QTreeWidgetItem([sz.get("field", f"service_{i}"), sz.get("x0", "")])
+            sz_item.setData(0, Qt.ItemDataRole.UserRole, ("service_zones", i, -1))
+            sz_root.addChild(sz_item)
+
         var_root = QTreeWidgetItem(["VARIANTS", ""])
         for i, var in enumerate(self.state.template_data.get("variants", [])):
             v_item = QTreeWidgetItem([var.get("name", f"variant_{i}"), var.get("condition", "")])
@@ -4231,10 +4297,12 @@ class TemplateStudioMainWindow(QMainWindow):
 
         out_root = QTreeWidgetItem(["OUTPUT_FIELDS", ""]); out_root.setData(0, Qt.ItemDataRole.UserRole, ("output", 0, -1))
 
+
         self.tree_widget.addTopLevelItem(geom_root); self.tree_widget.addTopLevelItem(constr_root)
         self.tree_widget.addTopLevelItem(anch_root); self.tree_widget.addTopLevelItem(vars_root)
-        self.tree_widget.addTopLevelItem(pins_root); self.tree_widget.addTopLevelItem(var_root)
-        self.tree_widget.addTopLevelItem(out_root); self.tree_widget.expandAll()
+        self.tree_widget.addTopLevelItem(pins_root); self.tree_widget.addTopLevelItem(sz_root)
+        self.tree_widget.addTopLevelItem(var_root); self.tree_widget.addTopLevelItem(out_root)
+        self.tree_widget.expandAll()
 
     def _set_prop_signals_blocked(self, blocked):
         """Блокує або розблоковує сигнали UI-елементів інспектора."""
@@ -4247,16 +4315,14 @@ class TemplateStudioMainWindow(QMainWindow):
             self.edit_variant_name, self.edit_variant_cond,
             self.edit_tz_field, self.edit_tz_x0, self.edit_tz_y0, self.edit_tz_x1, self.edit_tz_y1, 
             self.edit_tz_join, self.edit_tz_repeat, self.edit_tz_sep,
+            self.edit_sz_field, self.edit_sz_x0, self.edit_sz_y0, self.edit_sz_x1, self.edit_sz_y1,
             self.edit_pin_search, self.edit_pin_len, self.edit_pin_sides, 
             self.edit_pin_x0_min, self.edit_pin_x0_max,
             self.edit_ar_min, self.edit_ar_max, self.edit_ihl_min, self.edit_ihl_max,
             self.edit_out_fields,
-            
-            # === СПЕЦИФІКАЦІЯ V5.2: ДОДАНО ВИПАДАЮЧІ СПИСКИ ТА ГАЛОЧКИ ===
-            # Вони стирали дані, викликаючи збереження до заповнення полів!
             self.edit_type, self.edit_mode, self.edit_tz_collect,
-            self.chk_is_base, self.chk_anch_exp, self.chk_tz_multi, self.chk_page_data
-            # =============================================================
+            self.chk_is_base, self.chk_anch_exp, self.chk_tz_multi, self.chk_page_data,
+            self.chk_sz_required, self.chk_sz_export
         ]
         for w in widgets:
             w.blockSignals(blocked)
@@ -4350,6 +4416,19 @@ class TemplateStudioMainWindow(QMainWindow):
             self.prop_stack.setCurrentWidget(self.w_out)
             self.edit_out_fields.setText(", ".join(self.state.template_data.get("output_fields", [])))
         # === ДОДАНО ===
+        elif category == "service_zones":
+            self.prop_stack.setCurrentWidget(self.w_sz)
+            elem = self.state.template_data["service_zones"][identifier]
+            self.combo_sz_ref.clear()
+            for l in self.state.template_data.get("geometry", {}).get("lines", []):
+                role = l.get("role", "unknown")
+                is_b = " (БАЗА)" if l.get("is_base") else ""
+                self.combo_sz_ref.addItem(f"{role}{is_b}", userData=role)
+            self.edit_sz_field.setText(elem.get("field", ""))
+            self.edit_sz_x0.setText(elem.get("x0", "")); self.edit_sz_y0.setText(elem.get("y0", ""))
+            self.edit_sz_x1.setText(elem.get("x1", "")); self.edit_sz_y1.setText(elem.get("y1", ""))
+            self.chk_sz_required.setChecked(elem.get("required", False))
+            self.chk_sz_export.setChecked(elem.get("export", False))
         elif category == "settings":
             self.prop_stack.setCurrentWidget(self.w_settings)
             self.chk_page_data.setChecked(self.state.template_data.get("Page_Data", False))
@@ -4471,6 +4550,13 @@ class TemplateStudioMainWindow(QMainWindow):
             fields = [f.strip() for f in self.edit_out_fields.toPlainText().split(',') if f.strip()]
             self.state.template_data["output_fields"] = fields
         # === ДОДАНО ===
+        elif category == "service_zones":
+            elem = self.state.template_data["service_zones"][identifier]
+            elem["field"] = self.edit_sz_field.text().strip()
+            elem["x0"] = self.edit_sz_x0.text().strip(); elem["y0"] = self.edit_sz_y0.text().strip()
+            elem["x1"] = self.edit_sz_x1.text().strip(); elem["y1"] = self.edit_sz_y1.text().strip()
+            elem["required"] = self.chk_sz_required.isChecked()
+            elem["export"] = self.chk_sz_export.isChecked()
         elif category == "settings":
             self.state.template_data["Page_Data"] = self.chk_page_data.isChecked()
             self.state.template_data["priority"] = self.spin_priority.value()
@@ -4610,7 +4696,22 @@ class TemplateStudioMainWindow(QMainWindow):
         tz_list.append({"field": final_field, "x0": "", "y0": "", "x1": "", "y1": ""})
         self.state.update_template(self.state.template_data)
         self.rebuild_tree()
-
+    def action_add_service_zone(self):
+        """Додає service_zone до шаблону."""
+        sz_list = self.state.template_data.setdefault("service_zones", [])
+        existing = [sz.get("field", "") for sz in sz_list]
+        base = "service_field"
+        final = base
+        counter = 1
+        while final in existing:
+            final = f"{base}_{counter}"
+            counter += 1
+        sz_list.append({
+            "field": final, "x0": "", "y0": "", "x1": "", "y1": "",
+            "required": False, "export": False
+        })
+        self.state.update_template(self.state.template_data)
+        self.rebuild_tree()
 
     def action_open_pdf(self):
         """Відкриває діалогове вікно вибору PDF та ініціалізує всі робочі процеси."""

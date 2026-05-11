@@ -214,6 +214,63 @@ class BaseWorker(QThread):
             elif seg.get('pts'): skel_data['pts'] = [((p[0]-min_x)/union_w, (p[1]-min_y)/union_h) for p in seg['pts']]
             obj.custom_zones['ghost_skeleton'].append(skel_data)
 
+        # === SERVICE ZONES — спільні для всіх variants, обчислюються першими ===
+        obj.custom_zones['service_ghost_zones'] = []
+        ev_service = ExprEvaluator(ctx)
+        service_text_fields = {}
+        service_required_failed = False
+        
+        for sz in tmpl.get('service_zones', []):
+            field_name = sz.get('field', 'unknown')
+            try:
+                x0 = ev_service.eval(sz['x0'])
+                y0 = ev_service.eval(sz['y0'])
+                x1 = ev_service.eval(sz['x1'])
+                y1 = ev_service.eval(sz['y1'])
+                
+                obj.custom_zones['service_ghost_zones'].append({
+                    'field': field_name,
+                    'rx0': (x0 - min_x) / union_w,
+                    'ry0': (y0 - min_y) / union_h,
+                    'rx1': (x1 - min_x) / union_w,
+                    'ry1': (y1 - min_y) / union_h,
+                    'required': sz.get('required', False),
+                    'export': sz.get('export', False)
+                })
+                
+                text = extract_text_by_center(page, x0, y0, x1, y1)
+                service_text_fields[field_name] = text
+                ctx[field_name] = text  # додаємо в context для conditions
+                
+                if sz.get('required', False) and not text:
+                    service_required_failed = True
+                    print(f"[Worker] Service zone '{field_name}' required але порожнє — об'єкт відкинуто")
+                    
+            except Exception as e:
+                print(f"[Worker] Помилка service zone {field_name}: {e}")
+        
+        # Якщо required service zone порожня — позначаємо об'єкт для відкидання
+        if service_required_failed:
+            obj.custom_zones['_skip'] = True
+        
+        # === ВИБІР VARIANT ПО SERVICE ZONES + ВАРІАБЛЕС ===
+        selected_variant = None
+        ev_cond = ExprEvaluator(ctx)
+        for v in tmpl.get('variants', []):
+            cond = v.get('condition', 'True')
+            if ev_cond.eval_condition(cond):
+                selected_variant = v
+                obj.variant_name = v.get('name', 'default')
+                break
+        
+        if selected_variant is None and tmpl.get('variants'):
+            selected_variant = tmpl['variants'][0]
+            obj.variant_name = selected_variant.get('name', 'default')
+        
+        obj.custom_zones['ghost_zones'] = []
+        variant = selected_variant if selected_variant else {}
+        new_text_fields = dict(service_text_fields)
+
         obj.custom_zones['ghost_zones'] = []
         variant = next((v for v in tmpl.get('variants', []) if v.get('name') == obj.variant_name), {})
         new_text_fields = {}
@@ -294,6 +351,8 @@ class SearchWorker(BaseWorker):
                 # ПРОХІД 2: Фільтруємо excluded та відправляємо в UI
                 for obj in found_objects:
                     if self._is_excluded(obj):
+                        continue
+                    if obj.custom_zones.get('_skip'):
                         continue
                     tmpl = next((t for t in self.templates if t['name'] == obj.template_name), None)
                     if tmpl:
@@ -394,6 +453,8 @@ class BatchWorker(BaseWorker):
                         # Потім нові (виключаючи зони approved)
                         for obj in found_objects:
                             if self._is_excluded(obj, exclusion_zones):
+                                continue
+                            if obj.custom_zones.get('_skip'):
                                 continue
                             tmpl = next((t for t in self.templates if t['name'] == obj.template_name), None)
                             if tmpl:

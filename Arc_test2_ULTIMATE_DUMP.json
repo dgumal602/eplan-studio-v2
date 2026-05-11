@@ -1,0 +1,1614 @@
+{
+  "document_info": {
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe Acrobat Pro DC (32-bit) 21.1.20138",
+      "producer": "Adobe Acrobat Pro DC (32-bit) 21.1.20138",
+      "creationDate": "D:20260416204022+03'00'",
+      "modDate": "D:20260508170714+03'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "total_pages": 1,
+    "is_encrypted": false,
+    "is_form": 0,
+    "raw_catalog_dict": "<<\n  /AcroForm 25 0 R\n  /Metadata 3 0 R\n  /Outlines 7 0 R\n  /Pages 12 0 R\n  /Type /Catalog\n>>"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "xref": 153,
+      "raw_page_dictionary": "<<\n  /Annots 154 0 R\n  /Contents 246 0 R\n  /MediaBox [ 0 0 1192 871 ]\n  /Parent 13 0 R\n  /Resources <<\n    /Font <<\n      /C2_0 151 0 R\n    >>\n    /ProcSet [ /PDF /Text /ImageC ]\n  >>\n  /Type /Page\n>>",
+      "dimensions": {
+        "width": 1192.0,
+        "height": 871.0,
+        "rotation": 0,
+        "cropbox": [
+          0.0,
+          0.0,
+          1192.0,
+          871.0
+        ],
+        "mediabox": [
+          0.0,
+          0.0,
+          1192.0,
+          871.0
+        ]
+      },
+      "objects": {
+        "text_blocks": [
+          {
+            "text": "=400/7c.1",
+            "bbox": [
+              156.1020050048828,
+              284.5579833984375,
+              191.3409881591797,
+              292.21197509765625
+            ],
+            "origin": [
+              156.1020050048828,
+              290.58197021484375
+            ],
+            "font": "Tahoma",
+            "size": 7.6539998054504395,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "14",
+            "bbox": [
+              208.3470001220703,
+              275.6252136230469,
+              214.3835906982422,
+              281.1531982421875
+            ],
+            "origin": [
+              208.3470001220703,
+              279.9759521484375
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "15",
+            "bbox": [
+              344.4100036621094,
+              275.6252136230469,
+              350.4465637207031,
+              281.1531982421875
+            ],
+            "origin": [
+              344.4100036621094,
+              279.9759521484375
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "16",
+            "bbox": [
+              480.4730224609375,
+              275.6252136230469,
+              486.50958251953125,
+              281.1531982421875
+            ],
+            "origin": [
+              480.4730224609375,
+              279.9759521484375
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "17",
+            "bbox": [
+              616.5360107421875,
+              275.6252136230469,
+              622.5726318359375,
+              281.1531982421875
+            ],
+            "origin": [
+              616.5360107421875,
+              279.9759521484375
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "-W2.1",
+            "bbox": [
+              163.06301879882812,
+              601.0897216796875,
+              191.3388214111328,
+              611.7197265625
+            ],
+            "origin": [
+              163.06301879882812,
+              609.4559326171875
+            ],
+            "font": "Tahoma",
+            "size": 10.630000114440918,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "/51.1",
+            "bbox": [
+              173.55902099609375,
+              613.3770141601562,
+              191.33924865722656,
+              621.031005859375
+            ],
+            "origin": [
+              173.55902099609375,
+              619.4010009765625
+            ],
+            "font": "Tahoma",
+            "size": 7.6539998054504395,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "22",
+            "bbox": [
+              208.3460235595703,
+              604.4442138671875,
+              214.3826141357422,
+              609.9722290039062
+            ],
+            "origin": [
+              208.3460235595703,
+              608.7949829101562
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "23",
+            "bbox": [
+              344.4090270996094,
+              604.4442138671875,
+              350.4455871582031,
+              609.9722290039062
+            ],
+            "origin": [
+              344.4090270996094,
+              608.7949829101562
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "PE",
+            "bbox": [
+              548.5030517578125,
+              604.4442138671875,
+              554.650146484375,
+              609.9722290039062
+            ],
+            "origin": [
+              548.5030517578125,
+              608.7949829101562
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "1",
+            "bbox": [
+              480.4710693359375,
+              604.4442138671875,
+              483.4893493652344,
+              609.9722290039062
+            ],
+            "origin": [
+              480.4710693359375,
+              608.7949829101562
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "-W2.2",
+            "bbox": [
+              435.1880798339844,
+              601.0897827148438,
+              463.4638977050781,
+              611.7197875976562
+            ],
+            "origin": [
+              435.1880798339844,
+              609.4559936523438
+            ],
+            "font": "Tahoma",
+            "size": 10.630000114440918,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          },
+          {
+            "text": "24",
+            "bbox": [
+              378.424072265625,
+              604.4442138671875,
+              384.46063232421875,
+              609.9722290039062
+            ],
+            "origin": [
+              378.424072265625,
+              608.7949829101562
+            ],
+            "font": "Tahoma",
+            "size": 5.5279998779296875,
+            "color_raw": 0,
+            "ascender": 0.7649999856948853,
+            "descender": -0.2070000022649765,
+            "flags_id": 4,
+            "flags_decoded": [
+              "serifed"
+            ]
+          }
+        ],
+        "drawings": [],
+        "images": [],
+        "annotations": [],
+        "links": [
+          {
+            "xref": 155,
+            "raw_link_dictionary": "<<\n  /A 306 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 175.6453 433.148 248.7154 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              175.64529418945312,
+              350.45977783203125,
+              248.71539306640625,
+              437.85198974609375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 156,
+            "raw_link_dictionary": "<<\n  /A 308 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 248.7154 433.148 285.2504 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              248.71539306640625,
+              350.45977783203125,
+              285.2503967285156,
+              437.85198974609375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 157,
+            "raw_link_dictionary": "<<\n  /A 309 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 139.1102 433.148 175.6453 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              139.11019897460938,
+              350.45977783203125,
+              175.64529418945312,
+              437.85198974609375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 158,
+            "raw_link_dictionary": "<<\n  /A 306 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 314.0469 444.9402 385.5579 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              314.0469055175781,
+              350.45977783203125,
+              385.5578918457031,
+              426.059814453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 159,
+            "raw_link_dictionary": "<<\n  /A 307 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 385.5579 444.9402 421.3134 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              385.5578918457031,
+              350.45977783203125,
+              421.3133850097656,
+              426.059814453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 160,
+            "raw_link_dictionary": "<<\n  /A 308 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 278.2914 444.9402 314.0469 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              278.2914123535156,
+              350.45977783203125,
+              314.0469055175781,
+              426.059814453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 161,
+            "raw_link_dictionary": "<<\n  /A 306 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 450.1099 433.148 521.6209 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              450.1098937988281,
+              350.45977783203125,
+              521.6209106445312,
+              437.85198974609375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 162,
+            "raw_link_dictionary": "<<\n  /A 304 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 521.6209 433.148 557.3764 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              521.6209106445312,
+              350.45977783203125,
+              557.3764038085938,
+              437.85198974609375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 163,
+            "raw_link_dictionary": "<<\n  /A 307 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 414.3543 433.148 450.1099 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              414.35430908203125,
+              350.45977783203125,
+              450.1098937988281,
+              437.85198974609375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 164,
+            "raw_link_dictionary": "<<\n  /A 306 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 582.9307 444.9402 656.6031 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              582.9307250976562,
+              350.45977783203125,
+              656.6030883789062,
+              426.059814453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 165,
+            "raw_link_dictionary": "<<\n  /A 305 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 656.6031 444.9402 693.4394 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              656.6030883789062,
+              350.45977783203125,
+              693.4393920898438,
+              426.059814453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 166,
+            "raw_link_dictionary": "<<\n  /A 304 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 546.0945 444.9402 582.9307 520.5402 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              546.094482421875,
+              350.45977783203125,
+              582.9307250976562,
+              426.059814453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 167,
+            "raw_link_dictionary": "<<\n  /A 301 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 177.8988 319.5071 249.2398 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              177.8988037109375,
+              453.58428955078125,
+              249.23980712890625,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 168,
+            "raw_link_dictionary": "<<\n  /A 302 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 249.2398 319.5071 284.9102 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              249.23980712890625,
+              453.58428955078125,
+              284.9101867675781,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 169,
+            "raw_link_dictionary": "<<\n  /A 303 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 142.2283 319.5071 177.8988 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              142.22830200195312,
+              453.58428955078125,
+              177.8988037109375,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 170,
+            "raw_link_dictionary": "<<\n  /A 301 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 310.3158 319.5071 384.0874 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              310.3157958984375,
+              453.58428955078125,
+              384.08740234375,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 171,
+            "raw_link_dictionary": "<<\n  /A 299 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 384.0874 319.5071 420.9732 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              384.08740234375,
+              453.58428955078125,
+              420.97320556640625,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 172,
+            "raw_link_dictionary": "<<\n  /A 302 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 273.4299 319.5071 310.3158 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              273.4299011230469,
+              453.58428955078125,
+              310.3157958984375,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 173,
+            "raw_link_dictionary": "<<\n  /A 301 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 450.0248 319.5071 521.3657 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              450.0248107910156,
+              453.58428955078125,
+              521.36572265625,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 174,
+            "raw_link_dictionary": "<<\n  /A 300 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 521.3657 319.5071 557.0362 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              521.36572265625,
+              453.58428955078125,
+              557.0361938476562,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 175,
+            "raw_link_dictionary": "<<\n  /A 299 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 414.3543 319.5071 450.0248 417.4157 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              414.35430908203125,
+              453.58428955078125,
+              450.0248107910156,
+              551.492919921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 176,
+            "raw_link_dictionary": "<<\n  /A 298 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 550.4174 286.4409 556.0866 307.3748 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              550.4174194335938,
+              563.625244140625,
+              556.0866088867188,
+              584.55908203125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 177,
+            "raw_link_dictionary": "<<\n  /A 297 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 533.4095 286.4409 539.0787 307.3748 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              533.4094848632812,
+              563.625244140625,
+              539.0786743164062,
+              584.55908203125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 178,
+            "raw_link_dictionary": "<<\n  /A 296 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 233.6634 579.0756 494.2027 601.1292 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              233.6634063720703,
+              269.87078857421875,
+              494.20269775390625,
+              291.92437744140625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 179,
+            "raw_link_dictionary": "<<\n  /A 295 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 494.2027 579.0756 624.4724 601.1292 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              494.20269775390625,
+              269.87078857421875,
+              624.472412109375,
+              291.92437744140625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 180,
+            "raw_link_dictionary": "<<\n  /A 294 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 103.3937 579.0756 233.6634 601.1292 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              103.3936996459961,
+              269.87078857421875,
+              233.6634063720703,
+              291.92437744140625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 181,
+            "raw_link_dictionary": "<<\n  /A 292 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 173.6681 250.2567 315.4642 272.3102 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              173.66810607910156,
+              598.6898193359375,
+              315.4642028808594,
+              620.7432861328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 182,
+            "raw_link_dictionary": "<<\n  /A 293 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 315.4642 250.2567 386.3622 272.3102 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              315.4642028808594,
+              598.6898193359375,
+              386.3622131347656,
+              620.7432861328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 183,
+            "raw_link_dictionary": "<<\n  /A 292 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 102.7701 250.2567 173.6681 272.3102 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              102.77010345458984,
+              598.6898193359375,
+              173.66810607910156,
+              620.7432861328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 184,
+            "raw_link_dictionary": "<<\n  /A 291 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 427.787 250.2567 513.5563 272.3102 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              427.7869873046875,
+              598.6898193359375,
+              513.5562744140625,
+              620.7432861328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 185,
+            "raw_link_dictionary": "<<\n  /A 290 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 513.5563 250.2567 556.4409 272.3102 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              513.5562744140625,
+              598.6898193359375,
+              556.44091796875,
+              620.7432861328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 186,
+            "raw_link_dictionary": "<<\n  /A 289 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 384.9024 250.2567 427.787 272.3102 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              384.90240478515625,
+              598.6898193359375,
+              427.7869873046875,
+              620.7432861328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 187,
+            "raw_link_dictionary": "<<\n  /A 286 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 199.2528 549.6785 216.8929 562.4911 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              199.2528076171875,
+              308.5089111328125,
+              216.8928985595703,
+              321.32147216796875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 188,
+            "raw_link_dictionary": "<<\n  /A 284 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 351.0567 550.063 356.726 560.7071 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              351.05670166015625,
+              310.29290771484375,
+              356.72601318359375,
+              320.93701171875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 189,
+            "raw_link_dictionary": "<<\n  /A 288 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 334.0488 550.063 339.7181 560.7071 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              334.0487976074219,
+              310.29290771484375,
+              339.7181091308594,
+              320.93701171875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 190,
+            "raw_link_dictionary": "<<\n  /A 287 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 487.1197 550.063 492.789 560.7071 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              487.11968994140625,
+              310.29290771484375,
+              492.78900146484375,
+              320.93701171875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 191,
+            "raw_link_dictionary": "<<\n  /A 286 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 470.1118 550.063 475.7811 560.7071 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              470.1117858886719,
+              310.29290771484375,
+              475.7810974121094,
+              320.93701171875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 192,
+            "raw_link_dictionary": "<<\n  /A 285 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 623.1827 550.063 628.852 560.7071 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              623.1826782226562,
+              310.29290771484375,
+              628.8519897460938,
+              320.93701171875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 193,
+            "raw_link_dictionary": "<<\n  /A 284 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 606.1748 550.063 611.8441 560.7071 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              606.1748046875,
+              310.29290771484375,
+              611.8441162109375,
+              320.93701171875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 194,
+            "raw_link_dictionary": "<<\n  /A 283 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 349.7791 285.2079 355.4484 301.3228 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              349.77911376953125,
+              569.6771850585938,
+              355.4483947753906,
+              585.7921142578125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 195,
+            "raw_link_dictionary": "<<\n  /A 282 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 332.7713 285.2079 338.4406 301.3228 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              332.77130126953125,
+              569.6771850585938,
+              338.44061279296875,
+              585.7921142578125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 196,
+            "raw_link_dictionary": "<<\n  /A 281 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 485.8421 285.2079 491.5114 301.3228 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              485.84210205078125,
+              569.6771850585938,
+              491.51141357421875,
+              585.7921142578125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 197,
+            "raw_link_dictionary": "<<\n  /A 280 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 468.8343 285.2079 474.5035 301.3228 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              468.83428955078125,
+              569.6771850585938,
+              474.5035095214844,
+              585.7921142578125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 198,
+            "raw_link_dictionary": "<<\n  /A 279 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 301.9961 142.6252 334.2118 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              301.99609375,
+              695.15283203125,
+              334.2117919921875,
+              728.3748168945312
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 199,
+            "raw_link_dictionary": "<<\n  /A 279 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 334.2118 142.6252 350.3197 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              334.2117919921875,
+              695.15283203125,
+              350.3197021484375,
+              728.3748168945312
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 200,
+            "raw_link_dictionary": "<<\n  /A 279 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 285.8882 142.6252 301.9961 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              285.8882141113281,
+              695.15283203125,
+              301.99609375,
+              728.3748168945312
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 201,
+            "raw_link_dictionary": "<<\n  /A 278 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 403.9937 137.1827 459.3543 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              403.99371337890625,
+              695.15283203125,
+              459.35430908203125,
+              733.8173217773438
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 202,
+            "raw_link_dictionary": "<<\n  /A 278 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 459.3543 137.1827 487.0346 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              459.35430908203125,
+              695.15283203125,
+              487.03460693359375,
+              733.8173217773438
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 203,
+            "raw_link_dictionary": "<<\n  /A 278 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 376.3134 137.1827 403.9937 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              376.3133850097656,
+              695.15283203125,
+              403.99371337890625,
+              733.8173217773438
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 204,
+            "raw_link_dictionary": "<<\n  /A 278 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 495.3685 620.0929 506.7071 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              495.3684997558594,
+              128.22357177734375,
+              506.70709228515625,
+              250.9071044921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 205,
+            "raw_link_dictionary": "<<\n  /A 277 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 506.7071 620.0929 512.3764 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              506.70709228515625,
+              128.22357177734375,
+              512.3764038085938,
+              250.9071044921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 206,
+            "raw_link_dictionary": "<<\n  /A 277 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 489.6992 620.0929 495.3685 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              489.6991882324219,
+              128.22357177734375,
+              495.3684997558594,
+              250.9071044921875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 207,
+            "raw_link_dictionary": "<<\n  /A 276 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 165.9331 142.6252 198.1488 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              165.93310546875,
+              695.15283203125,
+              198.1488037109375,
+              728.3748168945312
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 208,
+            "raw_link_dictionary": "<<\n  /A 276 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 198.1488 142.6252 214.2567 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              198.1488037109375,
+              695.15283203125,
+              214.25669860839844,
+              728.3748168945312
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 209,
+            "raw_link_dictionary": "<<\n  /A 276 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 149.8252 142.6252 165.9331 175.8472 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              149.8251953125,
+              695.15283203125,
+              165.93310546875,
+              728.3748168945312
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 210,
+            "raw_link_dictionary": "<<\n  /A 275 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 156.3635 709.5543 197.7865 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              156.36349487304688,
+              128.22357177734375,
+              197.7864990234375,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 211,
+            "raw_link_dictionary": "<<\n  /A 275 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 197.7865 709.5543 218.498 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              197.7864990234375,
+              128.22357177734375,
+              218.4980010986328,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 212,
+            "raw_link_dictionary": "<<\n  /A 275 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 135.652 709.5543 156.3635 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              135.65199279785156,
+              128.22357177734375,
+              156.36349487304688,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 213,
+            "raw_link_dictionary": "<<\n  /A 274 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 291.4583 709.5543 330.9449 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              291.45831298828125,
+              128.22357177734375,
+              330.94488525390625,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 214,
+            "raw_link_dictionary": "<<\n  /A 274 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 330.9449 709.5543 350.6882 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              330.94488525390625,
+              128.22357177734375,
+              350.6882019042969,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 215,
+            "raw_link_dictionary": "<<\n  /A 274 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 271.715 709.5543 291.4583 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              271.7149963378906,
+              128.22357177734375,
+              291.45831298828125,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 216,
+            "raw_link_dictionary": "<<\n  /A 273 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 427.5213 709.5543 467.0079 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              427.52130126953125,
+              128.22357177734375,
+              467.0079040527344,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 217,
+            "raw_link_dictionary": "<<\n  /A 273 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 467.0079 709.5543 486.7512 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              467.0079040527344,
+              128.22357177734375,
+              486.7511901855469,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 218,
+            "raw_link_dictionary": "<<\n  /A 273 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 407.778 709.5543 427.5213 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              407.77801513671875,
+              128.22357177734375,
+              427.52130126953125,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 219,
+            "raw_link_dictionary": "<<\n  /A 272 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 563.5842 709.5543 603.0709 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              563.584228515625,
+              128.22357177734375,
+              603.0709228515625,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 220,
+            "raw_link_dictionary": "<<\n  /A 272 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 603.0709 709.5543 622.8141 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              603.0709228515625,
+              128.22357177734375,
+              622.8140869140625,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 221,
+            "raw_link_dictionary": "<<\n  /A 272 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 543.8409 709.5543 563.5842 742.7764 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              543.8408813476562,
+              128.22357177734375,
+              563.584228515625,
+              161.4456787109375
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 222,
+            "raw_link_dictionary": "<<\n  /A 268 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 201.7614 616.236 216.8929 654.6738 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              201.7613983154297,
+              216.326171875,
+              216.8928985595703,
+              254.76397705078125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 223,
+            "raw_link_dictionary": "<<\n  /A 271 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 156.367 616.236 171.4985 654.6738 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              156.36700439453125,
+              216.326171875,
+              171.49850463867188,
+              254.76397705078125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 224,
+            "raw_link_dictionary": "<<\n  /A 266 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 351.0567 629.433 356.726 640.0771 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              351.05670166015625,
+              230.92291259765625,
+              356.72601318359375,
+              241.5670166015625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 225,
+            "raw_link_dictionary": "<<\n  /A 270 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 334.0488 629.433 339.7181 640.0771 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              334.0487976074219,
+              230.92291259765625,
+              339.7181091308594,
+              241.5670166015625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 226,
+            "raw_link_dictionary": "<<\n  /A 269 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 487.1197 629.433 492.789 640.0771 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              487.11968994140625,
+              230.92291259765625,
+              492.78900146484375,
+              241.5670166015625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 227,
+            "raw_link_dictionary": "<<\n  /A 268 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 470.1118 629.433 475.7811 640.0771 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              470.1117858886719,
+              230.92291259765625,
+              475.7810974121094,
+              241.5670166015625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 228,
+            "raw_link_dictionary": "<<\n  /A 267 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 623.1827 629.433 628.852 640.0771 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              623.1826782226562,
+              230.92291259765625,
+              628.8519897460938,
+              241.5670166015625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 229,
+            "raw_link_dictionary": "<<\n  /A 266 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 606.1748 629.433 611.8441 640.0771 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              606.1748046875,
+              230.92291259765625,
+              611.8441162109375,
+              241.5670166015625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 230,
+            "raw_link_dictionary": "<<\n  /A 261 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 199.9843 196.7084 214.3417 235.1462 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              199.9842987060547,
+              635.8538208007812,
+              214.34170532226562,
+              674.2916259765625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 231,
+            "raw_link_dictionary": "<<\n  /A 265 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 156.9118 196.7084 171.2693 235.1462 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              156.91180419921875,
+              635.8538208007812,
+              171.26930236816406,
+              674.2916259765625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 232,
+            "raw_link_dictionary": "<<\n  /A 264 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 349.7791 205.8378 355.4484 221.9528 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              349.77911376953125,
+              649.0471801757812,
+              355.4483947753906,
+              665.1622314453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 233,
+            "raw_link_dictionary": "<<\n  /A 263 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 332.7713 205.8378 338.4406 221.9528 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              332.77130126953125,
+              649.0471801757812,
+              338.44061279296875,
+              665.1622314453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 234,
+            "raw_link_dictionary": "<<\n  /A 262 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 485.8421 205.8378 491.5114 221.9528 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              485.84210205078125,
+              649.0471801757812,
+              491.51141357421875,
+              665.1622314453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 235,
+            "raw_link_dictionary": "<<\n  /A 261 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 468.8343 205.8378 474.5035 221.9528 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              468.83428955078125,
+              649.0471801757812,
+              474.5035095214844,
+              665.1622314453125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 236,
+            "raw_link_dictionary": "<<\n  /A 260 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 553.6043 206.0079 559.2736 221.9528 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              553.6043090820312,
+              649.0471801757812,
+              559.2736206054688,
+              664.9920654296875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 237,
+            "raw_link_dictionary": "<<\n  /A 259 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 536.5964 206.0079 542.2657 221.9528 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              536.5963745117188,
+              649.0471801757812,
+              542.2656860351562,
+              664.9920654296875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 238,
+            "raw_link_dictionary": "<<\n  /A 258 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 385.8945 294.9449 391.7622 315.8504 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              385.8945007324219,
+              555.1495971679688,
+              391.76220703125,
+              576.0551147460938
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 239,
+            "raw_link_dictionary": "<<\n  /A 257 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 368.2914 294.9449 374.1591 315.8504 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              368.2914123535156,
+              555.1495971679688,
+              374.1590881347656,
+              576.0551147460938
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 240,
+            "raw_link_dictionary": "<<\n  /A 256 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 385.8945 229.3937 391.7622 250.2992 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              385.8945007324219,
+              620.7008056640625,
+              391.76220703125,
+              641.6063232421875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 241,
+            "raw_link_dictionary": "<<\n  /A 255 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 368.2914 229.3937 374.1591 250.2992 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              368.2914123535156,
+              620.7008056640625,
+              374.1590881347656,
+              641.6063232421875
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 242,
+            "raw_link_dictionary": "<<\n  /A 254 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 108.2126 799.8661 119.5512 811.2047 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              108.21260070800781,
+              59.7952880859375,
+              119.55120086669922,
+              71.1339111328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 243,
+            "raw_link_dictionary": "<<\n  /A 253 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 119.5512 799.8661 125.2205 811.2047 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              119.55120086669922,
+              59.7952880859375,
+              125.22049713134766,
+              71.1339111328125
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 244,
+            "raw_link_dictionary": "<<\n  /A 252 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 108.2126 96.874 119.5512 108.2126 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              108.21260070800781,
+              762.7874145507812,
+              119.55120086669922,
+              774.1259765625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          },
+          {
+            "xref": 245,
+            "raw_link_dictionary": "<<\n  /A 251 0 R\n  /BS <<\n    /S /S\n    /W 0\n  >>\n  /Border [ 0 0 0 ]\n  /F 4\n  /P 153 0 R\n  /Rect [ 119.5512 96.874 125.2205 108.2126 ]\n  /Subtype /Link\n  /Type /Annot\n>>",
+            "kind": 4,
+            "from_bbox": [
+              119.55120086669922,
+              762.7874145507812,
+              125.22049713134766,
+              774.1259765625
+            ],
+            "uri": null,
+            "page_target": "1",
+            "to_point": "None"
+          }
+        ]
+      }
+    }
+  ]
+}
