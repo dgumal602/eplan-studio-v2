@@ -3970,6 +3970,24 @@ class TemplateStudioMainWindow(QMainWindow):
 
                 # Порядок полів об'єкта — з шаблону або з ghost_zones
                 obj_fields = template_field_order.get(tmpl_name, [])
+                # Додаємо service_zones з export=true
+                service_fields_export = []
+                for i_t in range(t_count):
+                    item = self.list_templates.topLevelItem(i_t) if is_tree else self.list_templates.item(i_t)
+                    if not item: continue
+                    try:
+                        user_data = item.data(0, Qt.ItemDataRole.UserRole) if is_tree else item.data(Qt.ItemDataRole.UserRole)
+                        with open(user_data, 'r', encoding='utf-8') as f:
+                            t = json.load(f)
+                        if t.get('name', '') == tmpl_name:
+                            for sz in t.get('service_zones', []):
+                                if sz.get('export', False):
+                                    fn = sz.get('field', '')
+                                    if fn and fn not in obj_fields:
+                                        service_fields_export.append(fn)
+                            break
+                    except Exception: pass
+                obj_fields = obj_fields + service_fields_export
                 if not obj_fields:
                     seen = set()
                     for o in objects:
