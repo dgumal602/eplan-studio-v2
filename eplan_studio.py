@@ -768,6 +768,7 @@ class SettingsDialog(QDialog):
         ("frame_approved", "Рамка Approved",  True,  "#ff27ae60", "#4027ae60", 2.0, "solid"),
         ("skeleton",       "Скелет",          False, "#ffe74c3c", None,        1.5, "solid"),
         ("zones",          "Текст. зони",     True,  "#ff9b59b6", "#4d9b59b6", 1.5, "dash"),
+        ("service_zones",  "Сервісні зони",   True,  "#ff16a085", "#4d1abc9c", 1.5, "dash"),
         ("anchor",         "Anchor ✕",        False, "#ffdc1414", None,        2.0, "solid"),
         ("vectors",        "Вектори PDF",     False, "#ff0096ff", None,        1.0, "solid"),
     ]
@@ -1244,6 +1245,9 @@ class TemplateStudioMainWindow(QMainWindow):
         self.btn_new_tmpl = QPushButton("➕ Новий")
         self.btn_clone_tmpl = QPushButton("📑 Дублювати")
         self.btn_save_tmpl = QPushButton("💾 Зберегти")
+        self.btn_edit_tmpl = QPushButton("📐 Редагувати на стор.")
+        self.btn_edit_tmpl.setStyleSheet("background-color: #16a085; color: white;")
+        self.btn_edit_tmpl.setToolTip("Розмістити вибраний шаблон на сторінці для редагування")
 
         # === НОВА КНОПКА ВИДАЛЕННЯ ===
         self.btn_del_tmpl = QPushButton("🗑 Видалити")
@@ -1254,6 +1258,8 @@ class TemplateStudioMainWindow(QMainWindow):
         btn_layout.addWidget(self.btn_clone_tmpl)
         btn_layout.addWidget(self.btn_save_tmpl)
         btn_layout.addWidget(self.btn_del_tmpl) # <-- ПЕРЕВІРТЕ ЦЕЙ РЯДОК (додавання у віджет)
+        btn_layout.addWidget(self.btn_edit_tmpl)
+
 
         lib_layout.addLayout(btn_layout)
         group_lib.setLayout(lib_layout)
@@ -1426,6 +1432,8 @@ class TemplateStudioMainWindow(QMainWindow):
         self.btn_mode_validate.clicked.connect(lambda: self.switch_mode("VALIDATE"))
         self.btn_mode_export.clicked.connect(lambda: self.export_csv_from_cache(auto=False))
         self.btn_settings.clicked.connect(self.open_settings_dialog)
+
+        self.btn_edit_tmpl.clicked.connect(self.action_start_template_placement)
 
         self.btn_first_page.clicked.connect(self._nav_jump_first)
         self.btn_prev_page.clicked.connect(lambda: self.change_page(-1))
@@ -1689,7 +1697,6 @@ class TemplateStudioMainWindow(QMainWindow):
         self.tree_widget.itemClicked.connect(self.on_tree_item_clicked)
         
         widgets_to_connect = [
-            # Замість edit_pl_min/max додаємо три нові поля ratios:
             self.edit_role, self.edit_x0_off, self.edit_y0_off, self.edit_len_rat, 
             self.edit_pl_rat, self.edit_pl_rat_w, self.edit_pl_rat_h, 
             self.edit_wid_rat, self.edit_rad_rat, self.edit_cnt_min, self.edit_cnt_max,
@@ -1697,28 +1704,16 @@ class TemplateStudioMainWindow(QMainWindow):
             self.edit_var_name, self.edit_var_expr, self.edit_variant_name, self.edit_variant_cond,
             self.edit_tz_field, self.edit_tz_x0, self.edit_tz_y0, self.edit_tz_x1, self.edit_tz_y1, 
             self.edit_tz_join, self.edit_tz_repeat, self.edit_tz_sep,
+            self.edit_sz_field, self.edit_sz_x0, self.edit_sz_y0, self.edit_sz_x1, self.edit_sz_y1,
             self.edit_pin_search, self.edit_pin_len, self.edit_pin_sides, self.edit_pin_x0_min, self.edit_pin_x0_max,
             self.edit_ar_min, self.edit_ar_max, self.edit_ihl_min, self.edit_ihl_max
         ]
-        #for w in widgets_to_connect: w.textEdited.connect(self.update_properties_to_state)
         for w in widgets_to_connect: 
-            widgets_to_connect = [
-                self.edit_role, self.edit_x0_off, self.edit_y0_off, self.edit_len_rat, 
-                self.edit_pl_rat, self.edit_pl_rat_w, self.edit_pl_rat_h, 
-                self.edit_wid_rat, self.edit_rad_rat, self.edit_cnt_min, self.edit_cnt_max,
-                self.edit_xy_tol, self.edit_lw_tol, self.edit_anch_x, self.edit_anch_y, self.edit_anch_w, self.edit_anch_h,
-                self.edit_var_name, self.edit_var_expr, self.edit_variant_name, self.edit_variant_cond,
-                self.edit_tz_field, self.edit_tz_x0, self.edit_tz_y0, self.edit_tz_x1, self.edit_tz_y1, 
-                self.edit_tz_join, self.edit_tz_repeat, self.edit_tz_sep,
-                self.edit_sz_field, self.edit_sz_x0, self.edit_sz_y0, self.edit_sz_x1, self.edit_sz_y1,
-                self.edit_pin_search, self.edit_pin_len, self.edit_pin_sides, self.edit_pin_x0_min, self.edit_pin_x0_max,
-                self.edit_ar_min, self.edit_ar_max, self.edit_ihl_min, self.edit_ihl_max
-            ]#w.textEdited.connect(self.update_properties_to_state)
+            w.textEdited.connect(self.update_properties_to_state)
+            w.textEdited.connect(self._refresh_ghost_preview)
 
         self.chk_sz_required.toggled.connect(self.update_properties_to_state)
         self.chk_sz_export.toggled.connect(self.update_properties_to_state)
-
-        for w in widgets_to_connect: w.textEdited.connect(self._refresh_ghost_preview)
 
         self.edit_out_fields.textChanged.connect(self.update_properties_to_state)
         self.edit_type.currentTextChanged.connect(self.update_properties_to_state)
@@ -1836,6 +1831,127 @@ class TemplateStudioMainWindow(QMainWindow):
                 QMessageBox.information(self, "Успіх", f"Шаблон '{tmpl_name}' успішно видалено.")
             except Exception as e:
                 QMessageBox.critical(self, "Помилка", f"Не вдалося видалити файл:\n{e}")
+    
+    def action_start_template_placement(self):
+        """Запускає режим розміщення вибраного шаблону на сторінці для редагування."""
+        selected_items = self.list_templates.selectedItems()
+        if not selected_items:
+            return QMessageBox.warning(self, "Увага", "Виберіть шаблон у бібліотеці!")
+        
+        item = selected_items[0]
+        file_path = item.data(0, Qt.ItemDataRole.UserRole)
+        if not file_path or not os.path.exists(file_path):
+            return QMessageBox.critical(self, "Помилка", "Файл шаблону не знайдено!")
+        
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                tmpl_data = json.load(f)
+        except Exception as e:
+            return QMessageBox.critical(self, "Помилка", f"Не вдалося прочитати:\n{e}")
+        
+        self._placement_template = tmpl_data
+        self._placement_file = file_path
+        
+        QMessageBox.information(self, "Розміщення шаблону",
+            f"Шаблон: {tmpl_data.get('name', 'unknown')}\n\n"
+            "Клікніть на точці креслення, куди має прив'язатись Anchor.\n"
+            "Активний режим OSNAP — курсор прилипне до кінців/середин ліній.")
+        
+        self.switch_mode("CONFIG")
+        self.view.point_snapped.disconnect()
+        self.view.point_snapped.connect(self._on_template_placed)
+        self.view.start_snapping()
+
+    def _on_template_placed(self, ax, ay):
+        """Обробляє розміщення шаблону: розраховує координати скелета і будує config_raw_elements."""
+        # Відновлюємо стандартний обробник
+        self.view.point_snapped.disconnect()
+        self.view.point_snapped.connect(self.on_anchor_snapped)
+        
+        tmpl_data = getattr(self, '_placement_template', None)
+        if not tmpl_data:
+            return
+        
+        # Завантажуємо шаблон у state
+        self.state.update_template(tmpl_data)
+        
+        # Розраховуємо базові координати: anchor = (ax, ay), base_element починається з anchor
+        anch_def = tmpl_data.get('anchor', {})
+        ev_test = ExprEvaluator({'base_element': {'x0': 0, 'y0': 0, 'length': 100.0}})
+        off_x = ev_test.eval(anch_def.get('x', 'base_element.x0'))
+        off_y = ev_test.eval(anch_def.get('y', 'base_element.y0'))
+        
+        bx = ax - off_x
+        by = ay - off_y
+        
+        # base_element довжина — з page_length_ratio
+        base_def = next((l for l in tmpl_data.get('geometry', {}).get('lines', []) 
+                        if l.get('is_base')), None)
+        if not base_def:
+            return QMessageBox.critical(self, "Помилка", "Шаблон не має base_element!")
+        
+        # Розраховуємо реальну довжину base_element
+        page_w = float(tmpl_data.get('_page_width', 595))
+        page_h = float(tmpl_data.get('_page_height', 842))
+        base_type = base_def.get('type', 'V')
+        plr = float(base_def.get('page_length_ratio', 0.1))
+        
+        if base_type == 'H':
+            blen = plr * page_w
+        elif base_type == 'V':
+            blen = plr * page_h
+        else:
+            plr_w = float(base_def.get('page_ratio_W', 0.1))
+            plr_h = float(base_def.get('page_ratio_H', 0.1))
+            blen = max(plr_w * page_w, plr_h * page_h)
+        
+        # Будуємо config_raw_elements для всіх ліній шаблону
+        self.config_raw_elements.clear()
+        
+        for line_def in tmpl_data.get('geometry', {}).get('lines', []):
+            role = line_def.get('role', 'unknown')
+            l_type = line_def.get('type', 'H')
+            lx0 = bx + float(line_def.get('x0_offset_ratio', 0)) * blen
+            ly0 = by + float(line_def.get('y0_offset_ratio', 0)) * blen
+            
+            if l_type in ('arc', 'rect', 'ellipse', 'image'):
+                lw = float(line_def.get('width_ratio', 1.0)) * blen
+                lh = float(line_def.get('height_ratio', 1.0)) * blen
+                raw = {
+                    'type': l_type, 'dir': l_type,
+                    'x0': lx0, 'y0': ly0, 'x1': lx0 + lw, 'y1': ly0 + lh,
+                    'length': max(lw, lh)
+                }
+            elif l_type == 'H':
+                ll = float(line_def.get('length_ratio', 1.0)) * blen
+                raw = {'type': 'line', 'dir': 'H',
+                       'x0': lx0, 'y0': ly0, 'x1': lx0 + ll, 'y1': ly0, 'length': ll}
+            elif l_type == 'V':
+                ll = float(line_def.get('length_ratio', 1.0)) * blen
+                raw = {'type': 'line', 'dir': 'V',
+                       'x0': lx0, 'y0': ly0, 'x1': lx0, 'y1': ly0 + ll, 'length': ll}
+            elif l_type == 'D':
+                import math
+                lx1 = bx + float(line_def.get('x1_offset_ratio', 1.0)) * blen
+                ly1 = by + float(line_def.get('y1_offset_ratio', 1.0)) * blen
+                ll = math.hypot(lx1 - lx0, ly1 - ly0)
+                raw = {'type': 'line', 'dir': 'D',
+                       'x0': lx0, 'y0': ly0, 'x1': lx1, 'y1': ly1, 'length': ll}
+            else:
+                continue
+            
+            self.config_raw_elements[role] = raw
+            if line_def.get('is_base'):
+                self.current_base_raw = raw
+        
+        self.rebuild_tree()
+        self._refresh_ghost_preview()
+        
+        QMessageBox.information(self, "Готово",
+            f"Шаблон розміщено в точці ({ax:.1f}, {ay:.1f}).\n"
+            "Тепер можна редагувати: додавати/видаляти лінії, варіанти, текстові зони.\n"
+            "Натисніть '💾 Зберегти' для збереження змін.")
+
     def refresh_inspector(self):
         """Примусово оновлює Інспектор (Live Preview) після завантаження сторінки"""
         self.on_table_selection_changed(self.table_view.selectionModel().selection(), None)
@@ -1935,6 +2051,7 @@ class TemplateStudioMainWindow(QMainWindow):
             ("frame_approved", "Рамка (Approved)",   True),
             ("skeleton",       "Скелет (Лінії)",     True),
             ("zones",          "Зони тексту",        True),
+            ("service_zones",  "Сервісні зони",      True),
             ("anchor",         "Точка захоплення ✕", True),
             ("vectors",        "Вектори PDF",        True),
         ]
@@ -2122,9 +2239,9 @@ class TemplateStudioMainWindow(QMainWindow):
         row_idx = getattr(old_val_box, 'row_index', -1)
         if row_idx == -1: return
 
-        # ── zone_edit: Зона розтягнута мишкою -> перераховуємо текст! ────────
-        if action_mode == 'zone_edit':
-            self.recalculate_object_ocr(old_val_box)
+        # ── zone_edit / service_zone_edit: Зона розтягнута мишкою -> перераховуємо текст! ────────
+        if action_mode in ('zone_edit', 'service_zone_edit'):
+            self.recalculate_object_ocr(old_val_box, include_service=(action_mode == 'service_zone_edit'))
             return
 
         self.skip_zoom = True
@@ -3660,9 +3777,21 @@ class TemplateStudioMainWindow(QMainWindow):
                                 })
                     except Exception:
                         pass
+            # 6.5. Service Zones
+            service_zones = []
+            for sz in tmpl.get('service_zones', []):
+                field_name = sz.get('field', 'unknown')
+                try:
+                    x0, y0 = ev.eval(sz['x0']), ev.eval(sz['y0'])
+                    x1, y1 = ev.eval(sz['x1']), ev.eval(sz['y1'])
+                    service_zones.append({
+                        'field': field_name,
+                        'x0': x0, 'y0': y0, 'x1': x1, 'y1': y1
+                    })
+                except Exception:
+                    pass
 
-            self.ghost_preview.update_preview(abs_lines, ghost_zones, anchor_pos, ui_rect)
-            
+            self.ghost_preview.update_preview(abs_lines, ghost_zones, anchor_pos, ui_rect, service_zones)
         except Exception as e:
             print(f"[Live Preview] Тимчасова помилка побудови: {e}")
 
@@ -3725,7 +3854,7 @@ class TemplateStudioMainWindow(QMainWindow):
         for btn in (self.btn_approve_all, self.btn_run_engine, self.btn_batch):
             btn.setVisible(enabled)
 
-    def recalculate_object_ocr(self, val_box):
+    def recalculate_object_ocr(self, val_box, include_service=False):
         """Миттєво перечитує текст для зон, розмір яких змінили мишкою."""
         import pdfplumber
         try:
@@ -3735,23 +3864,30 @@ class TemplateStudioMainWindow(QMainWindow):
                 ur = obj.custom_zones.get('ui_rect', {})
                 if not ur: return
                 
+                # OCR для звичайних text_zones
                 for tz in obj.custom_zones.get('ghost_zones', []):
                     zx0 = ur['x'] + tz['rx0'] * ur['w']
                     zy0 = ur['y'] + tz['ry0'] * ur['h']
                     zx1 = ur['x'] + tz['rx1'] * ur['w']
                     zy1 = ur['y'] + tz['ry1'] * ur['h']
-                    
-                    # Викликаємо ідеальну універсальну функцію
                     text = extract_text_by_center(page, zx0, zy0, zx1, zy1)
                     obj.text_fields[tz['field']] = text
+                
+                # OCR для service_zones (читаємо в text_fields теж — для conditions та відображення)
+                for sz in obj.custom_zones.get('service_ghost_zones', []):
+                    zx0 = ur['x'] + sz['rx0'] * ur['w']
+                    zy0 = ur['y'] + sz['ry0'] * ur['h']
+                    zx1 = ur['x'] + sz['rx1'] * ur['w']
+                    zy1 = ur['y'] + sz['ry1'] * ur['h']
+                    text = extract_text_by_center(page, zx0, zy0, zx1, zy1)
+                    obj.text_fields[sz['field']] = text
                             
             if hasattr(self, 'table_model'):
                 self.table_model.layoutChanged.emit()
             self.refresh_inspector()
-            self.manual_save_to_db() 
+            self.manual_save_to_db()
         except Exception as e:
             print(f"Помилка OCR при ресайзі: {e}")
-
 
     def action_change_pending_color(self):
         from PyQt6.QtWidgets import QColorDialog
@@ -4683,6 +4819,7 @@ class TemplateStudioMainWindow(QMainWindow):
         elif category == "variables": del self.state.template_data["variables"][identifier]
         elif category == "variants": del self.state.template_data["variants"][identifier]
         elif category == "text_zones": del self.state.template_data["variants"][var_idx]["text_zones"][identifier]
+        elif category == "service_zones": del self.state.template_data["service_zones"][identifier]
         self.current_selected_node = None; self.prop_stack.setCurrentWidget(self.w_blank); self.rebuild_tree(); self.state.update_template(self.state.template_data)
 
     def action_add_variable(self):

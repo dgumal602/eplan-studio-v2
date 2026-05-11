@@ -235,6 +235,74 @@ class TextZoneHandle(QGraphicsRectItem):
         e.accept()
 
 
+class ServiceZoneHandle(TextZoneHandle):
+    """Аналог TextZoneHandle, але для service_zones (teal-колір, інший ключ у custom_zones)."""
+    
+    def __init__(self, zone_dict: dict, zone_index: int, parent_vbox: 'ValidationBox'):
+        # Викликаємо __init__ батька, але переоформлюємо стилі під service
+        super().__init__(zone_dict, zone_index, parent_vbox)
+        
+        sr = getattr(parent_vbox, 'state_ref', None)
+        if sr:
+            c_hex = sr.load_setting("color_contour_service_zones", "#ff16a085")
+            f_hex = sr.load_setting("color_fill_service_zones",    "#4d1abc9c")
+            w     = float(sr.load_setting("line_width_service_zones", 1.5))
+            PEN_STYLES = {'solid': Qt.PenStyle.SolidLine, 'dash': Qt.PenStyle.DashLine,
+                          'dot': Qt.PenStyle.DotLine, 'dashdot': Qt.PenStyle.DashDotLine}
+            style = PEN_STYLES.get(sr.load_setting("line_style_service_zones", "dash"), Qt.PenStyle.DashLine)
+            self._color = QColor(c_hex)
+            self._color_fill = QColor(f_hex)
+        else:
+            self._color = QColor(22, 160, 133)
+            self._color_fill = QColor(26, 188, 156, 60)
+            w, style = 1.5, Qt.PenStyle.DashLine
+        
+        self._pen_normal = QPen(self._color, w, style)
+        self._pen_hover = QPen(self._color.lighter(130), w + 1.0)
+        self._pen_drag = QPen(QColor(243, 156, 18), 2.0)
+        self._brush_normal = QBrush(self._color_fill)
+        self._brush_hover = QBrush(QColor(self._color_fill).lighter(120))
+        
+        self.setPen(self._pen_normal)
+        self.setBrush(self._brush_normal)
+        self._resize_knob.setBrush(QBrush(self._color))
+        self._label.setDefaultTextColor(self._color)
+    
+    def apply_new_settings(self, state_ref):
+        """Оновлює стилі при зміні налаштувань."""
+        PEN_STYLES = {'solid': Qt.PenStyle.SolidLine, 'dash': Qt.PenStyle.DashLine,
+                      'dot': Qt.PenStyle.DotLine, 'dashdot': Qt.PenStyle.DashDotLine}
+        c_hex = state_ref.load_setting("color_contour_service_zones", "#ff16a085")
+        f_hex = state_ref.load_setting("color_fill_service_zones", "#4d1abc9c")
+        w = float(state_ref.load_setting("line_width_service_zones", 1.5))
+        style = PEN_STYLES.get(state_ref.load_setting("line_style_service_zones", "dash"), Qt.PenStyle.DashLine)
+        
+        self._color = QColor(c_hex)
+        self._color_fill = QColor(f_hex)
+        self._pen_normal = QPen(self._color, w, style)
+        self._pen_hover = QPen(self._color.lighter(130), w + 1.0)
+        self._brush_normal = QBrush(self._color_fill)
+        self._resize_knob.setBrush(QBrush(self._color))
+        self._label.setDefaultTextColor(self._color)
+        
+        if not self._drag_mode:
+            self.setPen(self._pen_normal)
+            self.setBrush(self._brush_normal)
+        self.update()
+
+    def mouseReleaseEvent(self, e):
+        """Override щоб писати в service_ghost_zones замість ghost_zones."""
+        if self._drag_mode:
+            self._write_ratios_back()
+            self._drag_mode = None
+            self._drag_start_scene = None
+            self.setPen(self._pen_normal)
+            self.setBrush(self._brush_normal)
+            if hasattr(self._vbox, '_on_service_zone_moved'):
+                self._vbox._on_service_zone_moved()
+            e.accept()
+        else:
+            super(TextZoneHandle, self).mouseReleaseEvent(e)
 
 def build_bezier_path_from_segments(path_segs: list) -> QPainterPath:
     """
@@ -566,30 +634,53 @@ class ValidationBox(QGraphicsRectItem, InteractiveMixin):
         margin = 25  # для anchor хрестика та label
         return r.adjusted(-margin, -margin, margin, margin)
     
+
     def _rebuild_zone_handles(self):
-        """Видаляє старі ручки і створює нові за поточними ghost_zones."""
+        """Видаляє старі ручки і створює нові за поточними ghost_zones + service_ghost_zones."""
         for h in self._zone_handles:
             if h.scene():
                 h.scene().removeItem(h)
         self._zone_handles.clear()
 
         zones = self.found_obj.custom_zones.get('ghost_zones', [])
-        # Перевіряємо глобальний стан шару зон
-        initial_visible = self._handles_visible
+        sz_zones = self.found_obj.custom_zones.get('service_ghost_zones', [])
+        
+        zones_visible = self._handles_visible
+        sz_visible = self._handles_visible
         if hasattr(self, 'state_ref') and self.state_ref:
-            initial_visible = initial_visible and self.state_ref.load_setting("visible_zones", True)
+            zones_visible = zones_visible and self.state_ref.load_setting("visible_zones", True)
+            sz_visible = sz_visible and self.state_ref.load_setting("visible_service_zones", True)
         
         for idx, zone in enumerate(zones):
             handle = TextZoneHandle(zone, idx, self)
-            handle.setVisible(initial_visible)
+            handle.setVisible(zones_visible)
+            handle._is_service = False
+            self._zone_handles.append(handle)
+        
+        for idx, zone in enumerate(sz_zones):
+            handle = ServiceZoneHandle(zone, idx, self)
+            handle.setVisible(sz_visible)
+            handle._is_service = True
             self._zone_handles.append(handle)
 
     def set_handles_visible(self, visible: bool):
-        """Показує або ховає всі ручки текстових зон."""
+        """Показує або ховає ручки за типом (text vs service) — кожен шар незалежно."""
         self._handles_visible = visible
         self._zones_layer_visible = visible
+        
+        # Окрема перевірка для кожного типу
+        zones_layer_on = True
+        sz_layer_on = True
+        if hasattr(self, 'state_ref') and self.state_ref:
+            zones_layer_on = self.state_ref.load_setting("visible_zones", True)
+            sz_layer_on = self.state_ref.load_setting("visible_service_zones", True)
+        
         for h in self._zone_handles:
-            h.setVisible(visible)
+            if getattr(h, '_is_service', False):
+                h.setVisible(visible and sz_layer_on)
+            else:
+                h.setVisible(visible and zones_layer_on)
+        
         if hasattr(self, 'label'):
             self.label.setVisible(visible)
         self.update()
@@ -602,6 +693,11 @@ class ValidationBox(QGraphicsRectItem, InteractiveMixin):
         if self.on_geometry_changed_cb:
             # Передаємо self і поточний rect без зміни геометрії рамки
             self.on_geometry_changed_cb(self, self.rect(), 'zone_edit')
+
+    def _on_service_zone_moved(self):
+        """Викликається ServiceZoneHandle після mouseRelease — оновити OCR для service zones."""
+        if self.on_geometry_changed_cb:
+            self.on_geometry_changed_cb(self, self.rect(), 'service_zone_edit')
 
     def paint(self, painter, option, widget):
         from PyQt6.QtCore import QRectF, QPointF
@@ -761,28 +857,24 @@ class ValidationBox(QGraphicsRectItem, InteractiveMixin):
                     zw = (zone['rx1'] - zone['rx0']) * rect.width()
                     zh = (zone['ry1'] - zone['ry0']) * rect.height()
                     painter.drawRect(QRectF(zx, zy, zw, zh).normalized())
-        # ── Service Zones (сервісні поля для conditions) ─────────────────────
-        if is_zones_visible and 'service_ghost_zones' in self.found_obj.custom_zones:
-            service_pen = QPen(QColor(26, 188, 156), 1.5, Qt.PenStyle.DashLine)  # teal
-            service_brush = QBrush(QColor(26, 188, 156, 60))
-            painter.setPen(service_pen)
-            painter.setBrush(service_brush)
-            from PyQt6.QtGui import QFont
-            for sz in self.found_obj.custom_zones['service_ghost_zones']:
-                zx = rect.x() + sz['rx0'] * rect.width()
-                zy = rect.y() + sz['ry0'] * rect.height()
-                zw = (sz['rx1'] - sz['rx0']) * rect.width()
-                zh = (sz['ry1'] - sz['ry0']) * rect.height()
-                painter.drawRect(QRectF(zx, zy, zw, zh).normalized())
-                # Підпис назви поля
-                fnt = QFont(); fnt.setPointSize(7); fnt.setBold(True)
-                painter.setFont(fnt)
-                painter.setPen(QPen(QColor(22, 160, 133)))
-                label = sz.get('field', '')
-                if sz.get('required'): label += " *"
-                painter.drawText(QRectF(zx, zy - 14, zw, 12), 
-                                Qt.AlignmentFlag.AlignLeft, label)
-                painter.setPen(service_pen)
+        # ── Service Zones (коли handles сховані) ─────────────────────────────
+        is_sz_visible = True
+        if hasattr(self, 'state_ref') and self.state_ref:
+            is_sz_visible = self.state_ref.load_setting("visible_service_zones", True)
+        
+        if is_sz_visible and 'service_ghost_zones' in self.found_obj.custom_zones:
+            handles_active = getattr(self, '_handles_visible', True)
+            if not handles_active:
+                sz_pen = getattr(self, 'sz_pen', QPen(QColor(22, 160, 133), 1.5, Qt.PenStyle.DashLine))
+                sz_brush = getattr(self, 'sz_brush', QBrush(QColor(26, 188, 156, 60)))
+                painter.setPen(sz_pen)
+                painter.setBrush(sz_brush)
+                for sz in self.found_obj.custom_zones['service_ghost_zones']:
+                    zx = rect.x() + sz['rx0'] * rect.width()
+                    zy = rect.y() + sz['ry0'] * rect.height()
+                    zw = (sz['rx1'] - sz['rx0']) * rect.width()
+                    zh = (sz['ry1'] - sz['ry0']) * rect.height()
+                    painter.drawRect(QRectF(zx, zy, zw, zh).normalized())
         # ── Хрестик точки захоплення — малюємо ОСТАННІМ, Z поверх усього ──
         if is_anchor_visible:
             anchor_pos = self.found_obj.custom_zones.get('anchor_pos')
@@ -958,6 +1050,12 @@ class ValidationBox(QGraphicsRectItem, InteractiveMixin):
                                 "line_style_zones",   "dash")
         self.ghost_brush = _brush("color_fill_zones", "#4d9b59b6")
 
+        # Сервісні зони
+        self.sz_pen   = _pen("color_contour_service_zones", "#ff16a085",
+                             "line_width_service_zones",   1.5,
+                             "line_style_service_zones",   "dash")
+        
+        self.sz_brush = _brush("color_fill_service_zones", "#4d1abc9c")
         # Визначаємо чи рамка видима
         if state_ref:
             if self.status == "pending":
@@ -1028,7 +1126,7 @@ class GhostPreviewItem(QGraphicsPathItem):
         c_bb_fill = QColor(c_bb); c_bb_fill.setAlpha(20)
         self._brush_bbox = QBrush(c_bb_fill)
 
-    def update_preview(self, abs_lines: list, ghost_zones: list, anchor_pos: dict | None, ui_rect: dict | None):
+    def update_preview(self, abs_lines: list, ghost_zones: list, anchor_pos: dict | None, ui_rect: dict | None, service_zones: list = None):
         self._update_styles() 
         
         # ЧИТАЄМО СТАН МЕНЕДЖЕРА ШАРІВ
@@ -1085,7 +1183,28 @@ class GhostPreviewItem(QGraphicsPathItem):
                 if hasattr(self, '_text_color'): lbl.setDefaultTextColor(self._text_color)
                 font = lbl.font(); font.setPointSize(7); font.setBold(True)
                 lbl.setFont(font); lbl.setPos(0, -18)
-
+        # 3.5. Service Zones (teal)
+        v_sz = self.state_ref.load_setting("visible_service_zones", True) if self.state_ref else True
+        if v_sz and service_zones:
+            # Стилі service_zones з БД
+            sz_color = QColor(self.state_ref.load_setting("color_contour_service_zones", "#ff16a085")) if self.state_ref else QColor(22, 160, 133)
+            sz_fill = QColor(self.state_ref.load_setting("color_fill_service_zones", "#4d1abc9c")) if self.state_ref else QColor(26, 188, 156, 60)
+            sz_w = float(self.state_ref.load_setting("line_width_service_zones", 1.5)) if self.state_ref else 1.5
+            PEN_STYLES = {'solid': Qt.PenStyle.SolidLine, 'dash': Qt.PenStyle.DashLine,
+                          'dot': Qt.PenStyle.DotLine, 'dashdot': Qt.PenStyle.DashDotLine}
+            sz_style_key = self.state_ref.load_setting("line_style_service_zones", "dash") if self.state_ref else "dash"
+            sz_style = PEN_STYLES.get(sz_style_key, Qt.PenStyle.DashLine)
+            sz_pen = QPen(sz_color, sz_w, sz_style)
+            sz_brush = QBrush(sz_fill)
+            
+            for zone in service_zones:
+                zx0, zy0 = min(zone['x0'], zone['x1']), min(zone['y0'], zone['y1'])
+                zw, zh = abs(zone['x1'] - zone['x0']), abs(zone['y1'] - zone['y0'])
+                rect_item = QGraphicsRectItem(zx0, zy0, zw, zh, self)
+                rect_item.setPen(sz_pen)
+                rect_item.setBrush(sz_brush)
+                rect_item.setZValue(1002)
+                
         # 4. Точка Захоплення
         if v_a and anchor_pos and hasattr(self, '_pen_anchor'):
             ax, ay = anchor_pos['x'], anchor_pos['y']
