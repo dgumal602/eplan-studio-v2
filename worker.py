@@ -242,8 +242,9 @@ class BaseWorker(QThread):
                 service_text_fields[field_name] = text
                 ctx[field_name] = text  # додаємо в context для conditions
                 
-                if sz.get('required', False) and not text:
+                if sz.get('required', False) and not text.strip():
                     service_required_failed = True
+                    print(f"[Worker] SKIP: '{field_name}' required, але text='{repr(text)}'")
                     print(f"[Worker] Service zone '{field_name}' required але порожнє — об'єкт відкинуто")
                     
             except Exception as e:
@@ -252,6 +253,7 @@ class BaseWorker(QThread):
         # Якщо required service zone порожня — позначаємо об'єкт для відкидання
         if service_required_failed:
             obj.custom_zones['_skip'] = True
+            print(f"[Worker] Об'єкт відкинуто: _skip=True")
         
         # === ВИБІР VARIANT ПО SERVICE ZONES + ВАРІАБЛЕС ===
         selected_variant = None
@@ -271,9 +273,72 @@ class BaseWorker(QThread):
         variant = selected_variant if selected_variant else {}
         new_text_fields = dict(service_text_fields)
 
+        # === SERVICE ZONES — OCR за центром (як text_zones) ===
+        obj.custom_zones['service_ghost_zones'] = []
+        ev_service = ExprEvaluator(ctx)
+        service_text_fields = {}
+        service_required_failed = False
+        
+        for sz in tmpl.get('service_zones', []):
+            field_name = sz.get('field', 'unknown')
+            try:
+                x0 = ev_service.eval(sz['x0'])
+                y0 = ev_service.eval(sz['y0'])
+                x1 = ev_service.eval(sz['x1'])
+                y1 = ev_service.eval(sz['y1'])
+                
+                obj.custom_zones['service_ghost_zones'].append({
+                    'field': field_name,
+                    'rx0': (x0 - min_x) / union_w,
+                    'ry0': (y0 - min_y) / union_h,
+                    'rx1': (x1 - min_x) / union_w,
+                    'ry1': (y1 - min_y) / union_h,
+                    'required': sz.get('required', False),
+                    'export': sz.get('export', False)
+                })
+                
+                # OCR за центром символів — та сама функція що і для text_zones
+                text = extract_text_by_center(page, x0, y0, x1, y1)
+                service_text_fields[field_name] = text
+                ctx[field_name] = text  # додаємо в context для conditions
+                
+                if sz.get('required', False) and not text.strip():
+                    service_required_failed = True
+                    print(f"[Worker] SKIP: '{field_name}' required, але text='{repr(text)}'")
+                    
+            except Exception as e:
+                print(f"[Worker] Помилка service zone {field_name}: {e}")
+        
+        if service_required_failed:
+            obj.custom_zones['_skip'] = True
+        
+        # === VARIANT SELECTION ПО CONDITIONS ===
+        selected_variant = None
+        ev_cond = ExprEvaluator(ctx)
+        for v in tmpl.get('variants', []):
+            cond = v.get('condition', 'True')
+            try:
+                if hasattr(ev_cond, 'eval_condition'):
+                    if ev_cond.eval_condition(cond):
+                        selected_variant = v
+                        obj.variant_name = v.get('name', 'default')
+                        break
+                else:
+                    if ev_cond.eval(cond):
+                        selected_variant = v
+                        obj.variant_name = v.get('name', 'default')
+                        break
+            except Exception:
+                continue
+        
+        if selected_variant is None and tmpl.get('variants'):
+            # fallback на оригінальний variant_name
+            selected_variant = next((v for v in tmpl.get('variants', []) if v.get('name') == obj.variant_name), tmpl['variants'][0])
+        
+        # === TEXT ZONES вибраного варіанту ===
         obj.custom_zones['ghost_zones'] = []
-        variant = next((v for v in tmpl.get('variants', []) if v.get('name') == obj.variant_name), {})
-        new_text_fields = {}
+        variant = selected_variant if selected_variant else {}
+        new_text_fields = dict(service_text_fields)  # service поля теж у text_fields
         
         ev = ExprEvaluator(ctx)
         for tz in variant.get('text_zones', []):
@@ -348,16 +413,17 @@ class SearchWorker(BaseWorker):
                         for k, v in obj.text_fields.items():
                             page_global_data[f"{tmpl['name']}_{k}"] = v
 
-                # ПРОХІД 2: Фільтруємо excluded та відправляємо в UI
+                # ПРОХІД 2: Фільтруємо excluded, обробляємо OCR, потім перевіряємо _skip та відправляємо в UI
                 for obj in found_objects:
                     if self._is_excluded(obj):
-                        continue
-                    if obj.custom_zones.get('_skip'):
                         continue
                     tmpl = next((t for t in self.templates if t['name'] == obj.template_name), None)
                     if tmpl:
                         if not tmpl.get("Page_Data", False):
                             self._enrich_object_data(obj, tmpl, page)
+                        # _skip перевіряємо ПІСЛЯ enrich (service_zones встановлюють його там)
+                        if obj.custom_zones.get('_skip'):
+                            continue
                         obj_dict = obj.to_dict()
                         self.all_found_dicts.append(obj_dict)
                         self.object_found.emit(obj_dict)
@@ -454,12 +520,12 @@ class BatchWorker(BaseWorker):
                         for obj in found_objects:
                             if self._is_excluded(obj, exclusion_zones):
                                 continue
-                            if obj.custom_zones.get('_skip'):
-                                continue
                             tmpl = next((t for t in self.templates if t['name'] == obj.template_name), None)
                             if tmpl:
                                 if not tmpl.get("Page_Data", False):
                                     self._enrich_object_data(obj, tmpl, page)
+                                if obj.custom_zones.get('_skip'):
+                                    continue
                                 result_dicts.append(obj.to_dict())
 
                         self.page_finished.emit(page_num, result_dicts)

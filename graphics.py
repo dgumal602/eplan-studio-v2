@@ -664,11 +664,11 @@ class ValidationBox(QGraphicsRectItem, InteractiveMixin):
             self._zone_handles.append(handle)
 
     def set_handles_visible(self, visible: bool):
-        """Показує або ховає ручки за типом (text vs service) — кожен шар незалежно."""
+        """Показує або ховає ручки. Видимість залежить від глобальних шарів."""
         self._handles_visible = visible
         self._zones_layer_visible = visible
         
-        # Окрема перевірка для кожного типу
+        # Читаємо стан шарів незалежно
         zones_layer_on = True
         sz_layer_on = True
         if hasattr(self, 'state_ref') and self.state_ref:
@@ -677,8 +677,10 @@ class ValidationBox(QGraphicsRectItem, InteractiveMixin):
         
         for h in self._zone_handles:
             if getattr(h, '_is_service', False):
-                h.setVisible(visible and sz_layer_on)
+                # Service handles залежать ТІЛЬКИ від свого шару — не від visible
+                h.setVisible(sz_layer_on)
             else:
+                # Text handles — стандартна логіка (visible + шар)
                 h.setVisible(visible and zones_layer_on)
         
         if hasattr(self, 'label'):
