@@ -1,11 +1,11 @@
 {
-  "name": "BreakPoint_V_5.2_UD",
+  "name": "BreakPoint_V_5.2_UD_SZ",
   "version": "1.0",
   "enabled": true,
   "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
-  "priority": 39,
+  "priority": 38,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -71,19 +71,19 @@
       "text_zones": [
         {
           "field": "Name",
-          "x0": "base_element.x0 - base_element.length * 10.8248",
-          "y0": "base_element.y0 + base_element.length * 3.7102",
-          "x1": "base_element.x0 + base_element.length * 11.2305",
-          "y1": "base_element.y0 + base_element.length * 6.8533",
+          "x0": "base_element.x0 - base_element.length * 11.0353",
+          "y0": "base_element.y0 + base_element.length * 3.5542",
+          "x1": "base_element.x0 + base_element.length * 11.4410",
+          "y1": "base_element.y0 + base_element.length * 7.3884",
           "multiline": true,
           "join": "\n"
         },
         {
           "field": "link",
-          "x0": "base_element.x0 - base_element.length * 10.9498",
-          "y0": "base_element.y0 + base_element.length * 6.8891",
-          "x1": "base_element.x0 + base_element.length * 11.2662",
-          "y1": "base_element.y0 + base_element.length * 9.1214"
+          "x0": "base_element.x0 - base_element.length * 11.1675",
+          "y0": "base_element.y0 + base_element.length * 7.2562",
+          "x1": "base_element.x0 + base_element.length * 11.3749",
+          "y1": "base_element.y0 + base_element.length * 9.7683"
         },
         {
           "field": "txt_1",
@@ -106,5 +106,16 @@
     "height": "base_element.length",
     "export": true
   },
-  "pins": {}
+  "pins": {},
+  "service_zones": [
+    {
+      "field": "service_field",
+      "x0": "base_element.x0 - base_element.length * 3.2342",
+      "y0": "base_element.y0 + base_element.length * 3.2610",
+      "x1": "base_element.x0 + base_element.length * 3.1649",
+      "y1": "base_element.y0 + base_element.length * 6.5399",
+      "required": true,
+      "export": false
+    }
+  ]
 }

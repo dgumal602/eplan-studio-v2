@@ -1,11 +1,11 @@
 {
-  "name": "X_3_test1",
+  "name": "X_Simple_DownUp_SZ_1st",
   "version": "1.0",
   "enabled": true,
   "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
-  "priority": 1,
+  "priority": 14,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -23,7 +23,7 @@
         "role": "shape",
         "type": "arc",
         "x0_offset_ratio": -0.6,
-        "y0_offset_ratio": 1.0,
+        "y0_offset_ratio": -1.2,
         "length_ratio": 1.2,
         "width_ratio": 1.2,
         "height_ratio": 1.2,
@@ -33,99 +33,119 @@
             "m",
             [
               0.60001,
-              1.60001
+              -0.60001
             ]
           ],
           [
             "c",
             [
               0.60001,
-              1.26862
+              -0.93136
             ],
             [
               0.33136,
-              1.0
+              -1.20001
             ],
             [
               0.0,
-              1.0
+              -1.20001
             ]
           ],
           [
             "c",
             [
               -0.33139,
-              1.0
+              -1.20001
             ],
             [
               -0.60001,
-              1.26862
+              -0.93136
             ],
             [
               -0.60001,
-              1.60001
+              -0.60001
             ]
           ],
           [
             "c",
             [
               -0.60001,
-              1.93136
+              -0.26862
             ],
             [
               -0.33139,
-              2.20001
+              0.0
             ],
             [
               0.0,
-              2.20001
+              0.0
             ]
           ],
           [
             "c",
             [
               0.33136,
-              2.20001
+              0.0
             ],
             [
               0.60001,
-              1.93136
+              -0.26862
             ],
             [
               0.60001,
-              1.60001
+              -0.60001
             ]
           ],
           [
             "h"
           ]
         ]
-      },
-      {
-        "role": "bottom_line",
-        "type": "H",
-        "x0_offset_ratio": -1.6,
-        "y0_offset_ratio": 1.6,
-        "length_ratio": 1.0
-      },
-      {
-        "role": "right_wall",
-        "type": "V",
-        "x0_offset_ratio": 0.0,
-        "y0_offset_ratio": 2.2,
-        "length_ratio": 1.0
       }
     ]
   },
-  "variants": [],
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 17",
+          "y0": "base_element.y0 - base_element.length * 2.7955",
+          "x1": "base_element.x0 - base_element.length * 0.9147",
+          "y1": "base_element.y0 + base_element.length * 1.6895",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 0.0056",
+          "y0": "base_element.y0 - base_element.length * 2.1591",
+          "x1": "base_element.x0 + base_element.length * 5.5702",
+          "y1": "base_element.y0 + base_element.length * 1.5"
+        }
+      ]
+    }
+  ],
   "variables": {},
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0",
-    "y": "base_element.y0",
+    "y": "base_element.y0 - base_element.length * 0.6000",
     "width": "base_element.length",
     "height": "base_element.length",
     "export": true
   },
-  "pins": {}
+  "pins": {},
+  "service_zones": [
+    {
+      "field": "service_field",
+      "x0": "base_element.x0 - base_element.length * 3.5402",
+      "y0": "base_element.y0 - base_element.length * 2.7482",
+      "x1": "base_element.x0 - base_element.length * 0.7365",
+      "y1": "base_element.y0 + base_element.length * 1.1501",
+      "required": true,
+      "export": false
+    }
+  ]
 }

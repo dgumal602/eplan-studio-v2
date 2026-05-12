@@ -1,0 +1,70 @@
+{
+  "name": "PE_DU",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "top_line",
+        "type": "H",
+        "x0_offset_ratio": -1.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "top_line_1",
+        "type": "H",
+        "x0_offset_ratio": -0.75,
+        "y0_offset_ratio": -0.5,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "top_line_2",
+        "type": "H",
+        "x0_offset_ratio": -0.5,
+        "y0_offset_ratio": -1.0,
+        "length_ratio": 1.0
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 1.5609",
+          "y0": "base_element.y0 + base_element.length * 0.2720",
+          "x1": "base_element.x0 + base_element.length * 2.0379",
+          "y1": "base_element.y0 + base_element.length * 1.5737"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

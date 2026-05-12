@@ -63,5 +63,16 @@
     "height": "base_element.length",
     "export": true
   },
-  "pins": {}
+  "pins": {},
+  "service_zones": [
+    {
+      "field": "service_field",
+      "x0": "base_element.x0 + base_element.length * 0.0363",
+      "y0": "base_element.y0 - base_element.length * 0.0305",
+      "x1": "base_element.x0 + base_element.length * 0.2721",
+      "y1": "base_element.y0 + base_element.length * 0.0051",
+      "required": true,
+      "export": false
+    }
+  ]
 }

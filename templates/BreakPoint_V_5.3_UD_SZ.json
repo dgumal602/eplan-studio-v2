@@ -1,11 +1,11 @@
 {
-  "name": "BreakPoint_V_3.1_DU",
+  "name": "BreakPoint_V_5.3_UD_SZ",
   "version": "1.0",
-  "enabled": false,
+  "enabled": true,
   "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
-  "priority": 40,
+  "priority": 37,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -25,28 +25,28 @@
             "m",
             [
               0.0,
-              1.0
-            ]
-          ],
-          [
-            "l",
-            [
-              0.36364,
               0.0
             ]
           ],
           [
             "l",
             [
-              0.72727,
+              0.36363,
               1.0
             ]
           ],
           [
             "l",
             [
+              0.72727,
+              0.0
+            ]
+          ],
+          [
+            "l",
+            [
               0.0,
-              1.0
+              0.0
             ]
           ],
           [
@@ -58,42 +58,40 @@
         "role": "right_wall",
         "type": "V",
         "x0_offset_ratio": 0.3636,
-        "y0_offset_ratio": 1.0,
+        "y0_offset_ratio": -0.4545,
         "length_ratio": 0.4545
       }
     ]
   },
   "variants": [
     {
-      "name": "A",
+      "name": "AA",
       "condition": "True",
       "text_zones": [
         {
           "field": "Name",
-          "x0": "base_element.x0 - base_element.length * 0.5875",
-          "y0": "base_element.y0 + base_element.length * 1.5934",
-          "x1": "base_element.x0 + base_element.length * 0.8968",
-          "y1": "base_element.y0 + base_element.length * 13.2916",
+          "x0": "base_element.x0 - base_element.length * 2.8843",
+          "y0": "base_element.y0 - base_element.length * 1.6664",
+          "x1": "base_element.x0 + base_element.length * 6.6234",
+          "y1": "base_element.y0 - base_element.length * 0.4048",
           "multiline": true,
           "join": "\n"
         },
         {
           "field": "link",
-          "x0": "base_element.x0 + base_element.length * 0.6704",
-          "y0": "base_element.y0 + base_element.length * 1.6940",
-          "x1": "base_element.x0 + base_element.length * 1.8025",
-          "y1": "base_element.y0 + base_element.length * 13.3671",
+          "x0": "base_element.x0 - base_element.length * 3.0227",
+          "y0": "base_element.y0 - base_element.length * 2.8817",
+          "x1": "base_element.x0 + base_element.length * 6.6696",
+          "y1": "base_element.y0 - base_element.length * 1.7587",
           "multiline": true,
           "join": "\n"
         },
         {
           "field": "txt_1",
-          "x0": "base_element.x0 - base_element.length * 0.4366",
-          "y0": "base_element.y0 - base_element.length * 0.8469",
-          "x1": "base_element.x0 + base_element.length * 1.4503",
-          "y1": "base_element.y0 + base_element.length * 0.8889",
-          "multiline": true,
-          "join": "\n"
+          "x0": "base_element.x0 - base_element.length * 0.4996",
+          "y0": "base_element.y0 - base_element.length * 0.4510",
+          "x1": "base_element.x0 + base_element.length * 1.3465",
+          "y1": "base_element.y0 + base_element.length * 1.1952"
         }
       ]
     }
@@ -101,11 +99,22 @@
   "variables": {},
   "output_fields": [],
   "anchor": {
-    "x": "base_element.x0+base_element.length*0.5",
-    "y": "base_element.y0+base_element.length*0.5",
+    "x": "base_element.x0",
+    "y": "base_element.y0",
     "width": "base_element.length",
     "height": "base_element.length",
     "export": true
   },
-  "pins": {}
+  "pins": {},
+  "service_zones": [
+    {
+      "field": "service_field",
+      "x0": "base_element.x0 - base_element.length * 0.4535",
+      "y0": "base_element.y0 - base_element.length * 1.6048",
+      "x1": "base_element.x0 + base_element.length * 1.2696",
+      "y1": "base_element.y0 - base_element.length * 0.3740",
+      "required": true,
+      "export": false
+    }
+  ]
 }

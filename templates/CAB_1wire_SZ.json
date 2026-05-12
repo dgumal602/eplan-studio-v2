@@ -1,0 +1,83 @@
+{
+  "name": "CAB_1wire_SZ",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "H",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.019024
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 2.9281",
+          "y0": "base_element.y0 - base_element.length * 0.5537",
+          "x1": "base_element.x0 + base_element.length * 0.1065",
+          "y1": "base_element.y0 + base_element.length * 0.0243"
+        },
+        {
+          "field": "link",
+          "x0": "base_element.x0 - base_element.length * 2.8703",
+          "y0": "base_element.y0 + base_element.length * 0.0388",
+          "x1": "base_element.x0 - base_element.length * 0.0380",
+          "y1": "base_element.y0 + base_element.length * 0.5012"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 + base_element.length * 0.1498",
+          "y0": "base_element.y0 - base_element.length * 0.6115",
+          "x1": "base_element.x0 + base_element.length * 1.0313",
+          "y1": "base_element.y0 - base_element.length * 0.3514"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {},
+  "service_zones": [
+    {
+      "field": "service_field",
+      "x0": "base_element.x0 + base_element.length * 0.5209",
+      "y0": "base_element.y0 - base_element.length * 0.3618",
+      "x1": "base_element.x0 + base_element.length * 1.0851",
+      "y1": "base_element.y0 + base_element.length * 0.0266",
+      "required": true,
+      "export": false
+    },
+    {
+      "field": "service_field_1",
+      "x0": "base_element.x0 - base_element.length * 0.3526",
+      "y0": "base_element.y0 - base_element.length * 0.4789",
+      "x1": "base_element.x0 - base_element.length * 0.0306",
+      "y1": "base_element.y0 + base_element.length * 0.4444",
+      "required": true,
+      "export": false
+    }
+  ]
+}

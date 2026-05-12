@@ -243,7 +243,9 @@
           "x0": "base_element.x0 - base_element.length * 1.5221",
           "y0": "base_element.y0 - base_element.length * 0.6027",
           "x1": "base_element.x0 - base_element.length * 0.3434",
-          "y1": "base_element.y0 - base_element.length * 0.3355"
+          "y1": "base_element.y0 - base_element.length * 0.3355",
+          "multiline": true,
+          "join": "\n"
         },
         {
           "field": "pin_1",

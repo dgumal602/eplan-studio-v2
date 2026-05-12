@@ -1,11 +1,11 @@
 {
-  "name": "CAB_1",
+  "name": "CAB_2_UNI",
   "version": "1.0",
   "enabled": true,
   "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
-  "priority": 49,
+  "priority": 50,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -17,7 +17,7 @@
         "x0_offset_ratio": 0.0,
         "y0_offset_ratio": 0.0,
         "length_ratio": 1.0,
-        "page_length_ratio": 0.190245
+        "page_length_ratio": 0.076098
       }
     ]
   },
@@ -28,28 +28,28 @@
       "text_zones": [
         {
           "field": "Name",
-          "x0": "base_element.x0 - base_element.length * 0.3874",
-          "y0": "base_element.y0 - base_element.length * 0.1033",
-          "x1": "base_element.x0 + base_element.length * 0.0314",
-          "y1": "base_element.y0 + base_element.length * 0.0101",
+          "x0": "base_element.x0 - base_element.length * 1.0636",
+          "y0": "base_element.y0 - base_element.length * 0.2529",
+          "x1": "base_element.x0 + base_element.length * 0.06",
+          "y1": "base_element.y0 + base_element.length * 0.08",
           "multiline": true,
           "join": "\n"
         },
         {
           "field": "link",
-          "x0": "base_element.x0 - base_element.length * 0.4248",
-          "y0": "base_element.y0 - base_element.length * 0.0792",
-          "x1": "base_element.x0 - base_element.length * 0.3886",
-          "y1": "base_element.y0 - base_element.length * 0.0116",
+          "x0": "base_element.x0 - base_element.length * 1.1249",
+          "y0": "base_element.y0 - base_element.length * 0.2774",
+          "x1": "base_element.x0 - base_element.length * 1.0513",
+          "y1": "base_element.y0 - base_element.length * 0.1941",
           "multiline": true,
           "join": "\n"
         },
         {
           "field": "txt_1",
-          "x0": "base_element.x0 - base_element.length * 0.3862",
-          "y0": "base_element.y0 + base_element.length * 0.0138",
-          "x1": "base_element.x0 + base_element.length * 0.0278",
-          "y1": "base_element.y0 + base_element.length * 0.1",
+          "x0": "base_element.x0 - base_element.length * 1.0513",
+          "y0": "base_element.y0 + base_element.length * 0.07",
+          "x1": "base_element.x0 + base_element.length * 0.0224",
+          "y1": "base_element.y0 + base_element.length * 0.2374",
           "multiline": true,
           "join": "\n"
         }
@@ -69,10 +69,10 @@
   "service_zones": [
     {
       "field": "service_field",
-      "x0": "base_element.x0 + base_element.length * 0.0985",
-      "y0": "base_element.y0 - base_element.length * 0.0189",
-      "x1": "base_element.x0 + base_element.length * 0.2900",
-      "y1": "base_element.y0 + base_element.length * 0.0042",
+      "x0": "base_element.x0 + base_element.length * 0.1079",
+      "y0": "base_element.y0 - base_element.length * 0.0767",
+      "x1": "base_element.x0 + base_element.length * 0.5791",
+      "y1": "base_element.y0 + base_element.length * 0.0104",
       "required": true,
       "export": false
     }

@@ -1,0 +1,1068 @@
+{
+  "name": "Trans_3",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.003254
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -2.0,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.0,
+              -4e-05
+            ]
+          ],
+          [
+            "c",
+            [
+              0.55228,
+              -4e-05
+            ],
+            [
+              1.0,
+              -0.44775
+            ],
+            [
+              1.0,
+              -1.00004
+            ]
+          ],
+          [
+            "c",
+            [
+              1.0,
+              -1.55232
+            ],
+            [
+              0.55228,
+              -2.00004
+            ],
+            [
+              0.0,
+              -2.00004
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_1",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -4.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.0,
+              -2.00004
+            ]
+          ],
+          [
+            "c",
+            [
+              0.55228,
+              -2.00004
+            ],
+            [
+              1.0,
+              -2.44775
+            ],
+            [
+              1.0,
+              -3.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              1.0,
+              -3.55235
+            ],
+            [
+              0.55228,
+              -4.00007
+            ],
+            [
+              0.0,
+              -4.00007
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_2",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -6.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.0,
+              -4.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              0.55228,
+              -4.00007
+            ],
+            [
+              1.0,
+              -4.44779
+            ],
+            [
+              1.0,
+              -5.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              1.0,
+              -5.55239
+            ],
+            [
+              0.55228,
+              -6.00011
+            ],
+            [
+              0.0,
+              -6.00011
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -8.0001,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": -8.0001,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "shape_3",
+        "type": "arc",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": -6.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              8.00011,
+              -4.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              8.55242,
+              -4.00007
+            ],
+            [
+              9.00014,
+              -4.44779
+            ],
+            [
+              9.00014,
+              -5.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              9.00014,
+              -5.55239
+            ],
+            [
+              8.55242,
+              -6.00011
+            ],
+            [
+              8.00011,
+              -6.00011
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_4",
+        "type": "arc",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": -4.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              8.00011,
+              -2.00004
+            ]
+          ],
+          [
+            "c",
+            [
+              8.55242,
+              -2.00004
+            ],
+            [
+              9.00014,
+              -2.44775
+            ],
+            [
+              9.00014,
+              -3.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              9.00014,
+              -3.55235
+            ],
+            [
+              8.55242,
+              -4.00007
+            ],
+            [
+              8.00011,
+              -4.00007
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_5",
+        "type": "arc",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": -2.0,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              8.00011,
+              -4e-05
+            ]
+          ],
+          [
+            "c",
+            [
+              8.55242,
+              -4e-05
+            ],
+            [
+              9.00014,
+              -0.44775
+            ],
+            [
+              9.00014,
+              -1.00004
+            ]
+          ],
+          [
+            "c",
+            [
+              9.00014,
+              -1.55232
+            ],
+            [
+              8.55242,
+              -2.00004
+            ],
+            [
+              8.00011,
+              -2.00004
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "right_wall_2",
+        "type": "V",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 16.0002
+      },
+      {
+        "role": "right_wall_3",
+        "type": "V",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "shape_6",
+        "type": "arc",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": -2.0,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              16.00025,
+              -4e-05
+            ]
+          ],
+          [
+            "c",
+            [
+              16.55253,
+              -4e-05
+            ],
+            [
+              17.00028,
+              -0.44775
+            ],
+            [
+              17.00028,
+              -1.00004
+            ]
+          ],
+          [
+            "c",
+            [
+              17.00028,
+              -1.55232
+            ],
+            [
+              16.55253,
+              -2.00004
+            ],
+            [
+              16.00025,
+              -2.00004
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_7",
+        "type": "arc",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": -4.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              16.00025,
+              -2.00004
+            ]
+          ],
+          [
+            "c",
+            [
+              16.55253,
+              -2.00004
+            ],
+            [
+              17.00028,
+              -2.44775
+            ],
+            [
+              17.00028,
+              -3.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              17.00028,
+              -3.55235
+            ],
+            [
+              16.55253,
+              -4.00007
+            ],
+            [
+              16.00025,
+              -4.00007
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_8",
+        "type": "arc",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": -6.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              16.00025,
+              -4.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              16.55253,
+              -4.00007
+            ],
+            [
+              17.00028,
+              -4.44779
+            ],
+            [
+              17.00028,
+              -5.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              17.00028,
+              -5.55239
+            ],
+            [
+              16.55253,
+              -6.00011
+            ],
+            [
+              16.00025,
+              -6.00011
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "right_wall_4",
+        "type": "V",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": -8.0001,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "right_wall_5",
+        "type": "V",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 10.0001,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "right_wall_6",
+        "type": "V",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": 10.0001,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "right_wall_7",
+        "type": "V",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": 10.0001,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "shape_9",
+        "type": "arc",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": 8.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              16.00025,
+              10.00014
+            ]
+          ],
+          [
+            "c",
+            [
+              16.55253,
+              10.00014
+            ],
+            [
+              17.00028,
+              9.55242
+            ],
+            [
+              17.00028,
+              9.00014
+            ]
+          ],
+          [
+            "c",
+            [
+              17.00028,
+              8.44786
+            ],
+            [
+              16.55253,
+              8.00014
+            ],
+            [
+              16.00025,
+              8.00014
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_10",
+        "type": "arc",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": 6.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              16.00025,
+              8.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              16.55253,
+              8.00011
+            ],
+            [
+              17.00028,
+              7.55239
+            ],
+            [
+              17.00028,
+              7.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              17.00028,
+              6.44782
+            ],
+            [
+              16.55253,
+              6.00007
+            ],
+            [
+              16.00025,
+              6.00007
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_11",
+        "type": "arc",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": 4.0,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              16.00025,
+              6.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              16.55253,
+              6.00007
+            ],
+            [
+              17.00028,
+              5.55235
+            ],
+            [
+              17.00028,
+              5.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              17.00028,
+              4.44775
+            ],
+            [
+              16.55253,
+              4.00004
+            ],
+            [
+              16.00025,
+              4.00004
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "right_wall_8",
+        "type": "V",
+        "x0_offset_ratio": 16.0002,
+        "y0_offset_ratio": 3.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 3.0,
+        "length_ratio": 16.0002
+      },
+      {
+        "role": "right_wall_9",
+        "type": "V",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": 3.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "shape_12",
+        "type": "arc",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": 4.0,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              8.00011,
+              6.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              8.55242,
+              6.00007
+            ],
+            [
+              9.00014,
+              5.55235
+            ],
+            [
+              9.00014,
+              5.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              9.00014,
+              4.44775
+            ],
+            [
+              8.55242,
+              4.00004
+            ],
+            [
+              8.00011,
+              4.00004
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_13",
+        "type": "arc",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": 8.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              8.00011,
+              10.00014
+            ]
+          ],
+          [
+            "c",
+            [
+              8.55242,
+              10.00014
+            ],
+            [
+              9.00014,
+              9.55242
+            ],
+            [
+              9.00014,
+              9.00014
+            ]
+          ],
+          [
+            "c",
+            [
+              9.00014,
+              8.44786
+            ],
+            [
+              8.55242,
+              8.00014
+            ],
+            [
+              8.00011,
+              8.00014
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_14",
+        "type": "arc",
+        "x0_offset_ratio": 8.0001,
+        "y0_offset_ratio": 6.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              8.00011,
+              8.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              8.55242,
+              8.00011
+            ],
+            [
+              9.00014,
+              7.55239
+            ],
+            [
+              9.00014,
+              7.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              9.00014,
+              6.44782
+            ],
+            [
+              8.55242,
+              6.00007
+            ],
+            [
+              8.00011,
+              6.00007
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_15",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 4.0,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.0,
+              6.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              0.55228,
+              6.00007
+            ],
+            [
+              1.0,
+              5.55235
+            ],
+            [
+              1.0,
+              5.00007
+            ]
+          ],
+          [
+            "c",
+            [
+              1.0,
+              4.44775
+            ],
+            [
+              0.55228,
+              4.00004
+            ],
+            [
+              0.0,
+              4.00004
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_16",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 6.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.0,
+              8.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              0.55228,
+              8.00011
+            ],
+            [
+              1.0,
+              7.55239
+            ],
+            [
+              1.0,
+              7.00011
+            ]
+          ],
+          [
+            "c",
+            [
+              1.0,
+              6.44782
+            ],
+            [
+              0.55228,
+              6.00007
+            ],
+            [
+              0.0,
+              6.00007
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_17",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 8.0001,
+        "length_ratio": 2.0,
+        "width_ratio": 1.0,
+        "height_ratio": 2.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.0,
+              10.00014
+            ]
+          ],
+          [
+            "c",
+            [
+              0.55228,
+              10.00014
+            ],
+            [
+              1.0,
+              9.55242
+            ],
+            [
+              1.0,
+              9.00014
+            ]
+          ],
+          [
+            "c",
+            [
+              1.0,
+              8.44786
+            ],
+            [
+              0.55228,
+              8.00014
+            ],
+            [
+              0.0,
+              8.00014
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "variant_0",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 17.8131",
+          "y0": "base_element.y0 - base_element.length * 5.2163",
+          "x1": "base_element.x0 - base_element.length * 1.0481",
+          "y1": "base_element.y0 + base_element.length * 0.5352",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 0.8034",
+          "y0": "base_element.y0 - base_element.length * 10.5395",
+          "x1": "base_element.x0 + base_element.length * 3.9080",
+          "y1": "base_element.y0 - base_element.length * 5.3998"
+        },
+        {
+          "field": "pin_2",
+          "x0": "base_element.x0 - base_element.length * 0.6810",
+          "y0": "base_element.y0 + base_element.length * 8.6730",
+          "x1": "base_element.x0 + base_element.length * 4.3363",
+          "y1": "base_element.y0 + base_element.length * 14.0574"
+        },
+        {
+          "field": "pin_3",
+          "x0": "base_element.x0 + base_element.length * 6.4166",
+          "y0": "base_element.y0 - base_element.length * 10.4783",
+          "x1": "base_element.x0 + base_element.length * 12.1681",
+          "y1": "base_element.y0 - base_element.length * 5.8282"
+        },
+        {
+          "field": "pin_4",
+          "x0": "base_element.x0 + base_element.length * 5.8047",
+          "y0": "base_element.y0 + base_element.length * 8.6730",
+          "x1": "base_element.x0 + base_element.length * 11.1279",
+          "y1": "base_element.y0 + base_element.length * 13.6903"
+        },
+        {
+          "field": "pin_5",
+          "x0": "base_element.x0 + base_element.length * 13.3918",
+          "y0": "base_element.y0 - base_element.length * 11.1514",
+          "x1": "base_element.x0 + base_element.length * 22.1415",
+          "y1": "base_element.y0 - base_element.length * 5.5834"
+        },
+        {
+          "field": "pin_6",
+          "x0": "base_element.x0 + base_element.length * 13.5142",
+          "y0": "base_element.y0 + base_element.length * 8.9177",
+          "x1": "base_element.x0 + base_element.length * 18.5315",
+          "y1": "base_element.y0 + base_element.length * 13.6291"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 17.9355",
+          "y0": "base_element.y0 + base_element.length * 0.9023",
+          "x1": "base_element.x0 - base_element.length * 1.2929",
+          "y1": "base_element.y0 + base_element.length * 10.9369",
+          "multiline": true,
+          "join": "\n"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0+base_element.length*2",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

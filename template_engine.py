@@ -448,10 +448,6 @@ def match_template(template: dict, lines: list[PageLine], page_width: float, pag
         ok, _ = check_global_constraints(geom_def.get('constraints', {}), found_elements, anchor)
         if not ok: continue
 
-        for lid in obj_line_ids:
-            for l in lines:
-                if l.lid == lid: l.blocked = True; break
-
         # === ФОРМУВАННЯ ПОВНОГО КОНТЕКСТУ ТА ЗБЕРЕЖЕННЯ БАЗИ ===
         full_ctx = build_full_context(found_elements, anchor, page_width, page_height)
         variables = compute_variables(template.get('variables', {}), full_ctx)
@@ -511,16 +507,64 @@ def is_overlapping(new_obj: FoundObject, existing_objects: list[FoundObject]) ->
     return False
 
 def process_page(page, templates: list[dict], page_num: int) -> list[FoundObject]:
-    """Точка входу. Проганяє шаблони по 100% масиву векторів."""
+    """Точка входу. Лінії БЛОКУЮТЬСЯ після перевірки required service_zones."""
     lines = prepare_page_lines(page)
     all_found = []
+    
     for template in templates:
         found_for_template = match_template(template, lines, page.width, page.height, page_num)
         
         for obj in found_for_template:
-            if not is_overlapping(obj, all_found):
-                all_found.append(obj)
-            else:
-                print(f"  [NMS] Відкинуто дублікат об'єкта {obj.template_name} (Перетин рамок)")
-                
+            # ПЕРЕВІРКА: required service_zones (до блокування)
+            if check_service_zones_required(template, obj, page):
+                print(f"  [SKIP] Об'єкт {obj.template_name} відкинуто (required service_zone порожнє)")
+                continue
+            
+            if is_overlapping(obj, all_found):
+                print(f"  [NMS] Відкинуто дублікат об'єкта {obj.template_name}")
+                continue
+            
+            all_found.append(obj)
+            # Блокуємо лінії підтвердженого об'єкта
+            line_ids_to_block = set(getattr(obj, 'line_ids', []))
+            for line in lines:
+                if line.lid in line_ids_to_block:
+                    line.blocked = True
+    
     return all_found
+
+def check_service_zones_required(template: dict, obj: FoundObject, page) -> bool:
+    """
+    Перевіряє чи всі required service_zones мають текст.
+    Повертає True якщо об'єкт треба ВІДКИНУТИ (required порожнє).
+    """
+    service_zones = template.get('service_zones', [])
+    if not service_zones:
+        return False
+    
+    # Перевіряємо чи є required зони
+    required_szs = [sz for sz in service_zones if sz.get('required', False)]
+    if not required_szs:
+        return False
+    
+    # Лінива ініціалізація - тільки якщо є required
+    from evaluator import ExprEvaluator
+    from worker import extract_text_by_center
+    
+    ctx = dict(obj.variables)
+    ctx['anchor'] = obj.anchor
+    ev = ExprEvaluator(ctx)
+    
+    for sz in required_szs:
+        try:
+            x0 = ev.eval(sz['x0'])
+            y0 = ev.eval(sz['y0'])
+            x1 = ev.eval(sz['x1'])
+            y1 = ev.eval(sz['y1'])
+            text = extract_text_by_center(page, x0, y0, x1, y1)
+            if not text.strip():
+                return True  # Відкинути
+        except Exception:
+            return True
+    
+    return False

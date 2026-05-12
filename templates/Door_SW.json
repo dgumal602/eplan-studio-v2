@@ -1,0 +1,155 @@
+{
+  "name": "Door_SW",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 10,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.006509
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.0017,
+        "y0_offset_ratio": 2.999,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line",
+        "type": "D",
+        "x0_offset_ratio": -1.2483,
+        "y0_offset_ratio": 0.749,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 0.0017,
+        "y1_offset_ratio": 2.999,
+        "angle": 60.95
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": -3.5,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 3.0
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": -4.5,
+        "y0_offset_ratio": 1.5,
+        "length_ratio": 1.0,
+        "width_ratio": 1.0,
+        "height_ratio": 1.0,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              -3.50001,
+              2.0
+            ]
+          ],
+          [
+            "c",
+            [
+              -3.50001,
+              1.72386
+            ],
+            [
+              -3.72386,
+              1.50001
+            ],
+            [
+              -4.0,
+              1.50001
+            ]
+          ],
+          [
+            "c",
+            [
+              -4.27614,
+              1.50001
+            ],
+            [
+              -4.50001,
+              1.72386
+            ],
+            [
+              -4.50001,
+              2.0
+            ]
+          ],
+          [
+            "c",
+            [
+              -4.50001,
+              2.27615
+            ],
+            [
+              -4.27614,
+              2.50001
+            ],
+            [
+              -4.0,
+              2.50001
+            ]
+          ],
+          [
+            "c",
+            [
+              -3.72386,
+              2.50001
+            ],
+            [
+              -3.50001,
+              2.27615
+            ],
+            [
+              -3.50001,
+              2.0
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "variant_0",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 12.5066",
+          "y0": "base_element.y0 + base_element.length * 0.1052",
+          "x1": "base_element.x0 - base_element.length * 4.5662",
+          "y1": "base_element.y0 + base_element.length * 4.0431"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

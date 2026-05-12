@@ -1,0 +1,134 @@
+{
+  "name": "con_X",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 20,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "arc",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_ratio_W": 0.004162,
+        "page_ratio_H": 0.005695,
+        "radius_ratio": 0.5,
+        "path_ratios": [
+          [
+            "m",
+            [
+              1.0,
+              0.49999
+            ]
+          ],
+          [
+            "c",
+            [
+              1.0,
+              0.22386
+            ],
+            [
+              0.77614,
+              0.0
+            ],
+            [
+              0.50001,
+              0.0
+            ]
+          ],
+          [
+            "c",
+            [
+              0.22386,
+              0.0
+            ],
+            [
+              0.0,
+              0.22386
+            ],
+            [
+              0.0,
+              0.49999
+            ]
+          ],
+          [
+            "c",
+            [
+              0.0,
+              0.77612
+            ],
+            [
+              0.22386,
+              0.99998
+            ],
+            [
+              0.50001,
+              0.99998
+            ]
+          ],
+          [
+            "c",
+            [
+              0.77614,
+              0.99998
+            ],
+            [
+              1.0,
+              0.77612
+            ],
+            [
+              1.0,
+              0.49999
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": -0.6429,
+        "y0_offset_ratio": 0.5,
+        "length_ratio": 2.2857
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.5,
+        "y0_offset_ratio": -0.6429,
+        "length_ratio": 2.2857
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": []
+    },
+    {
+      "name": "variant_1",
+      "condition": "Name",
+      "text_zones": []
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0 + base_element.length * 0.5000",
+    "y": "base_element.y0 + base_element.length * 0.5000",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

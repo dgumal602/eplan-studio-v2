@@ -1,11 +1,11 @@
 {
-  "name": "SF_1P",
+  "name": "SF_1P_link",
   "version": "1.0",
   "enabled": true,
   "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
-  "priority": 2,
+  "priority": 1,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -155,6 +155,68 @@
         "x1_offset_ratio": -3.3882,
         "y1_offset_ratio": 3.7538,
         "angle": 137.27
+      },
+      {
+        "role": "bottom_line_8",
+        "type": "H",
+        "x0_offset_ratio": -0.5,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 8.4999
+      },
+      {
+        "role": "bottom_line_9",
+        "type": "D",
+        "x0_offset_ratio": 3.125,
+        "y0_offset_ratio": 0.7495,
+        "length_ratio": 2.5739,
+        "x1_offset_ratio": 4.375,
+        "y1_offset_ratio": 2.9994,
+        "angle": 60.95
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 4.3733,
+        "y0_offset_ratio": 0.0005,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_2",
+        "type": "V",
+        "x0_offset_ratio": 4.375,
+        "y0_offset_ratio": 2.9994,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_3",
+        "type": "V",
+        "x0_offset_ratio": 7.2682,
+        "y0_offset_ratio": 0.0005,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_10",
+        "type": "H",
+        "x0_offset_ratio": 7.2682,
+        "y0_offset_ratio": 1.0005,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_11",
+        "type": "D",
+        "x0_offset_ratio": 8.0182,
+        "y0_offset_ratio": 0.7505,
+        "length_ratio": 2.3717,
+        "x1_offset_ratio": 7.2682,
+        "y1_offset_ratio": 3.0005,
+        "angle": 108.43
+      },
+      {
+        "role": "right_wall_4",
+        "type": "V",
+        "x0_offset_ratio": 7.2699,
+        "y0_offset_ratio": 2.9994,
+        "length_ratio": 1.0
       }
     ]
   },
@@ -188,10 +250,10 @@
         },
         {
           "field": "link",
-          "x0": "base_element.x0 - base_element.length * 8.4293",
-          "y0": "base_element.y0 + base_element.length * 4.7221",
-          "x1": "base_element.x0 - base_element.length * 2.7913",
-          "y1": "base_element.y0 + base_element.length * 5.8383"
+          "x0": "base_element.x0 + base_element.length * 0.6505",
+          "y0": "base_element.y0 + base_element.length * 4.5835",
+          "x1": "base_element.x0 + base_element.length * 8.6553",
+          "y1": "base_element.y0 + base_element.length * 8.8183"
         },
         {
           "field": "txt_1",
@@ -207,7 +269,7 @@
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0",
-    "y": "base_element.y0+base_element.length*1.5",
+    "y": "base_element.y0+base_element.length*2",
     "width": "base_element.length",
     "height": "base_element.length",
     "export": true

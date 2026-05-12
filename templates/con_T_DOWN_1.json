@@ -1,9 +1,11 @@
 {
-  "name": "L-J",
+  "name": "con_T_DOWN_1",
   "version": "1.0",
-  "enabled": false,
+  "enabled": true,
+  "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
+  "priority": 20,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -18,11 +20,21 @@
         "page_length_ratio": 0.006509
       },
       {
-        "role": "bottom_line",
+        "role": "top_line",
         "type": "H",
         "x0_offset_ratio": -1.0,
-        "y0_offset_ratio": 1.0,
+        "y0_offset_ratio": 0.0,
         "length_ratio": 1.0
+      },
+      {
+        "role": "top_line_1",
+        "type": "D",
+        "x0_offset_ratio": 1.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.4142,
+        "x1_offset_ratio": 0.0,
+        "y1_offset_ratio": 1.0,
+        "angle": 135.0
       }
     ]
   },

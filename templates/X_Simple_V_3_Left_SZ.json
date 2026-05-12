@@ -1,11 +1,11 @@
 {
-  "name": "SZ",
+  "name": "X_Simple_V_3_Left_SZ",
   "version": "1.0",
   "enabled": true,
   "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
-  "priority": 0,
+  "priority": 13,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -32,7 +32,7 @@
             "c",
             [
               1.0,
-              0.22387
+              0.22385
             ],
             [
               0.77615,
@@ -51,7 +51,7 @@
             ],
             [
               0.0,
-              0.22387
+              0.22385
             ],
             [
               0.0,
@@ -62,7 +62,7 @@
             "c",
             [
               0.0,
-              0.77615
+              0.77613
             ],
             [
               0.22387,
@@ -81,7 +81,7 @@
             ],
             [
               1.0,
-              0.77615
+              0.77613
             ],
             [
               1.0,
@@ -94,39 +94,58 @@
         ]
       },
       {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": -0.8333,
+        "y0_offset_ratio": 0.5,
+        "length_ratio": 0.8333
+      },
+      {
         "role": "right_wall",
         "type": "V",
-        "x0_offset_ratio": 0.5009,
+        "x0_offset_ratio": 0.5,
+        "y0_offset_ratio": -0.8333,
+        "length_ratio": 0.8333
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 0.5,
         "y0_offset_ratio": 1.0,
-        "length_ratio": 20.8332
+        "length_ratio": 0.8333
       }
-    ]
+    ],
+    "constraints": {}
   },
   "variants": [
     {
-      "name": "variant_0",
+      "name": "A",
       "condition": "True",
       "text_zones": [
         {
-          "field": "new_field",
-          "x0": "base_element.x0 - base_element.length * 6.6636",
-          "y0": "base_element.y0 - base_element.length * 0.1573",
-          "x1": "base_element.x0 - base_element.length * 2.2131",
-          "y1": "base_element.y0 + base_element.length * 4.2301"
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 2.8101",
+          "y0": "base_element.y0 - base_element.length * 1.0185",
+          "x1": "base_element.x0 + base_element.length * 0.1531",
+          "y1": "base_element.y0 - base_element.length * 0.3799",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 + base_element.length * 0.4852",
+          "y0": "base_element.y0 + base_element.length * 0.4120",
+          "x1": "base_element.x0 + base_element.length * 6",
+          "y1": "base_element.y0 + base_element.length * 2.9665"
         }
       ]
-    },
-    {
-      "name": "variant_1",
-      "condition": "True",
-      "text_zones": []
     }
   ],
   "variables": {},
   "output_fields": [],
   "anchor": {
-    "x": "base_element.x0",
-    "y": "base_element.y0",
+    "x": "base_element.x0 + base_element.length * 0.5000",
+    "y": "base_element.y0 + base_element.length * 0.5000",
     "width": "base_element.length",
     "height": "base_element.length",
     "export": true
@@ -135,12 +154,12 @@
   "service_zones": [
     {
       "field": "service_field",
-      "x0": "base_element.x0 - base_element.length * 2.7208",
-      "y0": "base_element.y0 - base_element.length * 2.5120",
-      "x1": "base_element.x0 - base_element.length * 0.6754",
-      "y1": "base_element.y0 + base_element.length * 1.7555",
+      "x0": "base_element.x0 + base_element.length * 0.4444",
+      "y0": "base_element.y0 + base_element.length * 0.4314",
+      "x1": "base_element.x0 + base_element.length * 4.1882",
+      "y1": "base_element.y0 + base_element.length * 2.7857",
       "required": true,
-      "export": true
+      "export": false
     }
   ]
 }
