@@ -73,14 +73,18 @@
           "x0": "base_element.x0 - base_element.length * 0.2335",
           "y0": "base_element.y0 + base_element.length * 0.9674",
           "x1": "base_element.x0 + base_element.length * 1.0092",
-          "y1": "base_element.y0 + base_element.length * 15.3518"
+          "y1": "base_element.y0 + base_element.length * 15.3518",
+          "multiline": true,
+          "join": "\n"
         },
         {
           "field": "link",
           "x0": "base_element.x0 + base_element.length * 1.0092",
           "y0": "base_element.y0 + base_element.length * 0.9409",
           "x1": "base_element.x0 + base_element.length * 2.7544",
-          "y1": "base_element.y0 + base_element.length * 14.7172"
+          "y1": "base_element.y0 + base_element.length * 14.7172",
+          "multiline": true,
+          "join": "\n"
         }
       ]
     }

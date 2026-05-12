@@ -1,0 +1,10 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"55";"BreakPoint_V_5.3_UD_SZ";"AA";"approved";"337.32";"403.99";"1192.0";"871.0";"==20.9400.101/1b. XV400A_352";"==20.9400.101/1b.3";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"2";"55";"BreakPoint_V_5.3_UD_SZ";"AA";"approved";"609.45";"653.44";"1192.0";"871.0";"+400S1-X1SC:4";"20.9400.202/90.8";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"3";"55";"BreakPoint_V_5.3_UD_SZ";"AA";"approved";"632.13";"222.57";"1192.0";"871.0";"+400S1-X1SC:2";"==20.9400.202/90.7";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"4";"55";"BreakPoint_V_5.3_UD_SZ";"AA";"approved";"756.85";"222.57";"1192.0";"871.0";"+400S1-X1SC:5";"==20.9400.202/90.9";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"5";"56";"BreakPoint_V_5.3_UD_SZ";"AA";"approved";"181.37";"438.01";"1192.0";"871.0";"XP1_7";"==20.9400.202/91.8";"";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"6";"56";"BreakPoint_V_5.3_UD_SZ";"AA";"approved";"272.07";"438.01";"1192.0";"871.0";"XP1_6";"==20.9400.202/91.9";"";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"7";"97";"BreakPoint_V_5.3_UD_SZ";"AA";"approved";"521.52";"188.56";"1192.0";"871.0";"=20.9400.101/1.2";"";"";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""

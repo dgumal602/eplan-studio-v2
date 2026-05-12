@@ -83,7 +83,9 @@
           "x0": "base_element.x0 - base_element.length * 11.1675",
           "y0": "base_element.y0 + base_element.length * 7.2562",
           "x1": "base_element.x0 + base_element.length * 11.3749",
-          "y1": "base_element.y0 + base_element.length * 9.7683"
+          "y1": "base_element.y0 + base_element.length * 9.7683",
+          "multiline": true,
+          "join": "\n"
         },
         {
           "field": "txt_1",
@@ -110,10 +112,10 @@
   "service_zones": [
     {
       "field": "service_field",
-      "x0": "base_element.x0 - base_element.length * 3.2342",
-      "y0": "base_element.y0 + base_element.length * 3.2610",
-      "x1": "base_element.x0 + base_element.length * 3.1649",
-      "y1": "base_element.y0 + base_element.length * 6.5399",
+      "x0": "base_element.x0 + base_element.length * 2",
+      "y0": "base_element.y0 + base_element.length * 3",
+      "x1": "base_element.x0 + base_element.length * 4",
+      "y1": "base_element.y0 + base_element.length * 9",
       "required": true,
       "export": false
     }

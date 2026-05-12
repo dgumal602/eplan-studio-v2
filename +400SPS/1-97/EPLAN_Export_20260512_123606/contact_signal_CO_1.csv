@@ -1,0 +1,10 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"link";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"56";"contact_signal_CO_1";"C";"approved";"1031.81";"145.33";"1192.0";"871.0";"-K106";"14";"11";"12";"/23.4";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"2";"56";"contact_signal_CO_1";"C";"approved";"181.42";"99.98";"1192.0";"871.0";"-K104";"14";"11";"12";"/23.2";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"3";"56";"contact_signal_CO_1";"C";"approved";"498.9";"610.21";"1192.0";"871.0";"-K103";"14";"11";"12";"/23.1";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"4";"96";"contact_signal_CO_1";"C";"approved";"317.48";"145.33";"1192.0";"871.0";"-K030";"14";"11";"12";"/5a.9";"22";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"5";"97";"contact_signal_CO_1";"C";"approved";"124.72";"145.33";"1192.0";"871.0";"-K110";"14";"11";"12";"/12.2";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"6";"97";"contact_signal_CO_1";"C";"approved";"737.01";"145.33";"1192.0";"871.0";"-Customer";"14";"11";"12";"/23.7";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""

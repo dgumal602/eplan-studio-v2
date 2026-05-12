@@ -1557,8 +1557,16 @@ class TemplateStudioMainWindow(QMainWindow):
         self.prop_stack.addWidget(self.w_anchor)
 
         self.w_var = QWidget(); self.form_var = QFormLayout(self.w_var)
-        self.edit_var_name = QLineEdit(); self.edit_var_expr = QLineEdit()
-        self.form_var.addRow("Name:", self.edit_var_name); self.form_var.addRow("Expression:", self.edit_var_expr)
+        self.edit_var_name = QLineEdit()
+        self.edit_var_expr = QLineEdit()
+        self.edit_var_expr.setPlaceholderText("Формула або значення (наприклад: 5, 'PLC_001', right_wall.x0)")
+        self.chk_var_export = QCheckBox("Експортувати в CSV")
+        self.chk_var_export.setChecked(True)
+        
+        
+        self.form_var.addRow("Name:", self.edit_var_name)
+        self.form_var.addRow("Expression:", self.edit_var_expr)
+        self.form_var.addRow("", self.chk_var_export)
         self.prop_stack.addWidget(self.w_var)
 
         self.w_variant = QWidget(); self.form_variant = QFormLayout(self.w_variant)
@@ -1713,6 +1721,8 @@ class TemplateStudioMainWindow(QMainWindow):
         for w in widgets_to_connect: 
             w.textEdited.connect(self.update_properties_to_state)
             w.textEdited.connect(self._refresh_ghost_preview)
+
+        self.chk_var_export.toggled.connect(self.update_properties_to_state)
 
         self.chk_sz_required.toggled.connect(self.update_properties_to_state)
         self.chk_sz_export.toggled.connect(self.update_properties_to_state)
@@ -2259,9 +2269,13 @@ class TemplateStudioMainWindow(QMainWindow):
             page_objects[obj_idx]['status'] = new_status
         self.state.sync_page_to_db(self.state.page_num, page_objects, status="saved")
         
-        # Перемальовуємо рамку
+        # Перемальовуємо рамку — оновлюємо і статус, і стилі
         for item in self.scene.items():
             if hasattr(item, 'row_index') and item.row_index == obj_idx:
+                if hasattr(item, 'found_obj'):
+                    item.found_obj.status = new_status
+                if hasattr(item, 'set_status'):
+                    item.set_status(new_status)
                 item.apply_new_settings(self.state)
                 item.update()
                 break
@@ -4243,7 +4257,25 @@ class TemplateStudioMainWindow(QMainWindow):
                             if base_fn and base_fn not in seen:
                                 seen.add(base_fn)
                                 obj_fields.append(base_fn)
-
+                # Додаємо variables з export=true (за замовчуванням всі)
+                variables_fields_export = []
+                for i_t in range(t_count):
+                    item = self.list_templates.topLevelItem(i_t) if is_tree else self.list_templates.item(i_t)
+                    if not item: continue
+                    try:
+                        user_data = item.data(0, Qt.ItemDataRole.UserRole) if is_tree else item.data(Qt.ItemDataRole.UserRole)
+                        with open(user_data, 'r', encoding='utf-8') as f:
+                            t = json.load(f)
+                        if t.get('name', '') == tmpl_name:
+                            for var_name, var_def in t.get('variables', {}).items():
+                                export = True
+                                if isinstance(var_def, dict):
+                                    export = var_def.get('export', True)
+                                if export and var_name not in obj_fields:
+                                    variables_fields_export.append(var_name)
+                            break
+                    except Exception: pass
+                obj_fields = obj_fields + variables_fields_export
                 # Page_Data колонки — з усіх Page_Data шаблонів, у порядку шаблону
                 pd_columns = []
                 for pd_name, pd_fields in page_data_field_order.items():
@@ -4571,6 +4603,7 @@ class TemplateStudioMainWindow(QMainWindow):
     def _set_prop_signals_blocked(self, blocked):
         """Блокує або розблоковує сигнали UI-елементів інспектора."""
         widgets = [
+            self.chk_var_export,
             self.edit_role, self.edit_x0_off, self.edit_y0_off, self.edit_len_rat, 
             self.edit_pl_rat, self.edit_pl_rat_w, self.edit_pl_rat_h, 
             self.edit_wid_rat, self.edit_rad_rat, self.edit_cnt_min, self.edit_cnt_max,
@@ -4641,8 +4674,17 @@ class TemplateStudioMainWindow(QMainWindow):
 
         elif category == "variables":
             self.prop_stack.setCurrentWidget(self.w_var)
-            self.edit_var_name.setText(identifier); self.edit_var_expr.setText(str(self.state.template_data["variables"].get(identifier, "")))
-
+            var_name = list(self.state.template_data["variables"].keys())[identifier]
+            var_def = self.state.template_data["variables"][var_name]
+            if isinstance(var_def, dict):
+                expr = var_def.get('expr', '')
+                export = var_def.get('export', True)
+            else:
+                expr = str(var_def)
+                export = True
+            self.edit_var_name.setText(var_name)
+            self.edit_var_expr.setText(expr)
+            self.chk_var_export.setChecked(export)
         elif category == "variants":
             self.prop_stack.setCurrentWidget(self.w_variant)
             elem = self.state.template_data["variants"][identifier]
@@ -4773,12 +4815,23 @@ class TemplateStudioMainWindow(QMainWindow):
             anch["export"] = self.chk_anch_exp.isChecked()
 
         elif category == "variables":
+            old_name = list(self.state.template_data["variables"].keys())[identifier]
             new_name = self.edit_var_name.text().strip()
-            if new_name and new_name != identifier:
-                self.state.template_data["variables"][new_name] = self.edit_var_expr.text().strip()
-                del self.state.template_data["variables"][identifier]
-                self.current_selected_node = ("variables", new_name, -1)
-            else: self.state.template_data["variables"][identifier] = self.edit_var_expr.text().strip()
+            new_expr = self.edit_var_expr.text().strip()
+            new_export = self.chk_var_export.isChecked()
+            new_def = {"expr": new_expr, "export": new_export}
+            
+            if new_name != old_name:
+                vars_dict = self.state.template_data["variables"]
+                new_dict = {}
+                for k, v in vars_dict.items():
+                    if k == old_name:
+                        new_dict[new_name] = new_def
+                    else:
+                        new_dict[k] = v
+                self.state.template_data["variables"] = new_dict
+            else:
+                self.state.template_data["variables"][old_name] = new_def
 
         elif category == "variants":
             elem = self.state.template_data["variants"][identifier]
@@ -4958,7 +5011,9 @@ class TemplateStudioMainWindow(QMainWindow):
             counter += 1
         # =============================================
         
-        tz_list.append({"field": final_field, "x0": "", "y0": "", "x1": "", "y1": ""})
+        tz_list.append({
+            "field": final_field, "x0": "", "y0": "", "x1": "", "y1": "",            "multiline": True, "join": "\n"
+            })
         self.state.update_template(self.state.template_data)
         self.rebuild_tree()
     def action_add_service_zone(self):

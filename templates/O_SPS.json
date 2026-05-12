@@ -1,0 +1,144 @@
+{
+  "name": "O_SPS",
+  "version": "1.0",
+  "enabled": true,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.104143
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.75,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 0.0312
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.875,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.75,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_3",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.625,
+        "length_ratio": 1.5
+      },
+      {
+        "role": "bottom_line_4",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.1875,
+        "length_ratio": 1.5
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "variant_0",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "adr",
+          "x0": "base_element.x0 - base_element.length * 0.0051",
+          "y0": "base_element.y0 + base_element.length * 0.7421",
+          "x1": "base_element.x0 + base_element.length * 0.55",
+          "y1": "base_element.y0 + base_element.length * 0.8750"
+        },
+        {
+          "field": "link",
+          "x0": "base_element.x0 + base_element.length * 0.55",
+          "y0": "base_element.y0 + base_element.length * 0.7392",
+          "x1": "base_element.x0 + base_element.length * 1.7",
+          "y1": "base_element.y0 + base_element.length * 0.8808"
+        },
+        {
+          "field": "plc",
+          "x0": "base_element.x0 - base_element.length * 0.0109",
+          "y0": "base_element.y0 + base_element.length * 0.6091",
+          "x1": "base_element.x0 + base_element.length * 0.55",
+          "y1": "base_element.y0 + base_element.length * 0.7478"
+        },
+        {
+          "field": "Name",
+          "x0": "base_element.x0 + base_element.length * 0.55",
+          "y0": "base_element.y0 + base_element.length * 0.6120",
+          "x1": "base_element.x0 + base_element.length * 1.55",
+          "y1": "base_element.y0 + base_element.length * 0.7421"
+        },
+        {
+          "field": "var",
+          "x0": "base_element.x0 - base_element.length * 0.0196",
+          "y0": "base_element.y0 - base_element.length * 0.0209",
+          "x1": "base_element.x0 + base_element.length * 1.5150",
+          "y1": "base_element.y0 + base_element.length * 0.1930"
+        },
+        {
+          "field": "decription",
+          "x0": "base_element.x0 - base_element.length * 0.0196",
+          "y0": "base_element.y0 + base_element.length * 0.1872",
+          "x1": "base_element.x0 + base_element.length * 1.5092",
+          "y1": "base_element.y0 + base_element.length * 0.6091",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin",
+          "x0": "base_element.x0 + base_element.length * 0.0324",
+          "y0": "base_element.y0 + base_element.length * 0.9848",
+          "x1": "base_element.x0 + base_element.length * 1.5352",
+          "y1": "base_element.y0 + base_element.length * 1.1235",
+          "separator": "/",
+          "collect": "join"
+        },
+        {
+          "field": "ch",
+          "x0": "base_element.x0 - base_element.length * 0.0022",
+          "y0": "base_element.y0 + base_element.length * 0.8692",
+          "x1": "base_element.x0 + base_element.length * 1.5005",
+          "y1": "base_element.y0 + base_element.length * 0.9993",
+          "separator": "/",
+          "collect": "join"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

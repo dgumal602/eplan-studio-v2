@@ -114,6 +114,49 @@ class BaseWorker(QThread):
         
         ctx = dict(obj.variables)
         ctx['anchor'] = obj.anchor
+
+
+        # === ОБЧИСЛЕННЯ VARIABLES ===
+        # variables можуть бути:
+        #   1) число чи рядок ("5", "'PLC_001'")
+        #   2) формула ("right_wall.x0 - base_element.x0")
+        #   3) старий формат {"name": "expr"} → новий {"name": {"expr": "...", "export": true}}
+        from evaluator import ExprEvaluator as ExprEvalString
+        computed_vars = {}
+        for var_name, var_def in tmpl.get('variables', {}).items():
+            # Backward compatibility
+            if isinstance(var_def, str):
+                expr = var_def
+            elif isinstance(var_def, dict):
+                expr = var_def.get('expr', '')
+            else:
+                continue
+            
+            if not expr:
+                computed_vars[var_name] = ""
+                ctx[var_name] = ""
+                continue
+            
+            try:
+                # Пробуємо обчислити (formula або константа)
+                ev = ExprEvalString(ctx)
+                val = ev.eval(expr)
+                computed_vars[var_name] = val
+                ctx[var_name] = val
+            except Exception as e:
+                # Якщо це рядок без лапок — використовуємо як literal
+                expr_clean = expr.strip()
+                if expr_clean and not any(ch in expr_clean for ch in '+-*/()'):
+                    computed_vars[var_name] = expr_clean
+                    ctx[var_name] = expr_clean
+                else:
+                    print(f"[Worker] Variable '{var_name}' помилка: {e}")
+                    computed_vars[var_name] = ""
+                    ctx[var_name] = ""
+        
+        # Зберігаємо variables в obj.variables (для повторного використання)
+        obj.variables.update(computed_vars)
+
         ctx['pins'] = getattr(obj, 'pins', {})
         if 'base_element' not in ctx: ctx['base_element'] = {'x0': ax, 'y0': ay, 'length': aw}
         if 'shape' not in ctx: ctx['shape'] = {'x0': ax, 'y0': ay, 'length': aw}
@@ -363,7 +406,8 @@ class BaseWorker(QThread):
                 if count > 1: new_text_fields[field_name] = tz.get('separator', ', ').join(extracted_texts)
                 else: new_text_fields[field_name] = extracted_texts[0] if extracted_texts else ""
             except Exception as e: print(f"Помилка OCR зони {field_name}: {e}")
-        obj.text_fields = new_text_fields
+        # Додаємо variables у text_fields для CSV та DatabaseWindow
+        obj.text_fields = {**computed_vars, **new_text_fields}
 
 
 class SearchWorker(BaseWorker):

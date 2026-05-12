@@ -1,0 +1,38 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"link";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"54";"PB_ES_1NC";"variant_0";"approved";"748.35";"349.43";"1192.0";"871.0";"+400TK16 -S16F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"2";"54";"PB_ES_1NC";"variant_0";"approved";"748.35";"168.01";"1192.0";"871.0";"+400TK17 -S17F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"3";"54";"PB_ES_1NC";"variant_0";"approved";"963.78";"349.43";"1192.0";"871.0";"+400TK19 -S19F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"4";"54";"PB_ES_1NC";"variant_0";"approved";"963.78";"168.01";"1192.0";"871.0";"+400TK18 -S18F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"5";"54";"PB_ES_1NC";"variant_0";"approved";"963.78";"712.26";"1192.0";"871.0";"+400TK21 -S21F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"6";"54";"PB_ES_1NC";"variant_0";"approved";"963.78";"530.84";"1192.0";"871.0";"+400TK20 -S20F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"7";"54";"PB_ES_1NC";"variant_0";"approved";"136.06";"360.76";"1192.0";"871.0";"+411TK1
+-S3F";"21";"22";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"8";"54";"PB_ES_1NC";"variant_0";"approved";"136.06";"542.18";"1192.0";"871.0";"+413TK1
+-S4F";"21";"22";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"9";"54";"PB_ES_1NC";"variant_0";"approved";"340.16";"723.6";"1192.0";"871.0";"+420TK1
+-S6F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"10";"54";"PB_ES_1NC";"variant_0";"approved";"340.16";"542.18";"1192.0";"871.0";"+420TK2
+-S7F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"11";"54";"PB_ES_1NC";"variant_0";"approved";"340.16";"360.76";"1192.0";"871.0";"+420TK3
+-S8F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"12";"54";"PB_ES_1NC";"variant_0";"approved";"340.16";"179.35";"1192.0";"871.0";"+420TK4
+-S9F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"13";"54";"PB_ES_1NC";"variant_0";"approved";"544.25";"360.76";"1192.0";"871.0";"+427TK5
+-S11F";"21";"22";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"14";"54";"PB_ES_1NC";"variant_0";"approved";"544.25";"542.18";"1192.0";"871.0";"+427TK6
+-S12F";"21";"22";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"15";"54";"PB_ES_1NC";"variant_0";"approved";"544.25";"179.35";"1192.0";"871.0";"+427TK1
+-S10F";"21";"22";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"16";"54";"PB_ES_1NC";"variant_0";"approved";"748.35";"542.18";"1192.0";"871.0";"+416TK1
+-S15F";"22";"21";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"17";"54";"PB_ES_1NC";"variant_0";"approved";"136.06";"723.6";"1192.0";"871.0";"+418TK1
+-S5F";"21";"22";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"18";"55";"PB_ES_1NC";"variant_0";"approved";"136.06";"542.18";"1192.0";"871.0";"+414TK1
+-S30F";"21";"22";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"19";"55";"PB_ES_1NC";"variant_0";"approved";"136.06";"360.76";"1192.0";"871.0";"+400TK23
+-S23F";"22";"21";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"20";"55";"PB_ES_1NC";"variant_0";"approved";"136.06";"179.35";"1192.0";"871.0";"+400TK22 -S22F";"22";"21";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"21";"55";"PB_ES_1NC";"variant_0";"approved";"340.16";"723.6";"1192.0";"871.0";"+418TK2
+-S24F";"22";"21";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"22";"55";"PB_ES_1NC";"variant_0";"approved";"340.16";"360.76";"1192.0";"871.0";"+400A -S01";"21";"22";"==20.9400.101/1b.3";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"23";"55";"PB_ES_1NC";"variant_0";"approved";"634.96";"304.07";"1192.0";"871.0";"-S01F";"21";"22";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""

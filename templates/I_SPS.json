@@ -1,5 +1,5 @@
 {
-  "name": "I_S1",
+  "name": "I_SPS",
   "version": "1.0",
   "enabled": true,
   "global_xy_tol": 0.02,
@@ -82,7 +82,7 @@
           "y1": "base_element.y0 + base_element.length * 0.2546"
         },
         {
-          "field": "go_adr",
+          "field": "link",
           "x0": "base_element.x0 + base_element.length * 0.55",
           "y0": "base_element.y0 + base_element.length * 0.1067",
           "x1": "base_element.x0 + base_element.length * 1.7",
@@ -96,10 +96,10 @@
           "y1": "base_element.y0 + base_element.length * 0.3766"
         },
         {
-          "field": "go_plc",
+          "field": "Name",
           "x0": "base_element.x0 + base_element.length * 0.55",
           "y0": "base_element.y0 + base_element.length * 0.2393",
-          "x1": "base_element.x0 + base_element.length * 1.7",
+          "x1": "base_element.x0 + base_element.length * 1.55",
           "y1": "base_element.y0 + base_element.length * 0.3766"
         },
         {

@@ -1,7 +1,7 @@
 {
   "name": "O_S1",
   "version": "1.0",
-  "enabled": true,
+  "enabled": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
   "_page_height": 871,

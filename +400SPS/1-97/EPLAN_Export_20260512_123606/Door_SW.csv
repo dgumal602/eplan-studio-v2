@@ -1,0 +1,6 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"5";"Door_SW";"variant_0";"approved";"158.74";"576.2";"1192.0";"871.0";"-S100";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"2";"5";"Door_SW";"variant_0";"approved";"249.45";"576.2";"1192.0";"871.0";"-S101";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"3";"5";"Door_SW";"variant_0";"approved";"340.16";"576.2";"1192.0";"871.0";"-S102";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"4";"5";"Door_SW";"variant_0";"approved";"464.88";"576.2";"1192.0";"871.0";"-S103";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"5";"5";"Door_SW";"variant_0";"approved";"555.59";"576.2";"1192.0";"871.0";"-S104";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
