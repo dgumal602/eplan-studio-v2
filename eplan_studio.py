@@ -158,135 +158,6 @@ class DatabaseWindow(QMainWindow):
     def __init__(self, state, parent=None):
         super().__init__(parent)
         self.state, self.main_window = state, parent
-        self.setWindowTitle("База даних об'єктів")
-        self.resize(1200, 700)
-        container = QWidget(); self.setCentralWidget(container); layout = QVBoxLayout(container)
-        
-        top_panel = QHBoxLayout(); layout.addLayout(top_panel)
-        top_panel.addWidget(QLabel("Шаблон:"))
-        self.combo_mode = QComboBox()
-        self.combo_mode.addItem("Всі об'єкти")
-        self.combo_mode.currentTextChanged.connect(self.refresh_data)
-        top_panel.addWidget(self.combo_mode)
-        
-        self.search_input = QLineEdit(); self.search_input.setPlaceholderText("Пошук по всіх колонках...")
-        self.search_input.textChanged.connect(self.update_filter); top_panel.addWidget(self.search_input)
-        
-        self.btn_manual_refresh = QPushButton("🔄 Оновити таблицю")
-        self.btn_manual_refresh.clicked.connect(self.refresh_data)
-        self.btn_manual_refresh.setStyleSheet("background-color: #3498db; color: white; padding: 4px 10px; font-weight: bold;")
-        top_panel.addWidget(self.btn_manual_refresh)
-        
-        top_panel.addStretch()
-        
-        self.table_view = QTableView(); self.table_view.setSortingEnabled(True)
-        self.table_view.setSelectionBehavior(QTableView.SelectionBehavior.SelectRows)
-        self.table_view.setAlternatingRowColors(True)
-        
-        self.source_model = DatabaseTableModel([], [], self.state, self.main_window)
-        self.proxy_model = MultiColumnFilterProxyModel()
-        self.proxy_model.setSourceModel(self.source_model)
-        self.table_view.setModel(self.proxy_model)
-        
-        self.table_view.selectionModel().selectionChanged.connect(self.on_selection_changed)
-        layout.addWidget(self.table_view)
-        
-        self.status_label = QLabel("Всього об'єктів: 0")
-        layout.addWidget(self.status_label)
-        
-        # Початкове завантаження
-        self.refresh_data()
-
-    def update_filter(self, text):
-        regex = QRegularExpression(text, QRegularExpression.PatternOption.CaseInsensitiveOption)
-        self.proxy_model.setFilterRegularExpression(regex)
-
-    def _update_template_list(self, norm_cache):
-        """Оновлює випадаючий список шаблонів, не скидаючи вибір користувача."""
-        current_selection = self.combo_mode.currentText()
-        templates = set()
-        for page_data in norm_cache.values():
-            for obj in page_data:
-                templates.add(obj.get('template_name', 'Unknown'))
-        
-        sorted_tmpls = sorted(list(templates))
-        new_list = ["Всі об'єкти"] + sorted_tmpls
-        
-        # Перевіряємо, чи змінився склад списку
-        existing = [self.combo_mode.itemText(i) for i in range(self.combo_mode.count())]
-        if existing != new_list:
-            self.combo_mode.blockSignals(True)
-            self.combo_mode.clear()
-            self.combo_mode.addItems(new_list)
-            # Відновлюємо вибір, якщо він все ще існує
-            idx = self.combo_mode.findText(current_selection)
-            if idx >= 0: self.combo_mode.setCurrentIndex(idx)
-            self.combo_mode.blockSignals(False)
-
-    def refresh_data(self):
-        """Головний метод оновлення даних."""
-        mode = self.combo_mode.currentText()
-        norm_cache = {str(k): v for k, v in self.state.session_cache.items()}
-        
-        # Оновлюємо список шаблонів у комбобоксі
-        self._update_template_list(norm_cache)
-        
-        template_fields = {}
-        for page_data in norm_cache.values():
-            for obj in page_data:
-                t = obj.get('template_name', 'Unknown')
-                if t not in template_fields: template_fields[t] = set()
-                for f in obj.get('text_fields', {}).keys():
-                    template_fields[t].add(f)
-        for t in template_fields:
-            template_fields[t] = sorted(list(template_fields[t]))
-        
-        headers = ["Сторінка", "Шаблон", "Варіант", "Статус", "Pos_X", "Pos_Y"]
-        rows = []
-        max_f = max([len(f) for f in template_fields.values()] if template_fields else [0])
-        
-        if mode == "Всі об'єкти":
-            for i in range(max_f): headers.append(f"txt_{i+1}")
-        else:
-            headers.extend(template_fields.get(mode, []))
-        
-        for page_key in sorted(norm_cache.keys(), key=int):
-            for idx, obj in enumerate(norm_cache[page_key]):
-                t_name = obj.get('template_name', 'Unknown')
-                if mode != "Всі об'єкти" and t_name != mode: continue
-                col_map = {6 + i: f for i, f in enumerate(template_fields.get(t_name, []))}
-                rows.append({
-                    'page_key': page_key, 'page_display': int(page_key)+1, 
-                    'obj_idx': idx, 'obj_ref': obj, 'col_map': col_map
-                })
-        
-        self.source_model.update_data(rows, headers)
-        self.status_label.setText(f"Об'єктів: {len(rows)}")
-
-    def on_selection_changed(self, selected, deselected):
-        indexes = selected.indexes()
-        if not indexes: return
-        source_idx = self.proxy_model.mapToSource(indexes[0])
-        if source_idx.row() >= len(self.source_model._data): return
-        row = self.source_model._data[source_idx.row()]
-        
-        mw = self.main_window
-        if mw:
-            page_num, obj_idx = int(row['page_key']), row['obj_idx']
-            if mw.state.current_mode != "VALIDATE": mw.switch_mode("VALIDATE")
-            if mw.state.page_num != page_num: mw.go_to_page(page_num)
-            QTimer.singleShot(150, lambda: self._do_focus(obj_idx))
-
-    def _do_focus(self, idx):
-        if hasattr(self.main_window, 'table_view'):
-            self.main_window.table_view.selectRow(idx)
-        self.main_window.action_isolate_object(idx, zoom=True)
-        self.main_window.raise_(); self.main_window.activateWindow()
-
-class DatabaseWindow(QMainWindow):
-    def __init__(self, state, parent=None):
-        super().__init__(parent)
-        self.state, self.main_window = state, parent
         self.setWindowTitle(f"База даних об'єктів — {os.path.basename(state.pdf_path or 'Документ')}")
         self.resize(1200, 700)
         
@@ -1722,10 +1593,10 @@ class TemplateStudioMainWindow(QMainWindow):
             w.textEdited.connect(self.update_properties_to_state)
             w.textEdited.connect(self._refresh_ghost_preview)
 
-        self.chk_var_export.toggled.connect(self.update_properties_to_state)
-
         self.chk_sz_required.toggled.connect(self.update_properties_to_state)
         self.chk_sz_export.toggled.connect(self.update_properties_to_state)
+
+        self.chk_var_export.toggled.connect(self.update_properties_to_state)
 
         self.edit_out_fields.textChanged.connect(self.update_properties_to_state)
         self.edit_type.currentTextChanged.connect(self.update_properties_to_state)

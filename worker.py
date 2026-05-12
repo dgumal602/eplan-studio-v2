@@ -312,11 +312,28 @@ class BaseWorker(QThread):
             selected_variant = tmpl['variants'][0]
             obj.variant_name = selected_variant.get('name', 'default')
         
-        obj.custom_zones['ghost_zones'] = []
-        variant = selected_variant if selected_variant else {}
-        new_text_fields = dict(service_text_fields)
+        # === 1. ОБЧИСЛЕННЯ VARIABLES (формули та статичні значення) ===
+        ev_vars = ExprEvaluator(ctx)
+        computed_vars = {}
+        for var_name, var_def in tmpl.get('variables', {}).items():
+            if isinstance(var_def, str):
+                expr = var_def; export = True
+            elif isinstance(var_def, dict):
+                expr = var_def.get('expr', ''); export = var_def.get('export', True)
+            else:
+                continue
+            if not expr:
+                computed_vars[var_name] = ""; ctx[var_name] = ""
+                continue
+            try:
+                val = ev_vars.eval_raw(expr) if hasattr(ev_vars, 'eval_raw') else ev_vars.eval(expr)
+                computed_vars[var_name] = val
+                ctx[var_name] = val
+            except Exception as e:
+                print(f"[Worker] Variable '{var_name}' помилка: {e}")
+                computed_vars[var_name] = ""; ctx[var_name] = ""
 
-        # === SERVICE ZONES — OCR за центром (як text_zones) ===
+        # === 2. SERVICE ZONES — OCR за центром (як text_zones) ===
         obj.custom_zones['service_ghost_zones'] = []
         ev_service = ExprEvaluator(ctx)
         service_text_fields = {}
@@ -332,30 +349,24 @@ class BaseWorker(QThread):
                 
                 obj.custom_zones['service_ghost_zones'].append({
                     'field': field_name,
-                    'rx0': (x0 - min_x) / union_w,
-                    'ry0': (y0 - min_y) / union_h,
-                    'rx1': (x1 - min_x) / union_w,
-                    'ry1': (y1 - min_y) / union_h,
+                    'rx0': (x0 - min_x) / union_w, 'ry0': (y0 - min_y) / union_h,
+                    'rx1': (x1 - min_x) / union_w, 'ry1': (y1 - min_y) / union_h,
                     'required': sz.get('required', False),
                     'export': sz.get('export', False)
                 })
-                
-                # OCR за центром символів — та сама функція що і для text_zones
                 text = extract_text_by_center(page, x0, y0, x1, y1)
                 service_text_fields[field_name] = text
-                ctx[field_name] = text  # додаємо в context для conditions
-                
+                ctx[field_name] = text
                 if sz.get('required', False) and not text.strip():
                     service_required_failed = True
-                    print(f"[Worker] SKIP: '{field_name}' required, але text='{repr(text)}'")
-                    
+                    print(f"[Worker] SKIP: '{field_name}' required, але text=''")
             except Exception as e:
                 print(f"[Worker] Помилка service zone {field_name}: {e}")
         
         if service_required_failed:
             obj.custom_zones['_skip'] = True
-        
-        # === VARIANT SELECTION ПО CONDITIONS ===
+
+        # === 3. VARIANT SELECTION з conditions ===
         selected_variant = None
         ev_cond = ExprEvaluator(ctx)
         for v in tmpl.get('variants', []):
@@ -373,15 +384,14 @@ class BaseWorker(QThread):
                         break
             except Exception:
                 continue
-        
         if selected_variant is None and tmpl.get('variants'):
-            # fallback на оригінальний variant_name
-            selected_variant = next((v for v in tmpl.get('variants', []) if v.get('name') == obj.variant_name), tmpl['variants'][0])
-        
-        # === TEXT ZONES вибраного варіанту ===
+            selected_variant = next((v for v in tmpl.get('variants', []) 
+                                     if v.get('name') == obj.variant_name), tmpl['variants'][0])
+
+        # === 4. TEXT ZONES вибраного варіанту ===
         obj.custom_zones['ghost_zones'] = []
         variant = selected_variant if selected_variant else {}
-        new_text_fields = dict(service_text_fields)  # service поля теж у text_fields
+        new_text_fields = {**computed_vars, **service_text_fields}
         
         ev = ExprEvaluator(ctx)
         for tz in variant.get('text_zones', []):
@@ -398,7 +408,11 @@ class BaseWorker(QThread):
                     x0, y0 = ev.eval(tz['x0']), ev.eval(tz['y0'])
                     x1, y1 = ev.eval(tz['x1']), ev.eval(tz['y1'])
                     if i == 0 or i == count - 1:
-                        obj.custom_zones['ghost_zones'].append({'field': f"{field_name}[{i}]" if count > 1 else field_name, 'rx0': (x0 - min_x) / union_w, 'ry0': (y0 - min_y) / union_h, 'rx1': (x1 - min_x) / union_w, 'ry1': (y1 - min_y) / union_h})
+                        obj.custom_zones['ghost_zones'].append({
+                            'field': f"{field_name}[{i}]" if count > 1 else field_name, 
+                            'rx0': (x0 - min_x) / union_w, 'ry0': (y0 - min_y) / union_h, 
+                            'rx1': (x1 - min_x) / union_w, 'ry1': (y1 - min_y) / union_h
+                        })
                     text = extract_text_by_center(page, x0, y0, x1, y1, tz.get('multiline'), tz.get('join', '\n'))
                     if text: extracted_texts.append(text)
                     else:
@@ -406,8 +420,7 @@ class BaseWorker(QThread):
                 if count > 1: new_text_fields[field_name] = tz.get('separator', ', ').join(extracted_texts)
                 else: new_text_fields[field_name] = extracted_texts[0] if extracted_texts else ""
             except Exception as e: print(f"Помилка OCR зони {field_name}: {e}")
-        # Додаємо variables у text_fields для CSV та DatabaseWindow
-        obj.text_fields = {**computed_vars, **new_text_fields}
+        obj.text_fields = new_text_fields
 
 
 class SearchWorker(BaseWorker):
@@ -458,6 +471,7 @@ class SearchWorker(BaseWorker):
                             page_global_data[f"{tmpl['name']}_{k}"] = v
 
                 # ПРОХІД 2: Фільтруємо excluded, обробляємо OCR, потім перевіряємо _skip та відправляємо в UI
+               # ПРОХІД 2: Фільтруємо, обробляємо OCR, потім перевіряємо _skip
                 for obj in found_objects:
                     if self._is_excluded(obj):
                         continue
@@ -465,7 +479,7 @@ class SearchWorker(BaseWorker):
                     if tmpl:
                         if not tmpl.get("Page_Data", False):
                             self._enrich_object_data(obj, tmpl, page)
-                        # _skip перевіряємо ПІСЛЯ enrich (service_zones встановлюють його там)
+                        # _skip встановлюється всередині _enrich_object_data
                         if obj.custom_zones.get('_skip'):
                             continue
                         obj_dict = obj.to_dict()
