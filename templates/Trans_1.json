@@ -1,11 +1,11 @@
 {
-  "name": "Trans",
+  "name": "Trans_1",
   "version": "1.0",
   "enabled": true,
   "Page_Data": false,
   "global_xy_tol": 0.02,
   "global_lw_tol": 0.05,
-  "priority": 51,
+  "priority": 50,
   "_page_height": 871,
   "_page_width": 1192,
   "geometry": {
@@ -431,6 +431,123 @@
         "x0_offset_ratio": 0.0,
         "y0_offset_ratio": 3.0,
         "length_ratio": 1.0
+      },
+      {
+        "role": "right_wall_3",
+        "type": "V",
+        "x0_offset_ratio": 5.9999,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 2.0
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 4.625,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 1.375
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "H",
+        "x0_offset_ratio": 3.0,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 1.125
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "H",
+        "x0_offset_ratio": 1.5,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line_3",
+        "type": "H",
+        "x0_offset_ratio": -0.125,
+        "y0_offset_ratio": 2.0,
+        "length_ratio": 1.125
+      },
+      {
+        "role": "shape_8",
+        "type": "arc",
+        "x0_offset_ratio": -1.0,
+        "y0_offset_ratio": 1.5625,
+        "length_ratio": 0.875,
+        "width_ratio": 0.875,
+        "height_ratio": 0.875,
+        "radius_ratio": 0.4375,
+        "path_ratios": [
+          [
+            "m",
+            [
+              -0.125,
+              1.99999
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.125,
+              1.75836
+            ],
+            [
+              -0.32088,
+              1.56248
+            ],
+            [
+              -0.5625,
+              1.56248
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.80412,
+              1.56248
+            ],
+            [
+              -0.99999,
+              1.75836
+            ],
+            [
+              -0.99999,
+              1.99999
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.99999,
+              2.2416
+            ],
+            [
+              -0.80412,
+              2.43748
+            ],
+            [
+              -0.5625,
+              2.43748
+            ]
+          ],
+          [
+            "c",
+            [
+              -0.32088,
+              2.43748
+            ],
+            [
+              -0.125,
+              2.2416
+            ],
+            [
+              -0.125,
+              1.99999
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
       }
     ]
   },
@@ -450,7 +567,7 @@
         },
         {
           "field": "txt_1",
-          "x0": "base_element.x0 - base_element.length * 6.2",
+          "x0": "base_element.x0 - base_element.length * 9",
           "y0": "base_element.y0 + base_element.length * 2.6529",
           "x1": "base_element.x0 - base_element.length * 0.6392",
           "y1": "base_element.y0 + base_element.length * 4.2224",

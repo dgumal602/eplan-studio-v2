@@ -1227,9 +1227,10 @@ class ZoomableView(QGraphicsView):
     Покращений компонент перегляду сцени (Полотно). 
     Підтримує масштабування коліщатком мишки та режим малювання текстової зони (Rubber Band).
     """
-    # Сигнал, що передає координати намальованої зони в головне вікно
+
     rect_drawn = pyqtSignal(float, float, float, float)
-    point_snapped = pyqtSignal(float, float) # НОВИЙ СИГНАЛ ДЛЯ ТОЧКИ ЗАХОПЛЕННЯ
+    point_snapped = pyqtSignal(float, float)
+    right_click_on_validation_box = pyqtSignal(object, object)  # (val_box, screen_pos)
 
     def __init__(self, scene):
         super().__init__(scene)
@@ -1285,21 +1286,37 @@ class ZoomableView(QGraphicsView):
 
     def mousePressEvent(self, event):
         if self.snapping_mode and event.button() == Qt.MouseButton.LeftButton:
-            # Користувач клікнув, щоб зафіксувати точку
             pos = self.current_snap_pos if self.current_snap_pos else self.mapToScene(event.pos())
             self.snapping_mode = False
             if self.snap_marker: self.snap_marker.hide()
             self.setCursor(Qt.CursorShape.ArrowCursor)
-            self.point_snapped.emit(pos.x(), pos.y()) # Передаємо координати у головне вікно
+            self.point_snapped.emit(pos.x(), pos.y())
+            return
             
-        elif self.drawing_mode and event.button() == Qt.MouseButton.LeftButton:
+        if self.drawing_mode and event.button() == Qt.MouseButton.LeftButton:
             self.start_pos = self.mapToScene(event.pos())
             self.temp_rect = QGraphicsRectItem()
             self.temp_rect.setPen(QPen(Qt.GlobalColor.magenta, 2, Qt.PenStyle.DashLine))
             self.temp_rect.setBrush(QColor(255, 0, 255, 50))
             self.scene().addItem(self.temp_rect)
-        else:
-            super().mousePressEvent(event)
+            return
+            
+        # ПКМ на ValidationBox у режимі VALIDATE → контекстне меню
+        if event.button() == Qt.MouseButton.RightButton:
+            scene_pos = self.mapToScene(event.pos())
+            items = self.scene().items(scene_pos)
+            val_box = None
+            for it in items:
+                # ValidationBox знаходимо по наявності атрибута row_index
+                if hasattr(it, 'row_index') and hasattr(it, 'found_obj'):
+                    val_box = it
+                    break
+            if val_box is not None:
+                self.right_click_on_validation_box.emit(val_box, event.globalPosition().toPoint())
+                event.accept()
+                return
+        
+        super().mousePressEvent(event)
 
     def mouseMoveEvent(self, event):
         if self.snapping_mode:

@@ -1221,6 +1221,8 @@ class TemplateStudioMainWindow(QMainWindow):
         self.view.rect_drawn.connect(self.on_tz_rect_drawn)
         self.view.point_snapped.connect(self.on_anchor_snapped)
 
+        self.view.right_click_on_validation_box.connect(self.on_validation_context_menu)
+
         self.left_dock = QDockWidget("Структура", self)
         self.left_dock.setAllowedAreas(Qt.DockWidgetArea.LeftDockWidgetArea)
         left_widget = QWidget()
@@ -1876,14 +1878,19 @@ class TemplateStudioMainWindow(QMainWindow):
         self.state.update_template(tmpl_data)
         
         # Розраховуємо базові координати: anchor = (ax, ay), base_element починається з anchor
-        anch_def = tmpl_data.get('anchor', {})
-        ev_test = ExprEvaluator({'base_element': {'x0': 0, 'y0': 0, 'length': 100.0}})
-        off_x = ev_test.eval(anch_def.get('x', 'base_element.x0'))
-        off_y = ev_test.eval(anch_def.get('y', 'base_element.y0'))
+        #anch_def = tmpl_data.get('anchor', {})
+        #ev_test = ExprEvaluator({'base_element': {'x0': 0, 'y0': 0, 'length': 100.0}})
+        #off_x = ev_test.eval(anch_def.get('x', 'base_element.x0'))
+        #off_y = ev_test.eval(anch_def.get('y', 'base_element.y0'))
         
-        bx = ax - off_x
-        by = ay - off_y
+        #bx = ax - off_x
+        #by = ay - off_y
         
+        # Anchor зазвичай прив'язаний до base_element.x0/y0
+        # Просто кладемо base_element в (ax, ay), а anchor буде там же
+        bx = ax
+        by = ay
+
         # base_element довжина — з page_length_ratio
         base_def = next((l for l in tmpl_data.get('geometry', {}).get('lines', []) 
                         if l.get('is_base')), None)
@@ -2202,8 +2209,111 @@ class TemplateStudioMainWindow(QMainWindow):
                 index, 
                 QItemSelectionModel.SelectionFlag.ClearAndSelect | QItemSelectionModel.SelectionFlag.Rows
             )
+            self.table_view.scrollTo(index, self.table_view.ScrollHint.PositionAtCenter)
             self.skip_zoom = False
             self.sync_layers_visibility()
+            
+
+    def on_validation_context_menu(self, val_box, screen_pos):
+        """ПКМ на ValidationBox → меню статусу/видалення."""
+        if self.state.current_mode != "VALIDATE":
+            return
+        
+        # Перевірка stamp mode — якщо активний, не показуємо меню
+        if getattr(self, '_stamp_template', None):
+            return
+        
+        from PyQt6.QtWidgets import QMenu
+        menu = QMenu(self)
+        act_approved = menu.addAction("✅ Validated (Approved)")
+        act_pending  = menu.addAction("⏳ Not validated (Pending)")
+        menu.addSeparator()
+        act_delete   = menu.addAction("🗑 Видалити")
+        
+        action = menu.exec(screen_pos)
+        if not action:
+            return
+        
+        obj_idx = getattr(val_box, 'row_index', None)
+        if obj_idx is None:
+            return
+        
+        if action == act_approved:
+            self._set_validation_status(obj_idx, "approved")
+        elif action == act_pending:
+            self._set_validation_status(obj_idx, "pending")
+        elif action == act_delete:
+            self._delete_validation_object(obj_idx)
+
+    def _set_validation_status(self, obj_idx, new_status):
+        """Змінює статус об'єкта і оновлює UI/БД."""
+        if not (0 <= obj_idx < len(self.table_model.objects)):
+            return
+        obj = self.table_model.objects[obj_idx]
+        obj['status'] = new_status
+        
+        # Синхронізуємо в session_cache
+        page_key = str(self.state.page_num)
+        page_objects = self.state.session_cache.get(page_key, [])
+        if obj_idx < len(page_objects):
+            page_objects[obj_idx]['status'] = new_status
+        self.state.sync_page_to_db(self.state.page_num, page_objects, status="saved")
+        
+        # Перемальовуємо рамку
+        for item in self.scene.items():
+            if hasattr(item, 'row_index') and item.row_index == obj_idx:
+                item.apply_new_settings(self.state)
+                item.update()
+                break
+        
+        # Оновлення UI
+        self.table_model.layoutChanged.emit()
+        self.update_thumbnail_status(self.state.page_num)
+        self.refresh_inspector()
+        
+        if hasattr(self, 'db_window') and self.db_window and self.db_window.isVisible():
+            self.db_window.refresh_data()
+
+    def _delete_validation_object(self, obj_idx):
+        """Видаляє об'єкт зі сцени, кешу та БД."""
+        reply = QMessageBox.question(self, "Видалення",
+            "Видалити об'єкт?",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+        if reply != QMessageBox.StandardButton.Yes:
+            return
+        
+        if not (0 <= obj_idx < len(self.table_model.objects)):
+            return
+        
+        # Видалення з session_cache
+        page_key = str(self.state.page_num)
+        page_objects = self.state.session_cache.get(page_key, [])
+        if obj_idx < len(page_objects):
+            del page_objects[obj_idx]
+        self.state.sync_page_to_db(self.state.page_num, page_objects, status="saved")
+        
+        # Видалення з моделі таблиці
+        self.table_model.beginRemoveRows(QModelIndex(), obj_idx, obj_idx)
+        del self.table_model.objects[obj_idx]
+        self.table_model.endRemoveRows()
+        
+        # Видалення зі сцени та перенумерація row_index
+        from graphics import ValidationBox
+        boxes_to_remove = []
+        for item in list(self.scene.items()):
+            if hasattr(item, 'row_index'):
+                if item.row_index == obj_idx:
+                    boxes_to_remove.append(item)
+                elif item.row_index > obj_idx:
+                    item.row_index -= 1
+        for box in boxes_to_remove:
+            self.scene.removeItem(box)
+        
+        self.update_thumbnail_status(self.state.page_num)
+        self.refresh_inspector()
+        
+        if hasattr(self, 'db_window') and self.db_window and self.db_window.isVisible():
+            self.db_window.refresh_data()
 
     # 2. Оновлюємо метод скидання ізоляції
     def action_clear_isolation(self):
