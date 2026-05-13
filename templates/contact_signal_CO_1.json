@@ -104,7 +104,9 @@
       ]
     }
   ],
-  "variables": {},
+  "variables": {
+    "style": "'NC_NO'"
+  },
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0",

@@ -4545,17 +4545,29 @@ class TemplateStudioMainWindow(QMainWindow):
 
         elif category == "variables":
             self.prop_stack.setCurrentWidget(self.w_var)
-            var_name = list(self.state.template_data["variables"].keys())[identifier]
-            var_def = self.state.template_data["variables"][var_name]
-            if isinstance(var_def, dict):
-                expr = var_def.get('expr', '')
-                export = var_def.get('export', True)
+            vars_dict = self.state.template_data.get("variables", {})
+            
+            # identifier може бути ім'ям (string) АБО індексом (int)
+            if isinstance(identifier, str) and identifier in vars_dict:
+                var_name = identifier
+            elif isinstance(identifier, int):
+                keys = list(vars_dict.keys())
+                if 0 <= identifier < len(keys):
+                    var_name = keys[identifier]
+                else:
+                    return
             else:
-                expr = str(var_def)
-                export = True
+                return
+            
+            var_val = vars_dict.get(var_name, "")
+            # Підтримка backward compatibility: рядок або dict
+            if isinstance(var_val, dict):
+                expr = var_val.get('expr', '')
+            else:
+                expr = str(var_val)
+            
             self.edit_var_name.setText(var_name)
             self.edit_var_expr.setText(expr)
-            self.chk_var_export.setChecked(export)
         elif category == "variants":
             self.prop_stack.setCurrentWidget(self.w_variant)
             elem = self.state.template_data["variants"][identifier]
@@ -4686,23 +4698,35 @@ class TemplateStudioMainWindow(QMainWindow):
             anch["export"] = self.chk_anch_exp.isChecked()
 
         elif category == "variables":
-            old_name = list(self.state.template_data["variables"].keys())[identifier]
+            vars_dict = self.state.template_data.get("variables", {})
+            
+            if isinstance(identifier, str) and identifier in vars_dict:
+                old_name = identifier
+            elif isinstance(identifier, int):
+                keys = list(vars_dict.keys())
+                if 0 <= identifier < len(keys):
+                    old_name = keys[identifier]
+                else:
+                    return
+            else:
+                return
+            
             new_name = self.edit_var_name.text().strip()
             new_expr = self.edit_var_expr.text().strip()
-            new_export = self.chk_var_export.isChecked()
-            new_def = {"expr": new_expr, "export": new_export}
             
-            if new_name != old_name:
-                vars_dict = self.state.template_data["variables"]
+            if new_name and new_name != old_name:
+                # Перейменування — зберегти порядок
                 new_dict = {}
                 for k, v in vars_dict.items():
                     if k == old_name:
-                        new_dict[new_name] = new_def
+                        new_dict[new_name] = new_expr
                     else:
                         new_dict[k] = v
                 self.state.template_data["variables"] = new_dict
+                # Оновити current_selected_node
+                self.current_selected_node = ("variables", new_name, -1)
             else:
-                self.state.template_data["variables"][old_name] = new_def
+                self.state.template_data["variables"][old_name] = new_expr
 
         elif category == "variants":
             elem = self.state.template_data["variants"][identifier]

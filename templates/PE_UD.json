@@ -61,7 +61,7 @@
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0",
-    "y": "base_element.y0",
+    "y": "base_element.y0 + base_element.length * 1.0000",
     "width": "base_element.length",
     "height": "base_element.length",
     "export": true

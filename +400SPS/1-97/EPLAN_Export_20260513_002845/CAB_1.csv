@@ -1,0 +1,57 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"72";"CAB_1";"A";"pending";"340.16";"632.89";"1192.0";"871.0";"";"";"";"17a";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"2";"72";"CAB_1";"A";"pending";"623.62";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17a";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"3";"73";"CAB_1";"A";"pending";"362.83";"632.89";"1192.0";"871.0";"";"";"";"17b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"4";"73";"CAB_1";"A";"pending";"929.76";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"5";"73";"CAB_1";"A";"pending";"646.3";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"6";"74";"CAB_1";"A";"pending";"79.37";"632.89";"1192.0";"871.0";"";"";"";"17c";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"7";"74";"CAB_1";"A";"pending";"646.3";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17c";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"8";"74";"CAB_1";"A";"pending";"362.83";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17c";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"9";"74";"CAB_1";"A";"pending";"929.76";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17c";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"10";"75";"CAB_1";"A";"pending";"79.37";"632.89";"1192.0";"871.0";"";"";"";"17d";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"11";"75";"CAB_1";"A";"pending";"646.3";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17d";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"12";"75";"CAB_1";"A";"pending";"362.83";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17d";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"13";"75";"CAB_1";"A";"pending";"929.76";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"17d";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"14";"76";"CAB_1";"A";"pending";"79.37";"632.89";"1192.0";"871.0";"";"";"";"17e";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"15";"82";"CAB_1";"A";"pending";"340.16";"632.89";"1192.0";"871.0";"";"";"";"19a";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"16";"82";"CAB_1";"A";"pending";"623.62";"632.89";"1192.0";"871.0";"L01-0AA0
+07-0EU36";"1B
+G";"";"19a";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"17";"82";"CAB_1";"A";"pending";"907.09";"632.89";"1192.0";"871.0";"L01-0AA0
+07-0EU36";"1B
+G";"";"19a";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"18";"83";"CAB_1";"A";"pending";"340.16";"632.89";"1192.0";"871.0";"";"";"";"19b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"19";"83";"CAB_1";"A";"pending";"623.62";"632.89";"1192.0";"871.0";"L01-0AA0
+07-0EU36";"1B
+G";"";"19b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"20";"83";"CAB_1";"A";"pending";"907.09";"632.89";"1192.0";"871.0";"L01-0AA0
+07-0EU36";"1B
+G";"";"19b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"21";"84";"CAB_1";"A";"pending";"340.16";"632.89";"1192.0";"871.0";"";"";"";"19c";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"22";"85";"CAB_1";"A";"pending";"68.03";"632.89";"1192.0";"871.0";"";"";"";"19d";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"23";"90";"CAB_1";"A";"pending";"68.03";"632.89";"1192.0";"871.0";"";"";"";"20b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"24";"90";"CAB_1";"A";"pending";"351.5";"632.89";"1192.0";"871.0";"L00-0AA0
+7-0AU36";"1B
+G";"";"20b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"25";"90";"CAB_1";"A";"pending";"918.43";"632.89";"1192.0";"871.0";"";"";"";"20b";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"26";"91";"CAB_1";"A";"pending";"907.09";"632.89";"1192.0";"871.0";"";"";"";"20c";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"27";"92";"CAB_1";"A";"pending";"68.03";"632.89";"1192.0";"871.0";"";"";"";"20d";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"28";"92";"CAB_1";"A";"pending";"952.44";"632.89";"1192.0";"871.0";"";"";"";"20d";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""

@@ -1,0 +1,7 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"style";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"54";"BreakPoint_V_5.7_UD_SZ";"variant_0";"approved";"133.23";"211.24";"1192.0";"871.0";"+400S1-X1SC01:2
+==20.9400.202/41.6";"+400S1-X1SC01:2
+==20.9400.202/41.6";"";"10";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"2";"55";"BreakPoint_V_5.7_UD_SZ";"variant_0";"approved";"1006.3";"165.88";"1192.0";"871.0";"==20.9400.202/41.1";"400S1-X1ESC01:1";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"3";"55";"BreakPoint_V_5.7_UD_SZ";"variant_0";"approved";"1051.65";"165.88";"1192.0";"871.0";"+400S1-X1ESC01:3";"==20.9400.202/41.2";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"4";"55";"BreakPoint_V_5.7_UD_SZ";"variant_0";"approved";"1142.36";"165.88";"1192.0";"871.0";"400S1-X1ESC01:5";"==20.9400.202/41.2";"";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""

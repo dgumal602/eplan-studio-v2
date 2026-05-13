@@ -1,0 +1,25 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"47";"CAB_2_UNI";"A";"approved";"148.2";"666.91";"0.0";"0.0";"=413
+-W52.1";"";"H05VV5-F 25G1.5 mm²";"7t";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution B1-B5";""
+"2";"47";"CAB_2_UNI";"A";"approved";"520.4";"643.62";"0.0";"0.0";"=413
+-W53.1";"";"H05VV5-F 25G1.5 mm²";"7t";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution B1-B5";""
+"3";"47";"CAB_2_UNI";"A";"approved";"735.5";"678.34";"0.0";"0.0";"=413
+-W53.2";"";"H05VV5-F 12G1.5 mm²";"7t";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution B1-B5";""
+"4";"47";"CAB_2_UNI";"A";"approved";"997.38";"667.4";"0.0";"0.0";"=413
+-W54.1";"";"H05VV5-F 12G1.5 mm²";"7t";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution B1-B5";""
+"5";"48";"CAB_2_UNI";"A";"approved";"520.93";"644.5";"0.0";"0.0";"=418
+-W57.1";"";"H05VV5-F 25G1.5 mm²";"7v";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution D1-D4";""
+"6";"48";"CAB_2_UNI";"A";"approved";"146.28";"666.55";"0.0";"0.0";"=418
+-W56.1";"";"H05VV5-F 25G1.5 mm²";"7v";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution D1-D4";""
+"7";"48";"CAB_2_UNI";"A";"approved";"736.17";"678.52";"0.0";"0.0";"=418
+-W57.2";"";"H05VV5-F 12G1.5 mm²";"7v";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution D1-D4";""
+"8";"48";"CAB_2_UNI";"A";"approved";"998.51";"666.92";"0.0";"0.0";"=418
+-W58.1";"";"H05VV5-F 12G1.5 mm²";"7v";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution D1-D4";""
+"9";"48";"CAB_2_UNI";"A";"approved";"521.94";"269.5";"0.0";"0.0";"=418
+-W57.3";"";"H05VV5-F 12G1.5 mm²";"7v";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution D1-D4";""
+"10";"48";"CAB_2_UNI";"A";"approved";"999.53";"269.5";"0.0";"0.0";"=418
+-W58.2";"";"H05VV5-F 5G1.5 mm²";"7v";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution D1-D4";""
+"11";"49";"CAB_2_UNI";"A";"approved";"181.57";"599.24";"0.0";"0.0";"=416 -W55.1";"";"H05VV5-F 18G1.5 mm²";"7w";"104";"= 400";"+ 400SPS";"control voltage";"power supply / potential distribution TEXPAN BOX";""
+"12";"97";"CAB_2_UNI";"A";"approved";"248.55";"270.24";"0.0";"0.0";"+400A -W27.2";"";"=427/228.3";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"13";"97";"CAB_2_UNI";"A";"approved";"861.81";"224.82";"0.0";"0.0";"-W??";"";"";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"14";"97";"CAB_2_UNI";"A";"approved";"861.31";"100.36";"0.0";"0.0";"-W??";"";"";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""

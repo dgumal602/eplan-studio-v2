@@ -1,0 +1,35 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"3";"Клема_розєднувальна";"A";"approved";"136.06";"598.87";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit";"1a";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"2";"6";"Клема_розєднувальна";"A";"approved";"158.74";"610.21";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit
+must be build in!";"2";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC";""
+"3";"10";"Клема_розєднувальна";"A";"approved";"158.74";"610.21";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit
+must be build in!";"3";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC";""
+"4";"16";"Клема_розєднувальна";"A";"approved";"158.74";"598.87";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit";"4";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"5";"23";"Клема_розєднувальна";"A";"approved";"158.74";"598.87";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit";"6";"104";"= 400";"+ 400SPS";"valve voltage";"control voltage 24V DC";""
+"6";"27";"Клема_розєднувальна";"A";"approved";"158.74";"598.87";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit";"7";"104";"= 400";"+ 400SPS";"lamps voltage";"control voltage 24V DC";""
+"7";"50";"Клема_розєднувальна";"A";"approved";"158.74";"598.87";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit";"8";"104";"= 400";"+ 400SPS";"magnetc belt adjustment";"control voltage 0-24VDC";""
+"8";"52";"Клема_розєднувальна";"A";"approved";"158.74";"598.87";"1192.0";"871.0";"";"";"ATTENTION! Before
+removing this ground
+bridge an
+isolation-control-unit";"9";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC";""

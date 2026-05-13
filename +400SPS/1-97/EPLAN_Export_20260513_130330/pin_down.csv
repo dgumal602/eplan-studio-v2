@@ -1,0 +1,6 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"59";"pin_down";"A";"pending";"90.71";"587.54";"1192.0";"871.0";"";"";"";"15";"104";"= 400";"+ 400SPS";"PLC-system";"PLC-central unit / PLC-I";""
+"2";"64";"pin_down";"A";"pending";"90.71";"587.54";"1192.0";"871.0";"";"";"";"16";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"3";"71";"pin_down";"A";"pending";"90.71";"587.54";"1192.0";"871.0";"";"";"";"17";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-I";""
+"4";"81";"pin_down";"A";"pending";"90.71";"587.54";"1192.0";"871.0";"";"";"";"19";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""
+"5";"88";"pin_down";"A";"pending";"90.71";"587.54";"1192.0";"871.0";"";"";"";"20";"104";"= 400";"+ 400SPS";"PLC-system";"expansion modul / PLC-II";""

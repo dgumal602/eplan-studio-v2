@@ -50,7 +50,9 @@
       ]
     }
   ],
-  "variables": {},
+  "variables": {
+    "style": "'Кабель слева'"
+  },
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0",

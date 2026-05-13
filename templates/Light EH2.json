@@ -1,0 +1,213 @@
+{
+  "name": "Light EH2",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.091125
+      },
+      {
+        "role": "top_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 0.2857
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.2857,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "bottom_line",
+        "type": "H",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 1.0,
+        "length_ratio": 0.2857
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 0.0357,
+        "y0_offset_ratio": 0.7143,
+        "length_ratio": 0.2143,
+        "width_ratio": 0.2143,
+        "height_ratio": 0.1071,
+        "radius_ratio": 0.1071,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.03571,
+              0.71429
+            ]
+          ],
+          [
+            "c",
+            [
+              0.03571,
+              0.77346
+            ],
+            [
+              0.08368,
+              0.82143
+            ],
+            [
+              0.14286,
+              0.82143
+            ]
+          ],
+          [
+            "c",
+            [
+              0.20203,
+              0.82143
+            ],
+            [
+              0.25,
+              0.77346
+            ],
+            [
+              0.25,
+              0.71429
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "shape_1",
+        "type": "arc",
+        "x0_offset_ratio": 0.0357,
+        "y0_offset_ratio": 0.25,
+        "length_ratio": 0.2143,
+        "width_ratio": 0.2143,
+        "height_ratio": 0.1071,
+        "radius_ratio": 0.1071,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.25,
+              0.35714
+            ]
+          ],
+          [
+            "c",
+            [
+              0.25,
+              0.29797
+            ],
+            [
+              0.20203,
+              0.25
+            ],
+            [
+              0.14286,
+              0.25
+            ]
+          ],
+          [
+            "c",
+            [
+              0.08368,
+              0.25
+            ],
+            [
+              0.03571,
+              0.29797
+            ],
+            [
+              0.03571,
+              0.35714
+            ]
+          ]
+        ]
+      },
+      {
+        "role": "bottom_line_1",
+        "type": "D",
+        "x0_offset_ratio": 0.0714,
+        "y0_offset_ratio": 0.4643,
+        "length_ratio": 0.202,
+        "x1_offset_ratio": 0.2143,
+        "y1_offset_ratio": 0.6071,
+        "angle": 45.0
+      },
+      {
+        "role": "bottom_line_2",
+        "type": "D",
+        "x0_offset_ratio": 0.2143,
+        "y0_offset_ratio": 0.4643,
+        "length_ratio": 0.202,
+        "x1_offset_ratio": 0.0714,
+        "y1_offset_ratio": 0.6071,
+        "angle": 135.0
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 0.0357,
+        "y0_offset_ratio": 0.3571,
+        "length_ratio": 0.3571
+      },
+      {
+        "role": "right_wall_2",
+        "type": "V",
+        "x0_offset_ratio": 0.25,
+        "y0_offset_ratio": 0.3571,
+        "length_ratio": 0.3571
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 0.7202",
+          "y0": "base_element.y0 - base_element.length * 0.0189",
+          "x1": "base_element.x0 - base_element.length * 0.0125",
+          "y1": "base_element.y0 + base_element.length * 0.1687",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 0.7117",
+          "y0": "base_element.y0 + base_element.length * 0.1801",
+          "x1": "base_element.x0 - base_element.length * 0.0181",
+          "y1": "base_element.y0 + base_element.length * 0.4615",
+          "multiline": true,
+          "join": "\n"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0 + base_element.length * 0.1429",
+    "y": "base_element.y0 + base_element.length * 0.5357",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

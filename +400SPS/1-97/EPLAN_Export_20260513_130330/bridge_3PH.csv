@@ -1,0 +1,7 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"txt_1";"pin_1";"pin_2";"pin_3";"pin_4";"pin_5";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"16";"bridge_3PH";"A";"approved";"215.44";"338.09";"1192.0";"871.0";"-G3";"B6U 120/150-100
+100A";"";"-";"";"";"+";"4";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"2";"23";"bridge_3PH";"A";"approved";"215.44";"338.09";"1192.0";"871.0";"-G4";"B6U 120/150-100
+100A";"";"-";"";"";"+";"6";"104";"= 400";"+ 400SPS";"valve voltage";"control voltage 24V DC";""
+"3";"27";"bridge_3PH";"A";"approved";"215.44";"338.09";"1192.0";"871.0";"-G5";"B6U 120/150-18
+14A";"";"-";"";"";"+";"7";"104";"= 400";"+ 400SPS";"lamps voltage";"control voltage 24V DC";""

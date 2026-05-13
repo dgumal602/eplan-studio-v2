@@ -319,7 +319,9 @@
       ]
     }
   ],
-  "variables": {},
+  "variables": {
+    "style": "'Автомат защити двигателя'"
+  },
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0 + base_element.length * 0.1667",

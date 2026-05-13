@@ -1,0 +1,42 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"5";"con_T_UP";"default";"approved";"158.74";"768.95";"1192.0";"871.0";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"2";"5";"con_T_UP";"default";"approved";"249.45";"768.95";"1192.0";"871.0";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"3";"5";"con_T_UP";"default";"approved";"464.88";"768.95";"1192.0";"871.0";"1c";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"4";"10";"con_T_UP";"default";"approved";"374.17";"372.1";"1192.0";"871.0";"3";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC";""
+"5";"19";"con_T_UP";"default";"approved";"873.07";"723.6";"1192.0";"871.0";"5a";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"6";"55";"con_T_UP";"default";"approved";"532.91";"712.26";"1192.0";"871.0";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"7";"55";"con_T_UP";"default";"approved";"521.57";"723.6";"1192.0";"871.0";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"8";"56";"con_T_UP";"default";"approved";"181.42";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"9";"56";"con_T_UP";"default";"approved";"272.13";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"10";"56";"con_T_UP";"default";"approved";"385.51";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"11";"56";"con_T_UP";"default";"approved";"498.9";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"12";"56";"con_T_UP";"default";"approved";"589.61";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"13";"56";"con_T_UP";"default";"approved";"680.32";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"14";"56";"con_T_UP";"default";"approved";"771.02";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"15";"56";"con_T_UP";"default";"approved";"861.73";"712.26";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"16";"57";"con_T_UP";"default";"approved";"408.19";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"17";"57";"con_T_UP";"default";"approved";"510.24";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"18";"57";"con_T_UP";"default";"approved";"612.28";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"19";"57";"con_T_UP";"default";"approved";"714.33";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"20";"57";"con_T_UP";"default";"approved";"816.38";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"21";"57";"con_T_UP";"default";"approved";"918.43";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"22";"57";"con_T_UP";"default";"approved";"1020.47";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"23";"57";"con_T_UP";"default";"approved";"1122.52";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"24";"58";"con_T_UP";"default";"approved";"408.19";"406.12";"1192.0";"871.0";"12a";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"25";"58";"con_T_UP";"default";"approved";"510.24";"406.12";"1192.0";"871.0";"12a";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"26";"58";"con_T_UP";"default";"approved";"612.28";"406.12";"1192.0";"871.0";"12a";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"27";"58";"con_T_UP";"default";"approved";"306.14";"406.12";"1192.0";"871.0";"12a";"104";"= 400";"+ 400SPS";"general";"start warning";""
+"28";"97";"con_T_UP";"default";"approved";"124.72";"723.6";"1192.0";"871.0";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"29";"97";"con_T_UP";"default";"approved";"260.79";"723.6";"1192.0";"871.0";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"30";"97";"con_T_UP";"default";"approved";"396.85";"723.6";"1192.0";"871.0";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"31";"97";"con_T_UP";"default";"approved";"532.91";"723.6";"1192.0";"871.0";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"32";"97";"con_T_UP";"default";"approved";"668.98";"723.6";"1192.0";"871.0";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""
+"33";"97";"con_T_UP";"default";"approved";"805.04";"723.6";"1192.0";"871.0";"23";"104";"= 400";"+ 400SPS";"general";"general signals";""

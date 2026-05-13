@@ -1,0 +1,8 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"2";"_LOCK";"default";"approved";"553.22";"384.56";"0.0";"0.0";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"2";"2";"_LOCK";"Manual";"approved";"777.71";"364.39";"0.0";"0.0";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"3";"55";"_LOCK";"Manual";"approved";"565.02";"390.11";"0.0";"0.0";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"4";"55";"_LOCK";"Manual";"approved";"698.99";"387.49";"0.0";"0.0";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""
+"5";"55";"_LOCK";"Manual";"approved";"753.36";"387.49";"0.0";"0.0";"10a";"104";"= 400";"+ 400SPS";"general";"Emergency stop";""

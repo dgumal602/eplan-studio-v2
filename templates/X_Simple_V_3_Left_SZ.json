@@ -141,7 +141,9 @@
       ]
     }
   ],
-  "variables": {},
+  "variables": {
+    "style": "'klem'"
+  },
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0 + base_element.length * 0.5000",

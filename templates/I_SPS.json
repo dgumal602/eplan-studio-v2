@@ -71,7 +71,7 @@
   },
   "variants": [
     {
-      "name": "variant_0",
+      "name": "A",
       "condition": "True",
       "text_zones": [
         {
@@ -110,7 +110,7 @@
           "y1": "base_element.y0 + base_element.length * 0.5648"
         },
         {
-          "field": "decription",
+          "field": "description",
           "x0": "base_element.x0 - base_element.length * 0.0085",
           "y0": "base_element.y0 + base_element.length * 0.5553",
           "x1": "base_element.x0 + base_element.length * 1.4996",
@@ -141,7 +141,9 @@
       ]
     }
   ],
-  "variables": {},
+  "variables": {
+    "style": "'plc_DI'"
+  },
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0 + base_element.length * 0.75",

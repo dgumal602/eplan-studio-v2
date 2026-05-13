@@ -1,0 +1,9 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"link";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"2";"BreakPoint_V_3.1_DU";"A";"approved";"137.13";"642.46";"1192.0";"871.0";"=400A+400A-X1:100";"==20.9400.101/1.7";"";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"2";"2";"BreakPoint_V_3.1_DU";"A";"approved";"159.8";"642.46";"1192.0";"871.0";"=400A+400A-X1:110";"==20.9400.101/1.7";"";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"3";"2";"BreakPoint_V_3.1_DU";"A";"approved";"182.48";"642.46";"1192.0";"871.0";"=400A+400A-X1:120";"==20.9400.101/1.7";"";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"4";"2";"BreakPoint_V_3.1_DU";"A";"approved";"227.83";"642.46";"1192.0";"871.0";"+400A-PE";"==20.9400.101/1.7";"";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""

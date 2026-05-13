@@ -1,0 +1,6 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"16";"con_X";"A";"approved";"260.79";"417.46";"1192.0";"871.0";"4";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"2";"23";"con_X";"A";"approved";"260.79";"417.46";"1192.0";"871.0";"6";"104";"= 400";"+ 400SPS";"valve voltage";"control voltage 24V DC";""
+"3";"56";"con_X";"A";"approved";"319.88";"589.96";"0.0";"0.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"4";"57";"con_X";"A";"approved";"306.14";"406.12";"1192.0";"871.0";"12";"104";"= 400";"+ 400SPS";"general";"start warning";""

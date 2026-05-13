@@ -1,0 +1,26 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"2";"con_T_RIGTH";"default";"approved";"136.06";"496.83";"1192.0";"871.0";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"2";"2";"con_T_RIGTH";"default";"approved";"158.74";"508.17";"1192.0";"871.0";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"3";"2";"con_T_RIGTH";"default";"approved";"181.42";"519.5";"1192.0";"871.0";"1";"104";"= 400";"+ 400SPS";"general";"power supply
+380V";""
+"4";"3";"con_T_RIGTH";"default";"approved";"192.76";"292.73";"1192.0";"871.0";"1a";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"5";"3";"con_T_RIGTH";"default";"approved";"238.11";"315.41";"1192.0";"871.0";"1a";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC UPS";""
+"6";"10";"con_T_RIGTH";"default";"approved";"351.5";"394.78";"1192.0";"871.0";"3";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC";""
+"7";"10";"con_T_RIGTH";"default";"approved";"351.5";"326.75";"1192.0";"871.0";"3";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC";""
+"8";"10";"con_T_RIGTH";"default";"approved";"351.5";"372.1";"1192.0";"871.0";"3";"104";"= 400";"+ 400SPS";"general";"control voltage 220VAC";""
+"9";"16";"con_T_RIGTH";"default";"approved";"215.43";"417.46";"1192.0";"871.0";"4";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"10";"16";"con_T_RIGTH";"default";"approved";"215.43";"462.81";"1192.0";"871.0";"4";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"11";"18";"con_T_RIGTH";"default";"approved";"147.4";"428.8";"1192.0";"871.0";"5";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"12";"18";"con_T_RIGTH";"default";"approved";"600.94";"428.8";"1192.0";"871.0";"5";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"13";"19";"con_T_RIGTH";"default";"approved";"113.39";"428.8";"1192.0";"871.0";"5a";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"14";"23";"con_T_RIGTH";"default";"approved";"215.43";"417.46";"1192.0";"871.0";"6";"104";"= 400";"+ 400SPS";"valve voltage";"control voltage 24V DC";""
+"15";"23";"con_T_RIGTH";"default";"approved";"215.43";"462.81";"1192.0";"871.0";"6";"104";"= 400";"+ 400SPS";"valve voltage";"control voltage 24V DC";""
+"16";"27";"con_T_RIGTH";"default";"approved";"453.54";"417.46";"1192.0";"871.0";"7";"104";"= 400";"+ 400SPS";"lamps voltage";"control voltage 24V DC";""
+"17";"50";"con_T_RIGTH";"default";"approved";"215.43";"553.52";"1192.0";"871.0";"8";"104";"= 400";"+ 400SPS";"magnetc belt adjustment";"control voltage 0-24VDC";""
+"18";"50";"con_T_RIGTH";"default";"approved";"317.48";"632.89";"1192.0";"871.0";"8";"104";"= 400";"+ 400SPS";"magnetc belt adjustment";"control voltage 0-24VDC";""
+"19";"56";"con_T_RIGTH";"default";"approved";"181.42";"542.18";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""
+"20";"56";"con_T_RIGTH";"default";"approved";"498.9";"644.23";"1192.0";"871.0";"11";"104";"= 400";"+ 400SPS";"general";"control voltage
+switch on";""

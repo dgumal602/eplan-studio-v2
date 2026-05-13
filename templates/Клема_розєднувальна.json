@@ -1,0 +1,247 @@
+{
+  "name": "Клема_розєднувальна",
+  "version": "1.0",
+  "enabled": true,
+  "Page_Data": false,
+  "global_xy_tol": 0.02,
+  "global_lw_tol": 0.05,
+  "priority": 50,
+  "_page_height": 871,
+  "_page_width": 1192,
+  "geometry": {
+    "lines": [
+      {
+        "role": "base_element",
+        "type": "V",
+        "is_base": true,
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0,
+        "page_length_ratio": 0.016272
+      },
+      {
+        "role": "shape",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": -0.2,
+        "length_ratio": 0.4,
+        "width_ratio": 0.4,
+        "height_ratio": 0.4,
+        "radius_ratio": 0.2,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.4,
+              0.0
+            ]
+          ],
+          [
+            "c",
+            [
+              0.4,
+              -0.11045
+            ],
+            [
+              0.31046,
+              -0.2
+            ],
+            [
+              0.2,
+              -0.2
+            ]
+          ],
+          [
+            "c",
+            [
+              0.08954,
+              -0.2
+            ],
+            [
+              0.0,
+              -0.11045
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            "c",
+            [
+              0.0,
+              0.11045
+            ],
+            [
+              0.08954,
+              0.2
+            ],
+            [
+              0.2,
+              0.2
+            ]
+          ],
+          [
+            "c",
+            [
+              0.31046,
+              0.2
+            ],
+            [
+              0.4,
+              0.11045
+            ],
+            [
+              0.4,
+              0.0
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "right_wall",
+        "type": "V",
+        "x0_offset_ratio": 0.4,
+        "y0_offset_ratio": 0.0,
+        "length_ratio": 1.0
+      },
+      {
+        "role": "shape_1",
+        "type": "arc",
+        "x0_offset_ratio": 0.0,
+        "y0_offset_ratio": 0.8,
+        "length_ratio": 0.4,
+        "width_ratio": 0.4,
+        "height_ratio": 0.4,
+        "radius_ratio": 0.2,
+        "path_ratios": [
+          [
+            "m",
+            [
+              0.4,
+              1.0
+            ]
+          ],
+          [
+            "c",
+            [
+              0.4,
+              0.88955
+            ],
+            [
+              0.31046,
+              0.8
+            ],
+            [
+              0.2,
+              0.8
+            ]
+          ],
+          [
+            "c",
+            [
+              0.08954,
+              0.8
+            ],
+            [
+              0.0,
+              0.88955
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          [
+            "c",
+            [
+              0.0,
+              1.11046
+            ],
+            [
+              0.08954,
+              1.2
+            ],
+            [
+              0.2,
+              1.2
+            ]
+          ],
+          [
+            "c",
+            [
+              0.31046,
+              1.2
+            ],
+            [
+              0.4,
+              1.11046
+            ],
+            [
+              0.4,
+              1.0
+            ]
+          ],
+          [
+            "h"
+          ]
+        ]
+      },
+      {
+        "role": "right_wall_1",
+        "type": "V",
+        "x0_offset_ratio": 0.2,
+        "y0_offset_ratio": 1.2,
+        "length_ratio": 0.3
+      }
+    ]
+  },
+  "variants": [
+    {
+      "name": "A",
+      "condition": "True",
+      "text_zones": [
+        {
+          "field": "Name",
+          "x0": "base_element.x0 - base_element.length * 0.3355",
+          "y0": "base_element.y0 - base_element.length * 1.4464",
+          "x1": "base_element.x0 + base_element.length * 0.6991",
+          "y1": "base_element.y0 - base_element.length * 0.6505",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "pin_1",
+          "x0": "base_element.x0 - base_element.length * 0.4151",
+          "y0": "base_element.y0 - base_element.length * 0.5550",
+          "x1": "base_element.x0 + base_element.length * 0.8424",
+          "y1": "base_element.y0 + base_element.length * 1.7211",
+          "multiline": true,
+          "join": "\n"
+        },
+        {
+          "field": "txt_1",
+          "x0": "base_element.x0 - base_element.length * 9.2332",
+          "y0": "base_element.y0 - base_element.length * 1.8125",
+          "x1": "base_element.x0 - base_element.length * 0.7334",
+          "y1": "base_element.y0 + base_element.length * 2.9468",
+          "multiline": true,
+          "join": "\n"
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "output_fields": [],
+  "anchor": {
+    "x": "base_element.x0 + base_element.length * 0.2000",
+    "y": "base_element.y0",
+    "width": "base_element.length",
+    "height": "base_element.length",
+    "export": true
+  },
+  "pins": {}
+}

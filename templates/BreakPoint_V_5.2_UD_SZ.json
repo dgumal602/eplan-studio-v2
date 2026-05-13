@@ -66,7 +66,7 @@
   },
   "variants": [
     {
-      "name": "variant_0",
+      "name": "H",
       "condition": "True",
       "text_zones": [
         {
@@ -99,7 +99,9 @@
       ]
     }
   ],
-  "variables": {},
+  "variables": {
+    "style": "'DOWN_D'"
+  },
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0",

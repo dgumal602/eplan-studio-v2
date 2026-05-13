@@ -1,0 +1,10 @@
+﻿"ID";"PagePDF";"Template_Name";"Variant";"Status";"Pos_X";"Pos_Y";"Page_W";"Page_H";"Name";"pin_1";"pin_2";"pin_3";"pin_4";"pin_5";"pin_6";"txt_1";"pg_S1_Page";"pg_S1_Sheets";"pg_S1_=";"pg_S1_+";"pg_S1_txt_1";"pg_S1_txt_2";"pg_S1_txt_3"
+"1";"16";"Trans_3";"variant_0";"approved";"215.43";"236.04";"1192.0";"871.0";"-T3";"U";"";"V";"";"W";"";"380V
+2kVA
+18,20,22V";"4";"104";"= 400";"+ 400SPS";"general";"control voltage 24V DC";""
+"2";"23";"Trans_3";"variant_0";"approved";"215.43";"270.06";"1192.0";"871.0";"-T4";"U";"";"V";"";"W";"";"380V
+2kVA
+18,20,22V";"6";"104";"= 400";"+ 400SPS";"valve voltage";"control voltage 24V DC";""
+"3";"27";"Trans_3";"variant_0";"approved";"215.43";"236.04";"1192.0";"871.0";"-T5";"U";"";"V";"";"W";"";"380V
+0,3VA
+16,18,20V";"7";"104";"= 400";"+ 400SPS";"lamps voltage";"control voltage 24V DC";""

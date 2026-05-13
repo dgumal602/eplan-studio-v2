@@ -160,7 +160,7 @@
   },
   "variants": [
     {
-      "name": "variant_0",
+      "name": "A",
       "condition": "True",
       "text_zones": [
         {
@@ -203,7 +203,9 @@
       ]
     }
   ],
-  "variables": {},
+  "variables": {
+    "style": "'Автомат защиты'"
+  },
   "output_fields": [],
   "anchor": {
     "x": "base_element.x0",
